@@ -16,15 +16,22 @@
 | Réseaux | Instagram **@pierrehuiban89** (uniquement) |
 | Typologie | Athlète HYROX sponsorisé — double vie : commercial Europe, athlète, papa |
 | Campagne de saison | **Road to Hong Kong** — Mondiaux HYROX 2027, AsiaWorld-Expo, 10-13 juin 2027 |
-| Groupe d'âge | **35-39** |
-| Courses 26/27 | **Rome 24-27 sept. — course de qualification** · Paris Porte de Versailles 12-20 déc. (Bordeaux abandonné) — détail §3 bis |
+| Palmarès | **Qualifié et présent aux Mondiaux de Stockholm, 18-21 juin 2026** — top 0,5 % mondial |
+| Objectif 26/27 | **Requalification en DOUBLES PRO HOMME, avec Antoine** |
+| Groupe d'âge | 35-39 en solo. **En doubles, c'est la moyenne des deux âges** — dépend de celui d'Antoine, à établir |
+| Courses 26/27 | **Rome 24-27 sept.** · Paris Porte de Versailles 12-20 déc. (Bordeaux abandonné) — détail §3 bis |
 | Horaires de publication | **00 h 30 et 06 h 00** — atypiques mais ce sont les siens, vérifiés. Ne pas écraser par les défauts du moteur |
 | Coach | Quentin |
 
-⚠️ **`#roadtostockholm` est périmé.** Les Mondiaux 2026 se sont tenus du 18 au 21 juin 2026. Le
-hashtag est resté deux mois de trop dans la fiche d'origine et s'est retrouvé dans quatre carrousels
-avant qu'un correctif manuel dans Metricool ne le rattrape. **Toute campagne datée se revérifie
-chaque trimestre** — cette règle est née de cet incident et vaut pour tous les athlètes.
+⚠️ **`#roadtostockholm` est périmé — et la leçon n'est pas celle qu'on croit.** Cette campagne n'a
+pas échoué : **il s'est qualifié et il a couru Stockholm.** Le problème est qu'une campagne
+*réussie* a été laissée à tourner deux mois après sa ligne d'arrivée, et s'est propagée dans quatre
+carrousels avant qu'un correctif manuel dans Metricool ne la rattrape.
+
+La règle qui en découle, et qui vaut pour tous les athlètes : **une campagne datée se clôt et se
+capitalise, elle ne s'éteint pas toute seule.** Le jour de la course, la campagne se ferme — et le
+résultat devient un actif à réutiliser, pas un hashtag qui traîne. Contrôle trimestriel au
+calendrier.
 
 ## 2. Ligne éditoriale
 
@@ -50,42 +57,84 @@ Dates vérifiées le 6 août 2026 (`../saison-hyrox.md`).
 
 | Course | Dates | Départ de campagne (J-56) | Enjeu |
 |---|---|---|---|
-| **ROME** — Fiera di Roma, piste extérieure | 24 → 27 sept. 2026 | 30 juillet | **La qualification aux Mondiaux, groupe d'âge 35-39.** ⚠️ **J-49 au 6 août : une semaine de retard.** Rattrapable sur 7 semaines, mais ça commence maintenant |
+| **ROME** — Fiera di Roma, piste extérieure | 24 → 27 sept. 2026 | 30 juillet | **La requalification, en Doubles Pro Homme avec Antoine** (à confirmer que c'est bien sur Rome). ⚠️ **J-49 au 6 août : une semaine de retard.** Rattrapable sur 7 semaines, mais ça commence maintenant |
 | **Paris** — Porte de Versailles | 12-13 + 16 → 20 déc. 2026 | 17-25 octobre | Course-vitrine (`../vitrine.md`) |
 
 **Bordeaux est abandonné** (décision du 06/08). Le bloc « deux courses rapprochées » de
 `../saison-hyrox.md` §6 ne s'applique donc plus à lui — il reste une structure valide du moteur, pas
 un plan pour Pierre.
 
-### ⚠️ Le point à vérifier avant d'écrire une seule ligne sur la qualification
+### Son objectif : se requalifier en DOUBLES PRO HOMME, avec Antoine
 
-**La qualification aux World Championships n'est possible qu'en division PRO** — hors 60+, Doubles
-Mixte et Championnats régionaux (`../saison-hyrox.md`, §4). Trois questions à lui poser tout de
-suite, parce que la réponse commande toute la campagne :
+**Il n'est pas un aspirant : il s'est déjà qualifié la saison dernière pour les Mondiaux de
+Stockholm (18-21 juin 2026) et y a couru.** C'est un athlète du top 0,5 % mondial, et ça change
+complètement la posture éditoriale — on ne raconte pas une première tentative, on raconte **un
+retour**. C'est un récit plus fort, et il autorise un ton que personne ne peut lui contester.
 
-1. **Court-il Rome en Pro ou en Open ?** S'il est en Open, il ne se qualifie pas, et la campagne
-   « Road to Hong Kong » raconte autre chose que ce qu'on croit.
-2. **Si c'est un passage Open → Pro**, c'est un saut de charges considérable — sled push +50 kg,
-   sled pull +50 kg, farmers +8 kg par main, sandbag +10 kg, wall ball +3 kg. **C'est le meilleur
-   arc de contenu de sa saison** : sept semaines pour aller chercher des charges qu'il ne portait
-   pas, avec un enjeu daté au bout. Ne pas passer à côté.
-3. **Le Doubles Mixte est la seconde voie**, souvent ignorée. À poser sur la table s'il bute sur les
-   charges Pro en solo.
+Cette saison, il vise **Hong Kong en Doubles Pro Homme, avec Antoine**.
+
+Trois faits à établir avant d'écrire quoi que ce soit :
+
+1. **L'âge d'Antoine.** En doubles, **le groupe d'âge est la moyenne des deux âges** — pas celui de
+   Pierre. Le « 35-39 » de Pierre en solo ne dit rien de leur catégorie en duo. Aux Mondiaux les
+   tranches Pro Doubles sont larges (moins de 30, 30-39, 40-49…), mais la catégorie de qualification
+   se calcule sur la moyenne. C'est le premier chiffre du dossier.
+2. **Le nom complet d'Antoine, son compte, et son accord à l'image.** Il va apparaître dans une
+   grande partie du contenu de la saison. Voir plus bas — c'est aussi une opportunité commerciale.
+3. **Sur quelle course ils visent la qualification** — Rome, ou une autre. Toute la campagne se cale
+   dessus.
+
+### ⚠️ La règle qui verrouille toute la saison
+
+**Les partenaires qualifiés doivent courir ensemble aux Mondiaux. Aucune substitution, sous aucune
+circonstance** (règle 26/27, `../saison-hyrox.md`). La qualification appartient au binôme, pas aux
+deux athlètes séparément : si l'un se blesse ou déclare forfait, elle tombe pour les deux.
+
+Deux conséquences, et elles vont dans des sens opposés :
+
+- **C'est le meilleur enjeu narratif possible.** « On est deux, et si l'un tombe, c'est fini pour les
+  deux. » Aucun format solo ne produit cette tension. Elle porte toute une saison de contenu sans
+  jamais avoir besoin d'être forcée.
+- **C'est un risque de production réel.** Une blessure d'Antoine fait disparaître le fil rouge d'une
+  saison entière — et le contenu déjà planifié devient faux du jour au lendemain. Le plan de secours
+  se pense maintenant, pas le jour où ça arrive.
+
+L'autre règle du duo, à exploiter : **écart maximum de 10 secondes entre partenaires**, durci cette
+saison, mesuré aux entrées et sorties de roxzone. Le duo court à l'allure du plus lent, en
+permanence. C'est un sujet que les pratiquants découvrent trop tard, et Pierre a la légitimité pour
+l'expliquer.
+
+### Antoine est le prospect n° 1 du portefeuille
+
+Il coche tout ce que `../offre-athlete.md` demande, et il le coche mieux que n'importe quel inconnu :
+
+- **Mêmes courses, mêmes dates.** La règle de rentabilité des captations — ne signer que des athlètes
+  dont les calendriers se recoupent — est ici satisfaite par construction. Le déplacement à Rome
+  couvrirait deux clients au lieu d'un, ce qui change entièrement l'économie du poste.
+- **Il est déjà dans les photos.** Les images de compétition en duo de la banque (82-92) le montrent
+  probablement déjà — à identifier.
+- **Le contenu du duo sert les deux comptes.** Chaque reel de binôme est un contenu pour chacun : le
+  coût de production se divise, la portée s'additionne.
+- **Sans lui, il y a une friction permanente** : filmer un tiers identifiable en sujet principal
+  exige son accord à chaque fois (`../production-media.md`). Autant qu'il soit dans le dispositif.
+
+**À faire avant Rome**, pas après : la campagne de qualification se tourne à deux, et une fois les
+images faites sans lui, on ne les refait pas.
+
+### Ce que ce calendrier offre éditorialement
+
+- **Un enjeu daté, binaire et partagé.** Une date, deux personnes, un résultat commun.
+- **Un récit de retour, pas de découverte.** Il est déjà allé aux Mondiaux. Le fil n'est pas
+  « est-ce que j'y arriverai », c'est « est-ce que j'y retourne, et cette fois à deux ».
+- **La piste extérieure de Rome.** Les 8 km s'y courent dehors, ce qui n'est pas le cas ailleurs.
+  Pour un athlète dont le point fort est la course à pied, c'est un avantage à exploiter avant et
+  une donnée à comparer après.
+- **Le compte à rebours a déjà son format** : les compteurs « J-XX » font partie de sa signature
+  éditoriale existante. Ils ont maintenant une date d'arrivée réelle.
 
 Rappel des règles à ne pas déformer en légende : **un slot minimum par groupe d'âge et par
 division**, proportionnel au nombre de participants, et un **plafond de 2 athlètes non licenciés**
 par événement à qui le slot est proposé — si les deux déclinent, l'allocation se referme.
-
-### Ce que ce calendrier offre éditorialement
-
-- **Un enjeu daté et binaire.** « Le 27 septembre, soit je suis qualifié pour Hong Kong, soit je ne
-  le suis pas. » C'est le meilleur fil narratif possible, et il tombe pile dans sa ligne : la rage
-  silencieuse, la donnée comme preuve, aucune promesse.
-- **La piste extérieure de Rome.** Les 8 km s'y courent dehors, ce qui n'est pas le cas ailleurs.
-  Pour un athlète dont le point fort est la course à pied, c'est un avantage à exploiter avant, et
-  une donnée à comparer après.
-- **Le compte à rebours a déjà son format** : les compteurs « J-XX » font partie de sa signature
-  éditoriale existante. Ils ont maintenant une date d'arrivée réelle.
 
 ## 3. Partenaires (à jour au 17/07/2026)
 

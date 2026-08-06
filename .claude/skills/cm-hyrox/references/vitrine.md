@@ -137,11 +137,14 @@ juin 2027 sont l'aboutissement du récit, mais trop loin pour servir de cas.
 
 Pour Pierre, deux courses, et **elles ne jouent pas le même rôle. Ne pas les confondre.**
 
-**Rome, 24-27 septembre — la captation irremplaçable.** C'est sa course de qualification aux
-Mondiaux, groupe d'âge 35-39. Une qualification ne se produit qu'une fois : si elle tombe et que
-personne n'était là pour la filmer, **le meilleur actif de la saison n'existera jamais** — ni pour
-son compte, ni pour le cas, ni pour ses partenaires. C'est le seul moment de l'année qui ne se
-rejoue pas.
+**Rome, 24-27 septembre — la captation irremplaçable.** C'est sa course de requalification aux
+Mondiaux, **en Doubles Pro Homme avec Antoine**. Une qualification ne se produit qu'une fois : si
+elle tombe et que personne n'était là pour la filmer, **le meilleur actif de la saison n'existera
+jamais** — ni pour son compte, ni pour celui d'Antoine, ni pour le cas, ni pour leurs partenaires.
+C'est le seul moment de l'année qui ne se rejoue pas.
+
+Et en doubles, l'enjeu est doublé au sens propre : **la qualification est non-transférable**, elle
+appartient au binôme. Ce qui se joue à Rome ne se rejoue ni en décembre ni ailleurs.
 
 Le coût est réel — Rome est à l'étranger, il faut décider maintenant. Trois options, par ordre de
 qualité :
@@ -180,4 +183,8 @@ que personne ne pourra refaire.
   irreproductible, donc invendable — et c'est le risque immédiat sur Pierre
   (`clients/pierre-huiban.md`, §6). Un cas doit prouver ce qu'on vend, pas ce qu'on a offert une fois.
 - **N'avoir qu'un cas.** Un seul cas se lit comme une exception. Prévoir dès maintenant lequel des
-  athlètes 2 et 3 sera le second, et lui appliquer le même protocole dès la signature.
+  athlètes 2 et 3 sera le second, et lui appliquer le même protocole dès la signature. **Pour Pierre,
+  le second est tout trouvé : Antoine, son partenaire de doubles** — mêmes courses, mêmes dates, même
+  récit, et une captation qui couvre les deux. Si son T0 est figé en même temps que celui de Pierre,
+  le cas de janvier porte sur un binôme et non sur un individu, ce qui le rend beaucoup plus difficile
+  à écarter comme une exception.

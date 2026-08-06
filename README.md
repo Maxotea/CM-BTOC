@@ -66,13 +66,18 @@ CM-BTOC/
 *Road to Hong Kong*. Déjà produit depuis juillet 2026 dans `cm-metricool` ; sa migration vers ce
 moteur et son passage en client payant sont ouverts.
 
-Sa saison : **Rome 24-27 sept.** — sa course de qualification aux Mondiaux, groupe d'âge 35-39,
-piste de course en extérieur — puis **Paris Porte de Versailles 12-20 déc.**, la course-vitrine.
-Bordeaux est abandonné.
+**Déjà qualifié et présent aux Mondiaux de Stockholm en juin 2026** — top 0,5 % mondial. Cette
+saison, il vise **la requalification en Doubles Pro Homme avec Antoine**, pour Hong Kong.
 
-⚠️ **La qualification aux Mondiaux n'est possible qu'en division Pro** (hors 60+, Doubles Mixte et
-Championnats régionaux). À confirmer avec lui avant d'écrire quoi que ce soit sur la qualification :
-s'il court Rome en Open, il ne se qualifie pas.
+Sa saison : **Rome 24-27 sept.** (piste de course en extérieur) puis **Paris Porte de Versailles
+12-20 déc.**, la course-vitrine. Bordeaux est abandonné.
+
+⚠️ **Une qualification en doubles est non-transférable** : les partenaires qualifiés doivent courir
+ensemble aux Mondiaux, sans substitution possible. C'est le meilleur enjeu narratif de la saison, et
+un risque de production réel — si Antoine tombe, tout le contenu qui suppose l'objectif devient faux.
+
+**Antoine est le prospect n° 1** : mêmes courses, mêmes dates, déjà dans les photos, et une captation
+à Rome qui couvrirait deux clients au lieu d'un.
 
 ## Actions bloquantes
 

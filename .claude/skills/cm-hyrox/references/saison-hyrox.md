@@ -140,9 +140,39 @@ Le reste des règles :
 **Groupes d'âge en PRO** (Mondiaux) : 16-24, 25-29, 30-34, 35-39, … 60-64, 65-74.
 **En PRO Doubles** : moins de 30, 30-39, 40-49, 50-59, 60-79.
 
-Le Doubles Mixte est donc **la seconde voie de qualification**, et elle est souvent ignorée : un
-athlète bloqué par les charges Pro en solo peut viser Hong Kong en Doubles Mixte. À poser sur la
-table avant de conclure qu'une qualification est hors de portée.
+Le Doubles Mixte est donc **la seconde voie de qualification** pour un athlète qui ne court pas en
+Pro. Et le **Doubles Pro** qualifie aussi, puisque c'est une division Pro. À poser sur la table avant
+de conclure qu'une qualification est hors de portée.
+
+### Le Doubles — format, et deux règles qui changent tout
+
+Format : les deux partenaires se partagent les répétitions et les distances de chaque station en
+**« you go I go »**, sans aucune règle sur la répartition. Certains coupent en deux, d'autres jouent
+leurs points forts. La course reste 8 × 1 km + 8 stations, courus ensemble.
+
+**Le groupe d'âge est la moyenne des deux âges**, pas celui du plus âgé ni du plus jeune. Un
+duo 28 + 36 court en 30-34. C'est le premier chiffre à établir quand un athlète annonce un projet en
+doubles — **il ne se déduit pas de son âge à lui.** Aux Mondiaux, les tranches Pro Doubles sont
+larges : moins de 30, 30-39, 40-49, 50-59, 60-79.
+
+Deux règles de la saison 26/27, à connaître avant d'écrire quoi que ce soit sur un projet en duo :
+
+**1. Écart maximum de 10 secondes entre partenaires** — durci cette saison, mesuré par le
+chronométrage officiel aux entrées et sorties de roxzone. Et on ne commence pas une station tant
+qu'on n'est pas réunis. Concrètement : le duo court à l'allure du plus lent, en permanence. C'est un
+sujet de contenu à part entière, et la première chose que les duos débutants découvrent trop tard.
+
+**2. ⚠️ Les partenaires qualifiés doivent courir ensemble aux Mondiaux — aucune substitution, sous
+aucune circonstance.** Une qualification en doubles appartient au binôme, pas aux deux athlètes
+séparément. Si l'un se blesse ou déclare forfait, la qualification tombe pour les deux.
+
+La seconde règle a deux conséquences directes sur le moteur :
+
+- **Éditorialement, c'est le meilleur enjeu narratif de la saison.** « On est deux, et si l'un tombe,
+  c'est fini pour les deux » — aucun format solo ne produit ça.
+- **Opérationnellement, c'est un risque de calendrier.** Une blessure du partenaire fait disparaître
+  le fil rouge d'une saison entière de contenu. Le plan de secours ne se réfléchit pas le jour où ça
+  arrive : voir `production-media.md`, plan de secours.
 
 **Courses de la saison 25/26 déjà disputées**, utiles comme base de comparaison dans les contenus
 H1 : Nice (12-15 fév. 2026), Toulouse (19-22 mars 2026), Paris Grand Palais (23-26 avril 2026),

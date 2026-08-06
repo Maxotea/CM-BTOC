@@ -201,6 +201,24 @@ Usage étroit et volontairement limité :
 Créer un élément de référence Higgsfield par athlète (couleurs, matières, ambiance de sa salle) dès
 qu'un appoint IA est prévisible, et le noter dans la fiche.
 
+## Filmer un duo — ce qui change
+
+Un projet en doubles n'est pas un projet solo avec quelqu'un dans le cadre. Trois différences
+opérationnelles :
+
+- **Le triptyque devient un quadriptyque** : large (les deux), serré sur celui qui travaille, **le
+  regard de celui qui attend** — c'est le plan que personne ne fait et c'est le meilleur —, plan de
+  fin à deux. Le partenaire au repos est la moitié de l'histoire.
+- **Le « you go I go » se filme en une prise.** L'alternance est le sujet : couper au montage entre
+  deux relais détruit exactement ce qui rend le format lisible.
+- **Le tournage en salle se fait à deux, donc il se planifie à deux.** Deux agendas, deux niveaux de
+  motivation. C'est deux fois plus fragile qu'un solo — la liste de plans part aux deux, et le
+  rappel aussi.
+
+**Accord à l'image du partenaire : obligatoire et écrit**, puisqu'il est sujet principal et non
+figurant d'arrière-plan. À obtenir avant le premier tournage, pas au premier reel qui pose problème.
+La meilleure issue reste qu'il soit lui-même client (`clients/pierre-huiban.md`, §« Antoine »).
+
 ## Quand la matière s'arrête — plan de secours
 
 Trois scénarios, trois remèdes. Ne jamais laisser passer deux semaines sans traiter.
@@ -220,3 +238,16 @@ qui parle vrai grandit, celle d'un athlète qui disparaît fond.
 **3. Il est en bloc lourd et n'a plus d'énergie pour parler.** Basculer sur le carrousel de données
 et la voix off : deux formats qui ne demandent aucun tournage. Solution temporaire, jamais
 structurelle — sans reel filmé, l'audience cesse de croître.
+
+**4. En doubles : le partenaire décroche ou se blesse.** Le cas le plus violent, parce qu'il ne
+touche pas la production mais **le récit lui-même** — une qualification en doubles est
+non-transférable, elle tombe pour les deux (`saison-hyrox.md`). Du jour au lendemain, tout le
+contenu planifié qui suppose l'objectif devient faux.
+
+Réflexe, dans l'ordre : **dépublier ou dé-planifier tout ce qui suppose l'objectif, le jour même** —
+c'est le seul geste urgent ; puis laisser l'athlète décider de ce qu'il veut en dire, sans rien
+publier avant ; puis basculer le fil sur ce qui reste vrai — l'entraînement, la technique, la
+reconstruction d'un projet. Ne jamais annoncer un abandon ni un changement de partenaire à sa place.
+
+Ce scénario se prépare **au moment où le projet en duo est validé**, pas quand il arrive : savoir à
+l'avance quels contenus tombent permet de les retirer en dix minutes au lieu d'une journée.
