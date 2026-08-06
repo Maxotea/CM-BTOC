@@ -166,16 +166,45 @@ premières couvrent l'essentiel de la checklist qualité de `playbook-athlete.md
 C'est le même principe que `carrousel.py`, qui échoue plutôt que de livrer une slide illisible :
 **le contrôle vaut mieux à la génération qu'à la relecture.**
 
-## 7. Le raccord avec le formulaire
+## 7. Correspondance document → champs
 
-Pour que le branchement tienne, **les noms de champs du formulaire doivent être ceux de
-`profil.json`.** Un export CSV dont les colonnes s'appellent « Question 4 » impose une
-retranscription manuelle à chaque athlète — c'est-à-dire exactement le temps qu'on cherchait à
-supprimer.
+Le document envoyé (`../templates/dossier-athlete.md`) est **purement client** : il ne contient
+aucune annexe et s'envoie tel quel. La correspondance avec le schéma vit ici.
 
-Règle : le formulaire est construit **à partir du schéma**, jamais l'inverse.
+**Le formulaire se construit à partir de ce schéma, jamais l'inverse.**
 
-Deux champs ne se remplissent jamais automatiquement, et il ne faut pas essayer : **`mantra` et
+| Question du document | Champ | Fichier |
+|---|---|---|
+| Prénom, nom | `nom` | `profil.json` |
+| Instagram | `instagram` | `profil.json` |
+| Date de naissance | `naissance` | `profil.json` |
+| Division | `division` | `profil.json` |
+| Partenaire de doubles | `partenaire.{nom,naissance,instagram}` | `profil.json` |
+| Coach, club, salles | `entrainement.{coach,club,salles}` | `profil.json` |
+| Jours et créneaux de séance | `entrainement.creneaux` | `profil.json` |
+| Trois dernières courses | `historique[]` | `profil.json` |
+| Splits, record personnel | `chiffres.{splits,pb}` | `profil.json` |
+| Courses inscrites et visées | *une entrée par course* | `courses.json` |
+| Objectif de la saison | `objectif_saison` | `profil.json` |
+| **Partie 2 — les 8 questions de voix** | verbatims bruts | `voix.md` |
+| **Q8, la phrase qui reste** | `mantra` ⚠️ relevé à l'écoute, jamais auto-rempli | `profil.json` |
+| *(relevé à l'écoute du vocal)* | `tics[]` ⚠️ idem | `profil.json` |
+| Dernière personne qui a écrit en DM | `persona` | `profil.json` |
+| Les 3 questions récurrentes | `questions_recurrentes[]` | `profil.json` |
+| Qui demande conseil | `niveau_cible` | `profil.json` |
+| Deux sujets où il prend position | `positions_ok[]` | `profil.json` |
+| Trois sujets interdits | `interdits[]` | `profil.json` |
+| Ce qu'on ne montre jamais | `interdits[]` | `profil.json` |
+| Partenaires et sponsors | `sponsors[]` | `profil.json` |
+| Cadre pro et réglementaire | `contraintes[]` | `profil.json` |
+| Micro, mode son, lieux | `materiel.{micro_cravate,mode_son,lieux}` | `profil.json` |
+| **Message du dimanche** | `{seances,chiffre,dur,question,a_venir}` | `semaines/<ISO>.json` |
+
+Les champs `mantra` et `tics` sont les deux seuls qui ne se remplissent jamais depuis le
+formulaire : ils sortent de l'écoute du vocal, par un humain. C'est le seul endroit du dispositif où
+le jugement ne se délègue pas.
+
+Deux champs ne se remplissent jamais depuis le formulaire, et il ne faut pas essayer : **`mantra` et
 `tics`.** Ils sortent de l'écoute du vocal, par un humain. C'est le seul endroit du dispositif où le
 jugement ne se délègue pas — et c'est précisément ce qui fait que le contenu sonne juste.
 

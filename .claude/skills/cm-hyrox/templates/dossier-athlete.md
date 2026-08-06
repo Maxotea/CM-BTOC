@@ -1,19 +1,5 @@
 # Dossier Athlète — OTEA
 
-> **Document à envoyer tel quel à l'athlète.** Registre client, tutoiement, aucun jargon interne.
-> Méthode d'exploitation et correspondance avec les formats de contenu :
-> `../references/persona-et-voix.md`.
->
-> **Comment l'envoyer** — le découpage compte plus qu'on ne croit :
-> - **Parties 1, 4, 5 → en formulaire** (Google Form, Notion, peu importe). Ce sont des faits, ils se
->   saisissent bien et se relisent vite.
-> - **Parties 2 et 3 → en note vocale.** Jamais en formulaire. Un athlète qui écrit se corrige et
->   lisse sa voix ; un athlète qui parle donne ses vraies tournures. C'est cette matière-là qu'on
->   cherche, et un formulaire la détruit.
-> - **Partie 6 → dans son téléphone**, en rappel hebdomadaire.
-
----
-
 ## Pourquoi ce document
 
 Pour que ce qu'on publie sur ton compte sonne comme toi, et pas comme une agence.
@@ -168,44 +154,3 @@ après.
 ---
 
 *Document OTEA Production — à mettre à jour à chaque changement de saison ou d'objectif.*
-
----
-
-# Annexe interne — correspondance des champs
-
-> **À ne pas envoyer à l'athlète.** Sert à construire le formulaire.
->
-> **Le formulaire se construit à partir de ce schéma, jamais l'inverse.** Un export dont les colonnes
-> s'appellent « Question 4 » impose une ressaisie manuelle pour chaque athlète — exactement le temps
-> qu'on cherche à supprimer. Modèle complet : `../references/persona-et-voix.md`, §5.
-
-| Question du document | Champ | Fichier |
-|---|---|---|
-| Prénom, nom | `nom` | `profil.json` |
-| Instagram | `instagram` | `profil.json` |
-| Date de naissance | `naissance` | `profil.json` |
-| Division | `division` | `profil.json` |
-| Partenaire de doubles | `partenaire.{nom,naissance,instagram}` | `profil.json` |
-| Coach, club, salles | `entrainement.{coach,club,salles}` | `profil.json` |
-| Jours et créneaux de séance | `entrainement.creneaux` | `profil.json` |
-| Trois dernières courses | `historique[]` | `profil.json` |
-| Splits, record personnel | `chiffres.{splits,pb}` | `profil.json` |
-| Courses inscrites et visées | *une entrée par course* | `courses.json` |
-| Objectif de la saison | `objectif_saison` | `profil.json` |
-| **Partie 2 — les 8 questions de voix** | verbatims bruts | `voix.md` |
-| **Q8, la phrase qui reste** | `mantra` ⚠️ relevé à l'écoute, jamais auto-rempli | `profil.json` |
-| *(relevé à l'écoute du vocal)* | `tics[]` ⚠️ idem | `profil.json` |
-| Dernière personne qui a écrit en DM | `persona` | `profil.json` |
-| Les 3 questions récurrentes | `questions_recurrentes[]` | `profil.json` |
-| Qui demande conseil | `niveau_cible` | `profil.json` |
-| Deux sujets où il prend position | `positions_ok[]` | `profil.json` |
-| Trois sujets interdits | `interdits[]` | `profil.json` |
-| Ce qu'on ne montre jamais | `interdits[]` | `profil.json` |
-| Partenaires et sponsors | `sponsors[]` | `profil.json` |
-| Cadre pro et réglementaire | `contraintes[]` | `profil.json` |
-| Micro, mode son, lieux | `materiel.{micro_cravate,mode_son,lieux}` | `profil.json` |
-| **Message du dimanche** | `{seances,chiffre,dur,question,a_venir}` | `semaines/<ISO>.json` |
-
-Les champs `mantra` et `tics` sont les deux seuls qui ne se remplissent jamais depuis le
-formulaire : ils sortent de l'écoute du vocal, par un humain. C'est le seul endroit du dispositif où
-le jugement ne se délègue pas.
