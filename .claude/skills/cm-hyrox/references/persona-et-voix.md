@@ -40,24 +40,44 @@ Le découpage du document n'est pas cosmétique :
 formules de transition, la façon de dire un chiffre.** Ce sont eux qui rendent une légende
 reconnaissable, pas le sujet.
 
-## 3. Ce que chaque réponse produit
+## 3. Les cinq questions, et ce que chacune produit
+
+L'entretien tient en **dix minutes annoncées**, donc en **cinq questions**. C'est une contrainte de
+tenue de promesse avant d'être une contrainte de temps : un athlète qui a dit oui à dix minutes et
+se retrouve à trente en garde le souvenir, et c'est le premier signal qu'un accompagnement va être
+lourd.
 
 C'est la discipline du document : **aucune question qui ne produise pas de contenu.**
 
-| Réponse | Ce qu'elle alimente |
-|---|---|
-| Ce qu'il se dit au km 6 | Carte de story récurrente · hook de reel · slide « à retenir » |
-| Ce qu'il répète à ses potes | Carte de story récurrente |
-| La séance la plus dure | Reel H3 · archétype 2 |
-| Ce que 9 sur 10 n'auraient pas fait | Reel H3 · preuve dans le dossier de sponsoring |
-| Ce qui l'énerve dans le milieu | **Pilier H4** — la matière la plus rare et la plus portante |
-| Ce sur quoi tout le monde se trompe | Pilier H2 · archétype « N erreurs » |
-| Le jour où il a failli arrêter | Reel H3 — le contenu de rétention le plus performant de la niche |
-| **La phrase qui reste** | **Le mantra** : signature, bio, carte de story, slide de CTA |
-| La dernière personne qui lui a écrit | Le persona, en une ligne utilisable |
-| Les 3 questions récurrentes | **Trois carrousels immédiats**, archétype 7 |
-| Qui lui demande conseil | Le niveau de la cible → calibre le vocabulaire technique |
-| Ce qu'il ne veut plus qu'on lui demande | Ce qu'on ne traite pas |
+| # | Question | Ce qu'elle alimente |
+|---|---|---|
+| 1 | Ce qu'il se dit au km 6 | **Le mantra** · carte de story récurrente · hook de reel |
+| 2 | Ce qui l'énerve dans le milieu | **Pilier H4** — la matière la plus rare et la plus portante |
+| 3 | Ce sur quoi tout le monde se trompe | Pilier H2 · archétype « N erreurs » |
+| 4 | Le jour où il a failli arrêter | Reel H3 — le contenu de rétention le plus performant de la niche |
+| 5 | La dernière personne qui lui a écrit en DM | Le persona, en une ligne utilisable |
+
+L'ordre est délibéré : on ouvre sur le concret et le physique, on passe aux opinions une fois qu'il
+est lancé, et on garde l'intime pour la fin — quand la confiance est faite.
+
+### Ce qui a été coupé, et où on le récupère
+
+**« S'il ne devait rester qu'une phrase de toi »** — la question qui visait le mantra directement.
+Sa suppression rend le dispositif **plus** cohérent, pas moins : le mantra se relève, il ne se
+demande pas (§1). La question 1 le produit sans jamais le nommer.
+
+**« Les trois questions qu'on te pose le plus souvent »** — c'est la vraie perte, elle donnait trois
+carrousels immédiats. **Elle est récupérée par la ligne 4 du rituel du dimanche**, qui en rapporte
+une par semaine. Plus lent au démarrage, mais la matière est plus fraîche et elle ne tarit pas.
+
+**« Ce qu'il répète à ses potes »**, **« la séance la plus dure »**, **« ce que 9 sur 10 n'auraient
+pas fait »** — recouvrent largement les questions 1 et 4. Peu de perte réelle.
+
+**« Qui lui demande conseil »** et **« ce qu'il ne veut plus qu'on lui demande »** — à poser au point
+de calage de J+14, quand il y a déjà des contenus publiés pour en parler concrètement.
+
+Conséquence sur le premier mois : **`questions_recurrentes` sort vide de l'onboarding.** Ne pas le
+combler en inventant — le premier carrousel d'archétype 7 attend la première réponse du dimanche.
 
 ## 4. Le rituel hebdomadaire — cinq lignes qui alimentent tout
 
@@ -68,7 +88,7 @@ Le message du dimanche n'est pas un point d'étape, **c'est l'alimentation du mo
 | 1 — Mes séances de la semaine | Archétype 2 « une semaine de prépa, vraiment » |
 | 2 — **Mon chiffre de la semaine** | **Pilier H1, et le hook de tous les reels de la semaine** |
 | 3 — Ce qui a été dur | Pilier H3, récit |
-| 4 — Une question qu'on m'a posée | Pilier H2, archétype 7 |
+| 4 — Une question qu'on m'a posée | Pilier H2, archétype 7 — **et c'est ce qui remplace la question coupée de l'entretien** |
 | 5 — Ce qui arrive | Compteur J-XX, annonces |
 
 Cinq lignes, trente secondes pour lui, et de quoi produire la semaine entière. **C'est le seul

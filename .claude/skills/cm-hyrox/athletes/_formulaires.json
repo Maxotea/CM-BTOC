@@ -20,7 +20,12 @@
     "destination": "athletes/<slug>/semaines/<ISO>.json",
     "frequence": "chaque dimanche soir"
   },
-  "page_publique": "https://claude.ai/code/artifact/a0aa0762-1e97-45d7-9a9e-7d56f4f21ca7",
+  "page_publique": {
+    "fichier": "templates/web/dossier-athlete.html",
+    "a_heberger_sur": "oteaproduction.com — page autonome, aucune ressource externe, aucune mention tierce",
+    "url_en_ligne": null,
+    "note": "Google Drive ne peut pas héberger une page web depuis 2016 : un HTML y est téléchargé, pas affiché. Une fois en ligne, reporter l'URL ici et la transmettre avec le lien du formulaire — la page le contient déjà en bouton."
+  },
   "_recalage": {
     "date": "2026-08-06",
     "methode": "lecture directe des en-têtes de la feuille de réponses",

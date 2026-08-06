@@ -52,22 +52,16 @@ semaine suffisent.
 
 *(à l'oral, au téléphone — réponds à voix haute, ne rédige pas)*
 
-Parle comme tu parlerais à un pote. Ne cherche pas la bonne formulation : on veut la tienne.
-Prends les questions dans l'ordre, il est fait exprès.
+**Quatre questions.** Parle comme tu parlerais à un pote — ne cherche pas la bonne formulation,
+on veut la tienne. Prends-les dans l'ordre, il est fait exprès.
 
 1. **Au sixième kilomètre, quand ça fait vraiment mal — qu'est-ce que tu te dis dans ta tête ?**
    Les mots exacts, même s'ils sont bêtes ou grossiers.
-2. **Qu'est-ce que tu répètes à tes potes quand ils se plaignent d'une séance ?**
-3. **Raconte-moi la séance la plus dure de ta vie.** Où, quand, pourquoi elle t'a marqué.
-4. **Qu'est-ce que tu as fait cette année que neuf personnes sur dix n'auraient pas fait ?**
-5. **Qu'est-ce qui t'énerve dans le milieu ?** Sois franc, ça reste entre nous tant que tu ne
+2. **Qu'est-ce qui t'énerve dans le milieu ?** Sois franc, ça reste entre nous tant que tu ne
    valides pas.
-6. **Sur quoi tout le monde se trompe, d'après toi ?** Un truc que tu as compris et que les autres
+3. **Sur quoi tout le monde se trompe, d'après toi ?** Un truc que tu as compris et que les autres
    n'ont pas encore compris.
-7. **Le jour où tu as failli arrêter** — c'était quand, et pourquoi tu as continué ?
-8. **S'il ne devait rester qu'une phrase de toi, ce serait laquelle ?**
-
-> La question 8 vient en dernier exprès. Réponds-y après avoir répondu aux sept autres, pas avant.
+4. **Le jour où tu as failli arrêter** — c'était quand, et pourquoi tu as continué ?
 
 ---
 
@@ -75,11 +69,10 @@ Prends les questions dans l'ordre, il est fait exprès.
 
 *(à l'oral, dans le même appel)*
 
-1. **Décris la dernière personne qui t'a écrit en DM.** Qui c'est, ce qu'elle voulait.
-2. **Les trois questions qu'on te pose le plus souvent.** Mot pour mot si tu t'en souviens.
-3. **Qui vient te demander conseil à la salle ?** Des débutants, des confirmés, des gens qui
-   préparent leur première course ?
-4. **Qu'est-ce que tu aimerais qu'on arrête de te demander ?**
+**Une seule question, et elle suffit :**
+
+**Décris la dernière personne qui t'a écrit en DM.** Qui c'est, ce qu'elle voulait, ce qu'elle
+cherchait à faire. Le plus précisément possible.
 
 ---
 
