@@ -278,6 +278,7 @@ l'athlète, la validation avant publication, le reporting.
 
 | Fichier | Quand le lire |
 |---|---|
+| `references/dispositif.md` | **Ce qu'on livre concrètement, ce qui est automatisé, le budget temps par athlète** |
 | `references/saison-hyrox.md` | Caler un calendrier, monter une campagne de course, vérifier un format, une charge ou une règle |
 | `references/offre-athlete.md` | Chiffrer une proposition, définir un palier, arbitrer une demande hors forfait |
 | `references/production-media.md` | Construire une liste de plans, cadrer un batch en salle, filmer une course, gérer les droits |

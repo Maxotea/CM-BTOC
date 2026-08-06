@@ -49,6 +49,7 @@ CM-BTOC/
 └── .claude/skills/cm-hyrox/
     ├── SKILL.md                      moteur, étapes 0 → 9
     └── references/
+        ├── dispositif.md             ce qu'on livre, ce qui est automatisé, le budget temps
         ├── saison-hyrox.md           calendrier 26/27, format, charges, règles, campagne de course
         ├── offre-athlete.md          échelle 49/89/179, contrainte de montage   ⚠️ non validée
         ├── production-media.md       triptyque de tournage, captation de course, droits
