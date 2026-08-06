@@ -16,6 +16,7 @@
 | Réseaux | Instagram **@pierrehuiban89** (uniquement) |
 | Typologie | Athlète HYROX sponsorisé — double vie : commercial Europe, athlète, papa |
 | Campagne de saison | **Road to Hong Kong** — Mondiaux HYROX 2027, AsiaWorld-Expo, 10-13 juin 2027 |
+| Courses 26/27 | Rome (24-27 sept.) · Bordeaux (30 sept.-4 oct., à confirmer) · Paris Porte de Versailles (12-20 déc., probable) — détail §3 bis |
 | Horaires de publication | **00 h 30 et 06 h 00** — atypiques mais ce sont les siens, vérifiés. Ne pas écraser par les défauts du moteur |
 | Coach | Quentin |
 
@@ -41,6 +42,37 @@ chaque trimestre** — cette règle est née de cet incident et vaut pour tous l
 **Vigilance permanente : tout contenu technique est relu par Pierre avant publication.** C'est son
 expertise, pas la nôtre. Aucun chrono, aucune charge en kilos, aucune date de Mondiaux cités sans
 vérification.
+
+## 3 bis. Sa saison — et le retard à rattraper
+
+Dates vérifiées le 6 août 2026 (`../saison-hyrox.md`). **Statut d'inscription à confirmer avec lui
+pour les trois.**
+
+| Course | Dates | Départ de campagne (J-56) | État au 6 août |
+|---|---|---|---|
+| **Rome** — Fiera di Roma, piste extérieure | 24 → 27 sept. 2026 | 30 juillet | ⚠️ **J-49 : une semaine de retard.** Rattrapable sur 7 semaines, mais ça commence maintenant |
+| **Bordeaux** | 30 sept. → 4 oct. 2026 | 5 août | **pile à l'heure — c'est cette semaine** |
+| **Paris** — Porte de Versailles | 12-13 + 16 → 20 déc. 2026 | 17-25 octobre | confortable |
+
+**Rome et Bordeaux ne font qu'un seul bloc.** Trois jours séparent l'arrivée de Rome du départ de
+Bordeaux : les deux campagnes se recouvrent presque intégralement. Ne pas produire deux campagnes
+empilées — un seul récit, dont l'angle est **le doublé lui-même**, avec la récupération en 72 h
+comme contenu central entre les deux et une analyse comparative des deux jeux de splits à la fin.
+Structure détaillée dans `../saison-hyrox.md`, §6.
+
+Deux angles éditoriaux offerts par ce calendrier, et qu'il ne faut pas laisser passer :
+
+- **« Deux courses en une semaine »** — sujet plus fort que chacune des deux prise isolément, et
+  parfaitement dans sa ligne (rage silencieuse, la donnée comme preuve).
+- **La piste extérieure de Rome.** Les 8 km s'y courent dehors, ce qui n'est pas le cas ailleurs.
+  Comparer ses splits de course entre Rome (extérieur) et Bordeaux (intérieur) à trois jours
+  d'intervalle est une donnée que presque personne ne possède. C'est exactement le type de contenu
+  que son positionnement appelle.
+
+**Course-vitrine : Paris.** Plus gros événement HYROX de France, 7 jours, à domicile — donc la
+captation la moins chère du calendrier — et le calendrier laisse le temps de figer le T0 et de faire
+tourner le mécanisme trois mois avant la démonstration. Rome est trop tôt et à l'étranger, Bordeaux
+est trop tôt. Voir `../vitrine.md`.
 
 ## 3. Partenaires (à jour au 17/07/2026)
 
@@ -122,6 +154,25 @@ Deux issues honnêtes, et il faut en choisir une :
 **Le faire passer en Base à 49 € tout en continuant à livrer l'existant est la seule option à
 écarter** : elle fixe une référence intenable pour les 32 athlètes suivants, et c'est précisément ce
 que la grille est faite pour empêcher.
+
+### Le variable change l'arithmétique
+
+Un accord de rémunération variable existe avec lui — **un pourcentage sur les sponsors trouvés et
+une part de la dotation** — et il est destiné à se dupliquer sur les nouveaux clients
+(`../offre-athlete.md`, §4). C'est ce qui rend l'abonnement bas soutenable : à ce niveau de prix
+l'abonnement paie la production, le variable paie la marge.
+
+Deux conséquences directes sur son cas :
+
+- **Ses trois partenaires actuels sont antérieurs à l'accord.** Préciser par écrit s'ils entrent
+  dans l'assiette ou non — c'est le genre de point qui s'oublie et qui se rediscute mal un an après.
+- **Le travail de tunnel B cesse d'être offert** : construire son dossier de sponsoring, livrer ses
+  chiffres à ses marques et en démarcher de nouvelles devient un investissement rémunéré, pas un
+  geste. C'est l'argument qui permet de tenir un palier bas sans rogner le service.
+
+Les six paramètres à fixer (taux, assiette, déclencheur, dotation, survie, veto) et les deux
+conflits d'intérêts à neutraliser sont dans `../offre-athlete.md`, §4. **Les valeurs réelles de
+l'accord Pierre restent à y reporter** — c'est lui qui sert de modèle aux contrats suivants.
 
 ## 7. Migration vers ce moteur — reste à faire
 

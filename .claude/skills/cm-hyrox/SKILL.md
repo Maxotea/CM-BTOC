@@ -22,7 +22,12 @@ dix étapes, mais un métier qui déplace trois choses par rapport au B2C géné
 
 **Et surtout : ce n'est pas la même économie.** Un athlète a déjà dépensé son budget de l'année sur
 sa course. L'échelle de prix est **49 / 89 / 179 €**, pas celle de `cm-b2c` — c'est un modèle de
-volume, et il commande tout le reste du moteur. Voir `references/offre-athlete.md`.
+volume, et il commande tout le reste du moteur.
+
+À quoi s'ajoute une seconde ligne, qui n'est dans aucun palier et qui fait la marge :
+**un pourcentage sur les sponsors apportés et une part de la dotation.** Elle aligne les intérêts —
+on est payé pour rendre l'athlète sponsorisable, ce qui est l'objet même du tunnel B. Paramètres à
+fixer et conflits d'intérêts à neutraliser : `references/offre-athlete.md`, §4.
 
 ## Étape 0 — Garde anti-mélange, puis identification (bloquante)
 
@@ -231,6 +236,9 @@ Structure fixe, une page :
 Méthode, seuils et calculs : `references/roi-athlete.md`. Le chiffre à mettre en haut du rapport est
 **le nombre de conversations qualifiées**, jamais la portée. La portée est un moyen ; elle ne paie
 que si elle est convertie en dossier partenaire.
+
+Le tunnel B n'est pas qu'un service rendu : c'est **la source du variable** (`offre-athlete.md`, §4).
+Un mois où il n'est pas mesuré est un mois où on ne sait pas ce qu'on a produit pour soi non plus.
 
 ## Étape 8 — Onboarding d'un athlète
 

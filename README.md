@@ -37,9 +37,10 @@ est ce qui l'empêche structurellement.
 3. **La preuve est double.** Un athlète vend du coaching *et* vend de la visibilité à des marques.
    Le reporting a deux tunnels, et il fabrique au passage le dossier de sponsoring de la saison
    suivante.
-4. **L'économie est une économie de volume.** À 49-179 €, la cible est 33 athlètes, pas 9 clients.
-   Tout le moteur en découle — à commencer par un palier d'entrée à zéro montage, zéro retour,
-   zéro contact.
+4. **L'économie est une économie de volume, plus une ligne variable.** À 49-179 €, la cible est
+   33 athlètes, pas 9 clients — d'où un palier d'entrée à zéro montage, zéro retour, zéro contact.
+   Et à l'abonnement s'ajoute **un pourcentage sur les sponsors apportés et une part de la
+   dotation** : l'abonnement paie la production, le variable paie la marge.
 
 ## Structure
 
@@ -65,6 +66,10 @@ CM-BTOC/
 *Road to Hong Kong*. Déjà produit depuis juillet 2026 dans `cm-metricool` ; sa migration vers ce
 moteur et son passage en client payant sont ouverts.
 
+Sa saison : **Rome 24-27 sept.** (piste extérieure) · **Bordeaux 30 sept.-4 oct.** · **Paris Porte
+de Versailles 12-20 déc.** Rome et Bordeaux ne font qu'un bloc — trois jours d'écart. Paris est la
+course-vitrine.
+
 ## Actions bloquantes
 
 1. **Test des 4 reels chronométrés** — tant qu'il n'existe pas, le palier Salle n'a pas de prix, il a
@@ -78,7 +83,10 @@ moteur et son passage en client payant sont ouverts.
    et le passer en Base sans réduire le service fixerait une référence intenable pour les suivants.
 5. **Figer le T0 de la vitrine** avant sa prochaine publication. C'est la seule chose de tout ce
    dépôt qui ne se rattrape pas.
-6. Monteur à trouver, capable d'absorber 15 à 30 h/mois à 30 €/h.
+6. **Formaliser l'accord variable** — taux, assiette, déclencheur, dotation, survie, veto — et
+   trancher si les trois partenaires actuels de Pierre entrent dans l'assiette. Deux points à poser
+   à l'expert-comptable : apport d'affaires et avantage en nature.
+7. Monteur à trouver, capable d'absorber 15 à 30 h/mois à 30 €/h.
 
 ## Règles de cohérence
 

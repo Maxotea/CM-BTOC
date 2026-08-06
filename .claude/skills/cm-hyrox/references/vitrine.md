@@ -133,8 +133,23 @@ d'abord : les deux autres en découlent.
 
 **La course-vitrine se choisit maintenant**, parce que toute la campagne se pose 8 semaines avant
 (`saison-hyrox.md`). Pour Pierre, sa campagne de saison est **Road to Hong Kong** — les Mondiaux de
-juin 2027 sont l'aboutissement du récit, mais ils sont trop loin pour servir de cas. **Il faut une
-course intermédiaire française à l'automne ou en décembre.**
+juin 2027 sont l'aboutissement du récit, mais trop loin pour servir de cas.
+
+**La course-vitrine est Paris**, Porte de Versailles, 12-20 décembre 2026. Quatre raisons, dans
+l'ordre :
+
+1. **Le plus gros événement HYROX de France** — 7 jours de compétition, la plus grosse audience de
+   la saison sur le marché français, celui où le cas devra se vendre.
+2. **À domicile** : la captation ne coûte pas de déplacement, alors que Rome est à l'étranger.
+3. **Le calendrier est juste** : campagne à poser mi-octobre, ce qui laisse trois mois pour figer le
+   T0, faire tourner le mécanisme et produire une mesure intermédiaire crédible.
+4. **Le cas s'écrit en janvier** — au moment de l'année où les athlètes reprennent, s'inscrivent et
+   cherchent qui les accompagne.
+
+Rome (24-27 sept.) et Bordeaux (30 sept.-4 oct.) sont trop tôt : le T0 n'aura pas eu le temps de
+produire de l'écart. Ils servent à autre chose, et c'est précieux : **ils rodent le protocole de
+tournage et produisent le premier jeu de chiffres**, sur un doublé qui est un angle en soi. Le cas
+de décembre s'appuiera dessus.
 
 ## 8. Les pièges
 

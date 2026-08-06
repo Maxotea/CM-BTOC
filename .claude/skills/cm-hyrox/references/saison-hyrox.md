@@ -83,14 +83,24 @@ dans la communauté, et une réaction sous 48 h capte une portée qu'aucun conte
 
 **Courses en France** — vérifier l'ouverture des inscriptions, elles partent en quelques heures.
 
-| Ville | Dates | Statut |
+| Ville | Dates | Lieu et note |
 |---|---|---|
-| Bordeaux | 30 sept. → 4 oct. 2026 | annoncé |
-| Marseille — escale HYROX Cruise | 23 oct. 2026 | annoncé, format spécial |
-| Nice | 29 oct. → 1er nov. 2026 | annoncé |
-| Paris | 12 → 20 déc. 2026 | annoncé |
+| Bordeaux | 30 sept. → 4 oct. 2026 | 5 jours |
+| Marseille — escale HYROX Cruise | 23 oct. 2026 | format spécial |
+| Nice | 29 oct. → 1er nov. 2026 | — |
+| **Paris** | **12-13 déc. + 16 → 20 déc. 2026** | **Paris Expo Porte de Versailles**, « FITNESS PARK HYROX PARIS ». Pause technique les 14 et 15. **7 jours — le plus gros événement HYROX de France**, devant Lyon et Bordeaux (5 jours) |
 | Lyon 2027 | — | non confirmé au 6 août 2026, annonce attendue |
 | 2e édition parisienne 2027 | — | non confirmée |
+
+**Course européenne à connaître** — beaucoup d'athlètes français y vont :
+
+| Ville | Dates | Lieu et note |
+|---|---|---|
+| **Rome** | **24 → 27 sept. 2026** | Fiera di Roma, 2e édition. **Piste de course en extérieur** : les 8 km se courent dehors. C'est une singularité, et un sujet de contenu en soi |
+
+⚠️ **Rome se termine le 27 septembre, Bordeaux commence le 30.** Trois jours d'écart. Pour un athlète
+qui fait les deux, ce ne sont pas deux campagnes mais **un seul bloc** — les fenêtres J-56 → J+7 se
+recouvrent presque intégralement. Voir §6.
 
 **Jalons de saison**
 
@@ -157,6 +167,25 @@ jamais en plein bloc d'entraînement, quand l'audience est au plus bas.
 **Déclencheur bonus** : le jour d'ouverture des inscriptions d'une course française est un événement
 de communauté en soi (elles partent en quelques heures, la liste d'attente fait plusieurs dizaines de
 milliers de personnes). Un contenu ce jour-là capte une intention de recherche massive.
+
+### Deux courses rapprochées — ne pas empiler deux campagnes
+
+Quand deux courses tombent à moins de trois semaines l'une de l'autre (cas Rome → Bordeaux :
+trois jours), les deux campagnes ne se juxtaposent pas, elles **fusionnent en un seul récit**.
+Empiler deux fois douze contenus sature le compte et brouille le fil.
+
+La structure qui marche :
+
+| Séquence | Contenu |
+|---|---|
+| Avant | **Une seule campagne d'annonce**, dont le sujet est le doublé lui-même — « deux courses en une semaine » est un angle plus fort que chacune prise à part |
+| Course 1 | Direct, puis J+1 résultat brut |
+| Entre les deux | **La récupération devient le contenu** : ce qu'on fait de ses jambes en 72 h. C'est un sujet que personne ne traite et que tout le monde se pose |
+| Course 2 | Direct, puis J+1 résultat brut |
+| Après | **Une seule analyse, comparative** : les deux jeux de splits côte à côte. C'est le meilleur contenu du bloc, et il n'existe que grâce au doublé |
+
+Le bloc produit environ 16 contenus au lieu de 24 pour deux campagnes séparées — moins de
+production, plus de récit.
 
 ## 7. Vocabulaire — à employer tel quel
 

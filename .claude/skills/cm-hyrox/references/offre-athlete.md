@@ -96,7 +96,55 @@ Si le test dépasse 40 min par reel, dans cet ordre :
 2. Passer à 1 reel + 1 carrousel **en gardant 89 €**.
 3. **Monter le prix à 109 €** plutôt que dégrader l'offre.
 
-## 4. Volume cible et charge
+## 4. La rémunération variable — apport de sponsors et dotation
+
+**C'est la ligne qui rend la grille athlète viable, et elle ne figure dans aucun palier.**
+
+À 49-179 €/mois, l'abonnement paie la production, pas la marge. Un athlète au palier Salle rapporte
+1 068 € sur l'année. Un seul contrat de partenariat apporté peut peser autant, et il ne coûte pas
+d'heures supplémentaires : **il est le produit du travail de tunnel B qu'on fait déjà**
+(`roi-athlete.md`) — le dossier de sponsoring, les chiffres livrés, la crédibilité construite.
+
+Le principe, tel qu'arrangé avec Pierre Huiban et destiné à se dupliquer sur les nouveaux clients :
+
+> un pourcentage sur le contrat quand un sponsor est trouvé, et une part de la dotation
+
+C'est un bon modèle — il aligne les intérêts : on est payé pour rendre l'athlète sponsorisable, ce
+qui est exactement l'objet du moteur. Mais il ne tient que s'il est écrit. Six paramètres à fixer une
+fois, puis à recopier dans chaque contrat.
+
+| Paramètre | À trancher |
+|---|---|
+| **Le taux** | Sur le contrat sponsor. L'usage en apport d'affaires se situe autour de 10 à 20 % de la première année — **à recouper, et à reporter ici une fois l'accord Pierre formalisé** |
+| **L'assiette** | Première année seulement, ou toute la durée ? Les renouvellements comptent-ils ? La première année seule est le plus simple à défendre |
+| **Le déclencheur** | Qu'est-ce qu'un sponsor « trouvé » ? La règle simple et juste : **tout partenariat signé pendant la durée du contrat CM**, introduction directe ou non — puisque c'est le contenu qui rend sponsorisable |
+| **La dotation** | Quelle part, et valorisée comment ? Au prix public, sinon le calcul se rediscute chaque fois |
+| **La survie** | Le variable court-il après la fin du contrat CM ? L'usage : 12 mois sur les contrats signés pendant la mission |
+| **Le veto** | L'athlète refuse une marque sans avoir à se justifier. Non négociable |
+
+### Les deux conflits d'intérêts, à nommer avant qu'ils se voient
+
+Ce modèle crée deux tensions réelles. Les ignorer est ce qui le fera mal tourner.
+
+**Le prestataire payé au sponsor a intérêt à museler l'athlète.** Le pilier H4 — les prises de
+position clivantes — est ce qui fait la portée, et c'est aussi ce qui rend un athlète moins
+confortable pour une marque. Garde-fou : **l'arbitrage des opinions appartient à l'athlète, il est
+écrit dans sa fiche à l'onboarding, et il ne se renégocie pas en cours de mission** — surtout pas
+au moment où un contrat se signe.
+
+**Le prestataire a intérêt à présenter n'importe quelle marque.** Garde-fous : droit de veto sans
+justification, et **règle absolue de ne jamais présenter une marque que l'athlète ne consomme pas
+lui-même.** Un partenariat que l'audience sent faux coûte plus cher en crédibilité que la commission
+ne rapporte — et la crédibilité est le seul actif qu'on construit.
+
+### À poser à l'expert-comptable
+
+Deux points, à ajouter à la liste de questions existante :
+
+- Le pourcentage sur contrat sponsor est un **apport d'affaires** : clause écrite, facturation, TVA.
+- La part de dotation est un **avantage en nature** : traitement fiscal, valorisation, déclaration.
+
+## 5. Volume cible et charge
 
 Mix **10 Base + 15 Salle + 8 Compétiteur = 33 athlètes** :
 
