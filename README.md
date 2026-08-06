@@ -50,6 +50,7 @@ CM-BTOC/
     ├── SKILL.md                      moteur, étapes 0 → 9
     └── references/
         ├── dispositif.md             ce qu'on livre, ce qui est automatisé, le budget temps
+        ├── persona-et-voix.md        extraction de la voix, modèle de données, linter d'interdits
         ├── saison-hyrox.md           calendrier 26/27, format, charges, règles, campagne de course
         ├── offre-athlete.md          échelle 49/89/179, contrainte de montage   ⚠️ non validée
         ├── production-media.md       triptyque de tournage, captation de course, droits
@@ -57,8 +58,12 @@ CM-BTOC/
         ├── playbook-athlete.md       onboarding, interdits réglementaires, qualité, délégation
         ├── vitrine.md                protocole du client vitrine : T0, verrous, écriture du cas
         ├── metricool-api.md          plomberie — à tenir synchronisée avec cm-metricool
-        └── clients/
-            └── pierre-huiban.md      athlète n° 1, et client vitrine
+        ├── clients/
+        │   └── pierre-huiban.md      athlète n° 1, et client vitrine
+        ├── templates/
+        │   └── dossier-athlete.md    LE document à envoyer : onboarding + rituel de suivi
+        └── athletes/
+            └── pierre-huiban/        données structurées : profil.json, courses.json
 ```
 
 ## Portefeuille

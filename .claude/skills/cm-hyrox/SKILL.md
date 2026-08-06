@@ -279,6 +279,9 @@ l'athlète, la validation avant publication, le reporting.
 | Fichier | Quand le lire |
 |---|---|
 | `references/dispositif.md` | **Ce qu'on livre concrètement, ce qui est automatisé, le budget temps par athlète** |
+| `references/persona-et-voix.md` | Extraire une voix et un mantra, modèle de données, chaîne de génération, linter d'interdits |
+| `templates/dossier-athlete.md` | **Le document à envoyer** — onboarding et rituel de suivi |
+| `athletes/<slug>/` | Les données structurées d'un athlète : `profil.json`, `voix.md`, `courses.json`, `semaines/` |
 | `references/saison-hyrox.md` | Caler un calendrier, monter une campagne de course, vérifier un format, une charge ou une règle |
 | `references/offre-athlete.md` | Chiffrer une proposition, définir un palier, arbitrer une demande hors forfait |
 | `references/production-media.md` | Construire une liste de plans, cadrer un batch en salle, filmer une course, gérer les droits |
