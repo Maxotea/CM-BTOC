@@ -61,7 +61,9 @@ CM-BTOC/
         ├── clients/
         │   └── pierre-huiban.md      athlète n° 1, et client vitrine
         ├── templates/
-        │   └── dossier-athlete.md    LE document à envoyer : onboarding + rituel de suivi
+        │   ├── creer-formulaires.gs  génère les 2 formulaires Google depuis le schéma
+        │   ├── dossier-athlete.md    la source et la référence du dispositif
+        │   └── Dossier-Athlete-OTEA.pdf   version imprimable
         └── athletes/
             └── pierre-huiban/        données structurées : profil.json, courses.json
 ```

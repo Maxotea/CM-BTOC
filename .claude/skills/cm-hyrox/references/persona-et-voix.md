@@ -3,7 +3,8 @@
 Comment on obtient une voix d'athlète exploitable, et comment ce qu'on obtient **entre directement
 dans l'outil** au lieu de dormir dans un document.
 
-Document à envoyer : `../templates/dossier-athlete.md`.
+Ce qu'on envoie : le **formulaire**, généré par `../templates/creer-formulaires.gs`.
+Le document `../templates/dossier-athlete.md` en est la source et la référence.
 
 ## 1. La méthode : on ne demande jamais la chose qu'on veut
 
@@ -168,10 +169,25 @@ C'est le même principe que `carrousel.py`, qui échoue plutôt que de livrer un
 
 ## 7. Correspondance document → champs
 
-Le document envoyé (`../templates/dossier-athlete.md`) est **purement client** : il ne contient
-aucune annexe et s'envoie tel quel. La correspondance avec le schéma vit ici.
+**Le formulaire n'est plus construit à la main : il est généré depuis le schéma**, par
+`../templates/creer-formulaires.gs`. Le tableau `SCHEMA` du script porte à la fois le libellé de
+chaque question et le champ `profil.json` correspondant — les deux ne peuvent donc pas diverger.
 
-**Le formulaire se construit à partir de ce schéma, jamais l'inverse.**
+C'est le point qui décide de tout : **les libellés de questions deviennent les en-têtes de colonnes
+de la feuille de réponses.** S'ils dérivent, l'import casse. Un athlète de plus = une exécution du
+script, pas une recopie.
+
+Deux formulaires, deux destinations :
+
+| Formulaire | Quand | Alimente |
+|---|---|---|
+| **Dossier Athlète** | une fois, à l'onboarding | `profil.json` |
+| **Point hebdo** | chaque dimanche, 30 s | `semaines/<ISO>.json` |
+
+Le second est le vrai gain : le message du dimanche cesse d'être un texte libre à retranscrire et
+devient **une ligne de feuille de calcul directement exploitable**.
+
+Table de correspondance ci-dessous — elle reste ici pour référence, mais la source est le script.
 
 | Question du document | Champ | Fichier |
 |---|---|---|

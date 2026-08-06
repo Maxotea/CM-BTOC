@@ -1,5 +1,10 @@
 # Dossier Athlète — OTEA
 
+> **Ce fichier est la référence, pas le support d'envoi.** Ce qu'on envoie à l'athlète, c'est le
+> **formulaire** généré par `creer-formulaires.gs` — un PDF ne se remplit pas. Ce document sert à
+> trois choses : décrire le dispositif, préparer l'entretien oral, et servir de source au formulaire.
+> Le PDF `Dossier-Athlete-OTEA.pdf` en est la version imprimable.
+
 ## Pourquoi ce document
 
 Pour que ce qu'on publie sur ton compte sonne comme toi, et pas comme une agence.
