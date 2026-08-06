@@ -12,7 +12,7 @@ Pour que ce qu'on publie sur ton compte sonne comme toi, et pas comme une agence
 Tout ce qui suit sert à une seule chose : écrire à ta place sans jamais te trahir. Tes mots, tes
 chiffres, tes prises de position — pas les nôtres.
 
-**Ça te prend 20 minutes de formulaire et 15 minutes de vocal. Une fois.** Ensuite, cinq lignes par
+**Dix minutes de formulaire, dix minutes d'appel. Une fois.** Ensuite, cinq lignes par
 semaine suffisent.
 
 ---
@@ -50,7 +50,7 @@ semaine suffisent.
 
 ## Partie 2 — Ta voix
 
-*(note vocale — 15 minutes, réponds à voix haute, ne rédige pas)*
+*(à l'oral, au téléphone — réponds à voix haute, ne rédige pas)*
 
 Parle comme tu parlerais à un pote. Ne cherche pas la bonne formulation : on veut la tienne.
 Prends les questions dans l'ordre, il est fait exprès.
@@ -73,7 +73,7 @@ Prends les questions dans l'ordre, il est fait exprès.
 
 ## Partie 3 — Ceux qui te suivent
 
-*(note vocale — 5 minutes)*
+*(à l'oral, dans le même appel)*
 
 1. **Décris la dernière personne qui t'a écrit en DM.** Qui c'est, ce qu'elle voulait.
 2. **Les trois questions qu'on te pose le plus souvent.** Mot pour mot si tu t'en souviens.

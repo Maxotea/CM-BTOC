@@ -53,7 +53,7 @@ const SCHEMA_DOSSIER = [
 
   { champ: 'historique',              titre: 'Tes trois dernières courses',           type: 'long', requis: true,
     aide: 'Une par ligne : ville, date, temps, et en une phrase comment ça s\'est passé.' },
-  { champ: 'chiffres.splits',         titre: 'Tes splits, si tu les as gardés',       type: 'long',
+  { champ: 'chiffres.splits',         titre: 'Tes splits, ou séances types si tu les as gardés', type: 'long',
     aide: 'Lien, capture d\'écran, copier-coller — peu importe le format. Ce sont eux qui alimentent tes contenus chiffrés.' },
   { champ: 'chiffres.pb',             titre: 'Ton record personnel, et où il a été fait', type: 'court' },
 
@@ -95,11 +95,11 @@ const SCHEMA_DOSSIER = [
 
   { type: 'titre', titre: 'Dernière étape — et elle ne se fait pas par écrit',
     aide: 'Il reste la partie la plus importante : ta voix.\n\n'
-        + 'Huit questions, quinze minutes, à l\'oral — pas par écrit. Quand on écrit, on se corrige, '
+        + 'Quelques questions, à l\'oral — pas par écrit. Quand on écrit, on se corrige, '
         + 'on lisse, et on perd exactement ce qu\'on cherche : ta façon de parler.\n\n'
         + 'On t\'appelle pour la faire ensemble. Réponds à la question ci-dessous et on cale ça.' },
 
-  { champ: 'dispo_appel',             titre: 'Quand es-tu joignable 20 minutes cette semaine ?', type: 'long', requis: true,
+  { champ: 'dispo_appel',             titre: 'Quand es-tu joignable 10 minutes cette semaine ?', type: 'long', requis: true,
     aide: 'Deux ou trois créneaux suffisent.' }
 ];
 
@@ -223,3 +223,108 @@ function exporterFormulaires() {
     });
   });
 }
+
+// ---------------------------------------------------------------------------
+// IMPORT — de la feuille de réponses vers le dépôt
+// ---------------------------------------------------------------------------
+
+const SHEET_DOSSIER = '1J25NjJPJpF01qEiMIcNjDa5Ht3547HUgU_M8cavu57o';
+const SHEET_HEBDO   = '1FreB-RK645deVVshBfj3-M7WL20NHkVIFF_J0T15zWY';
+
+/**
+ * Lit la DERNIÈRE réponse au Dossier Athlète et imprime le profil.json correspondant.
+ * À copier dans athletes/<slug>/profil.json du dépôt CM-BTOC.
+ *
+ * Les champs que le formulaire ne collecte pas — mantra, tics, DA, blog_id — ne sont pas
+ * inventés : ils sortent à null et se remplissent à la main après l'entretien oral.
+ */
+function genererProfil() {
+  const profil = lireDerniereReponse_(SHEET_DOSSIER, SCHEMA_DOSSIER);
+  if (!profil) { Logger.log('Aucune réponse pour le moment.'); return; }
+
+  profil.slug = slugifier_(profil.nom || 'athlete');
+  profil.blog_id = null;
+  profil.mantra = null;
+  profil.tics = [];
+  profil.da = null;
+  profil.palier = null;
+  profil._source = 'Dossier Athlète — réponse du ' + profil._horodatage;
+  profil._a_completer = ['blog_id', 'mantra', 'tics', 'da',
+                         'persona (entretien oral)', 'questions_recurrentes (entretien oral)'];
+
+  Logger.log(JSON.stringify(profil, null, 2));
+}
+
+/**
+ * Lit la dernière réponse au Point hebdo et imprime le semaines/<ISO>.json correspondant.
+ */
+function genererSemaine() {
+  const semaine = lireDerniereReponse_(SHEET_HEBDO, SCHEMA_HEBDO);
+  if (!semaine) { Logger.log('Aucune réponse pour le moment.'); return; }
+
+  const d = new Date(semaine._horodatage);
+  semaine.semaine = d.getUTCFullYear() + '-W' + numeroSemaine_(d);
+  Logger.log(JSON.stringify(semaine, null, 2));
+}
+
+function lireDerniereReponse_(sheetId, schema) {
+  const sheet = SpreadsheetApp.openById(sheetId).getSheets()[0];
+  const lignes = sheet.getDataRange().getValues();
+  if (lignes.length < 2) { return null; }
+
+  const entetes = lignes[0];
+  const derniere = lignes[lignes.length - 1];
+
+  // index par libellé, puisque c'est le libellé qui fait le lien entre le formulaire et le schéma
+  const parLibelle = {};
+  entetes.forEach(function (t, i) { parLibelle[String(t).trim()] = i; });
+
+  const out = { _horodatage: formater_(derniere[0]) };
+  const manquants = [];
+
+  schema.forEach(function (q) {
+    if (!q.champ) { return; }
+    const i = parLibelle[q.titre.trim()];
+    if (i === undefined) { manquants.push(q.titre); return; }
+    poser_(out, q.champ, formater_(derniere[i]));
+  });
+
+  if (manquants.length) {
+    Logger.log('/* ATTENTION — libellés du schéma absents de la feuille, donc non importés :');
+    manquants.forEach(function (m) { Logger.log(' - ' + m); });
+    Logger.log('   Le formulaire a été modifié sans recaler le SCHEMA. */');
+  }
+  return out;
+}
+
+function poser_(obj, chemin, valeur) {
+  const parts = chemin.split('.');
+  var cur = obj;
+  for (var i = 0; i < parts.length - 1; i++) {
+    if (!cur[parts[i]]) { cur[parts[i]] = {}; }
+    cur = cur[parts[i]];
+  }
+  cur[parts[parts.length - 1]] = valeur;
+}
+
+function formater_(v) {
+  if (v === '' || v === null || v === undefined) { return null; }
+  if (Object.prototype.toString.call(v) === '[object Date]') {
+    return Utilities.formatDate(v, 'Europe/Paris', 'yyyy-MM-dd');
+  }
+  return String(v).trim();
+}
+
+function slugifier_(s) {
+  return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+function numeroSemaine_(d) {
+  const t = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));
+  t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
+  const debut = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
+  const n = Math.ceil((((t - debut) / 86400000) + 1) / 7);
+  return (n < 10 ? '0' : '') + n;
+}
+
