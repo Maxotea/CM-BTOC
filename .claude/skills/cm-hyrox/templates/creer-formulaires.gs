@@ -203,3 +203,23 @@ function afficherCorrespondance() {
     Logger.log(q.champ + '  ←  ' + q.titre);
   });
 }
+
+/**
+ * Relit les formulaires VIVANTS et recrache leur état réel.
+ *
+ * À exécuter après toute retouche manuelle dans l'interface Google Forms. Un libellé modifié à la
+ * main devient un en-tête de colonne modifié dans la feuille de réponses : si le SCHEMA ci-dessus
+ * n'est pas recalé dessus, l'import vers profil.json cherche une colonne qui n'existe plus.
+ *
+ * Sortie : les deux liens publics, et la liste numérotée des questions telles qu'elles sont.
+ */
+function exporterFormulaires() {
+  [['DOSSIER', '1mH9WpKs82c-hSgKV3kT72KCP36vOZhj_PZ7bW8f0tj4'],
+   ['HEBDO',   '1eNeUNxUzUz-ggGbi8o-0b4MZ1D9dmrXhElb2Aex6kvA']].forEach(function (f) {
+    var form = FormApp.openById(f[1]);
+    Logger.log('=== ' + f[0] + ' === ' + form.shortenFormUrl(form.getPublishedUrl()));
+    form.getItems().forEach(function (it, i) {
+      Logger.log((i + 1) + ' | ' + it.getType() + ' | ' + it.getTitle());
+    });
+  });
+}

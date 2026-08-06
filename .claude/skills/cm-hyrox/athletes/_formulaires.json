@@ -1,0 +1,29 @@
+{
+  "_note": "Les deux formulaires du dispositif, créés le 06/08/2026 par templates/creer-formulaires.gs. Communs à tous les athlètes. Le lien 'public' est celui qu'on envoie ; le lien 'edition' ne se transmet jamais à un athlète.",
+
+  "dossier": {
+    "titre": "Dossier Athlète — OTEA",
+    "public": "https://forms.gle/ahBDrTegxhhNCYU76",
+    "edition": "https://docs.google.com/forms/d/1mH9WpKs82c-hSgKV3kT72KCP36vOZhj_PZ7bW8f0tj4/edit",
+    "form_id": "1mH9WpKs82c-hSgKV3kT72KCP36vOZhj_PZ7bW8f0tj4",
+    "reponses": "https://docs.google.com/spreadsheets/d/1J25NjJPJpF01qEiMIcNjDa5Ht3547HUgU_M8cavu57o/edit",
+    "sheet_id": "1J25NjJPJpF01qEiMIcNjDa5Ht3547HUgU_M8cavu57o",
+    "destination": "athletes/<slug>/profil.json",
+    "frequence": "une fois, à l'onboarding"
+  },
+
+  "hebdo": {
+    "titre": "Point hebdo — OTEA",
+    "public": null,
+    "edition": "https://docs.google.com/forms/d/1eNeUNxUzUz-ggGbi8o-0b4MZ1D9dmrXhElb2Aex6kvA/edit",
+    "form_id": "1eNeUNxUzUz-ggGbi8o-0b4MZ1D9dmrXhElb2Aex6kvA",
+    "reponses": "https://docs.google.com/spreadsheets/d/1FreB-RK645deVVshBfj3-M7WL20NHkVIFF_J0T15zWY/edit",
+    "sheet_id": "1FreB-RK645deVVshBfj3-M7WL20NHkVIFF_J0T15zWY",
+    "destination": "athletes/<slug>/semaines/<ISO>.json",
+    "frequence": "chaque dimanche soir"
+  },
+
+  "page_publique": "https://claude.ai/code/artifact/a0aa0762-1e97-45d7-9a9e-7d56f4f21ca7",
+
+  "_desynchronisation": "Le formulaire Dossier a été relu et rectifié à la main le 06/08 après sa génération. Les libellés vivants n'ont pas encore été re-versés dans le SCHEMA de creer-formulaires.gs — donc les en-têtes de la feuille de réponses peuvent ne plus correspondre. Exécuter `exporterFormulaires` et recaler le SCHEMA AVANT d'écrire l'import."
+}
