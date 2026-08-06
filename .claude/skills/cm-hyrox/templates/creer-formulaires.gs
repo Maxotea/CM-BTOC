@@ -17,9 +17,10 @@
  *   diverger. Et un athlète de plus = une exécution de plus, pas une recopie.
  *
  * CE QUI N'EST VOLONTAIREMENT PAS DANS LE FORMULAIRE
- *   Les parties « Ta voix » et « Ceux qui te suivent » du Dossier Athlète. Elles se font à l'oral.
- *   Un athlète qui écrit se corrige, lisse ses tournures et supprime exactement ce qu'on cherche.
- *   Le formulaire se contente de fixer le rendez-vous. Voir references/persona-et-voix.md, §2.
+ *   La voix et le persona. Ils passent par un FACECAM de 3 minutes que l'athlète tourne seul :
+ *   cinq questions, une seule prise, jamais publié. Un athlète qui écrit se corrige et lisse ses
+ *   tournures ; une prise unique l'en empêche. Le formulaire porte la consigne et enregistre le
+ *   mode d'envoi — il ne collecte pas les réponses. Voir references/persona-et-voix.md, §2.
  */
 
 // ---------------------------------------------------------------------------
@@ -93,15 +94,34 @@ const SCHEMA_DOSSIER = [
   { champ: 'materiel.autorisation',   titre: 'As-tu le droit de filmer dans ta salle ?', type: 'choix',
     choix: ['Oui', 'Non', 'Je dois vérifier'] },
 
-  { type: 'titre', titre: 'Dernière étape — et elle ne se fait pas par écrit',
-    aide: 'Il reste la partie la plus importante : ta voix.\n\n'
-        + 'Quelques questions, à l\'oral — pas par écrit. Quand on écrit, on se corrige, '
-        + 'on lisse, et on perd exactement ce qu\'on cherche : ta façon de parler.\n\n'
-        + 'On t\'appelle pour la faire ensemble — sauf si on se connaît déjà assez pour que je '
-        + 'te la remplisse et que tu corriges.' },
+  { type: 'titre', titre: 'Dernière étape — 3 minutes de vidéo',
+    aide: 'Il reste la partie la plus importante : ta voix. Elle ne se fait pas par écrit — quand '
+        + 'on écrit, on se corrige, on lisse, et on perd exactement ce qu\'on cherche.\n\n'
+        + 'Tu lances l\'enregistrement sur ton téléphone, tu réponds aux cinq questions à la '
+        + 'suite, tu envoies. Pas de rendez-vous à caler.\n\n'
+        + 'LES QUATRE RÈGLES — elles comptent plus que tes réponses :\n'
+        + '1. UNE SEULE PRISE. Tu ne recommences pas. Si tu bafouilles, tu continues : c\'est '
+        + 'exactement ce qu\'on veut.\n'
+        + '2. Tu ne coupes pas entre les questions, tu enchaînes.\n'
+        + '3. 3 minutes en tout. Ne prépare rien.\n'
+        + '4. Cette vidéo ne sera JAMAIS publiée. Elle sert à nous, pour apprendre à écrire '
+        + 'comme toi.\n\n'
+        + 'Ce n\'est pas une présentation : on ne veut pas que tu te vendes, on veut t\'entendre '
+        + 'parler normalement. Téléphone vertical, cadre poitrine, là où tu es.\n\n'
+        + 'LES CINQ QUESTIONS\n'
+        + '1. Au sixième kilomètre, quand ça fait vraiment mal — qu\'est-ce que tu te dis dans ta '
+        + 'tête ? Les mots exacts, même s\'ils sont bêtes ou grossiers.\n'
+        + '2. Qu\'est-ce qui t\'énerve dans le milieu ? Sois franc, rien ne sort d\'ici.\n'
+        + '3. Sur quoi tout le monde se trompe, d\'après toi ?\n'
+        + '4. Le jour où tu as failli arrêter — c\'était quand, et pourquoi tu as continué ?\n'
+        + '5. Décris la dernière personne qui t\'a écrit en DM. Qui c\'est, ce qu\'elle voulait.' },
 
-  { champ: 'dispo_appel',             titre: 'Quand es-tu joignable 10 minutes cette semaine ?', type: 'long',
-    aide: 'Deux ou trois créneaux suffisent. Laisse vide si on a déjà calé ça ensemble.' }
+  { champ: 'facecam_envoi',           titre: 'Comment tu nous envoies ta vidéo ?', type: 'choix', requis: true,
+    choix: ['Je l\'envoie par WhatsApp tout de suite', 'Je la dépose dans le dossier partagé',
+            'Je la fais dans les 48 h'],
+    aide: 'Le plus simple est le mieux. Une vidéo de téléphone brute, sans montage.' },
+  { champ: 'facecam_note',            titre: 'Un truc à nous dire sur cet exercice ?', type: 'long',
+    aide: 'Optionnel. Si tu détestes te filmer, dis-le — on adapte le dispositif.' }
 ];
 
 const SCHEMA_HEBDO = [

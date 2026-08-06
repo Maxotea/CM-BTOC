@@ -59,6 +59,10 @@ vraiment : **ne plus avoir à y penser.**
 
 La phrase de vente : **« six minutes par séance, un message par semaine, une validation par mois. »**
 
+Et une seule chose avant de démarrer : **un facecam de 3 minutes, cinq questions, une prise.** Il
+sert autant à nous qu'à lui — c'est là qu'il découvre l'exercice, et là qu'on découvre s'il le
+tiendra (`persona-et-voix.md`, §2 bis).
+
 Et le corollaire honnête, à dire aussi : **s'il ne dépose rien, le socle continue de tourner** — il
 n'aura simplement pas de reel ni de photo de lui. Aucun compte ne meurt parce que l'athlète a eu
 une semaine chargée.

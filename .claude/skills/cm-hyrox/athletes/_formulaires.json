@@ -40,5 +40,12 @@
     "genererSemaine": "lit la dernière réponse au Hebdo → semaines/<ISO>.json",
     "exporterFormulaires": "relit les formulaires vivants — à lancer après toute retouche manuelle",
     "note": "Les fonctions vivent dans templates/creer-formulaires.gs et tournent dans le projet Apps Script. Elles n'inventent jamais un champ absent du formulaire : mantra, tics, DA et blog_id sortent à null et se remplissent après l'entretien oral."
+  },
+  "_facecam": {
+    "date": "2026-08-06",
+    "changement": "L'entretien téléphonique de 10 min est remplacé par un facecam de 3 min tourné par l'athlète : cinq questions, une seule prise, jamais publié.",
+    "pourquoi": "Asynchrone donc scalable ; teste l'aptitude au tournage avant la signature ; le délai de livraison prédit la régularité du rituel ; remplit materiel.* par la preuve.",
+    "piege": "Ne jamais demander « une présentation » — l'athlète livre alors une publicité pour lui-même, lissée en quatre prises. On demande cinq réponses en une prise.",
+    "a_repercuter_dans_le_formulaire_vivant": "La dernière section et ses deux champs (facecam_envoi, facecam_note) remplacent dispo_appel. Relancer creerFormulaires sur un nouveau formulaire, ou éditer la section à la main puis exporterFormulaires pour recaler."
   }
 }

@@ -3,7 +3,8 @@
 Comment on obtient une voix d'athlète exploitable, et comment ce qu'on obtient **entre directement
 dans l'outil** au lieu de dormir dans un document.
 
-Ce qu'on envoie : le **formulaire**, généré par `../templates/creer-formulaires.gs`.
+Ce qu'on envoie : le **formulaire**, généré par `../templates/creer-formulaires.gs`. Il porte
+aussi la consigne du facecam.
 Le document `../templates/dossier-athlete.md` en est la source et la référence.
 
 ## 1. La méthode : on ne demande jamais la chose qu'on veut
@@ -26,15 +27,66 @@ utilisable en trente secondes, là où « quelle est ta cible » ne donne rien.
 **Le mantra se relève, il ne s'invente pas.** Celui de Pierre Huiban — *LFG*, jamais expliqué —
 n'aurait été produit par aucune question directe. Il s'est relevé dans son usage.
 
-## 2. Pourquoi le vocal, et où l'imposer
+## 2. Le facecam — pourquoi ni l'écrit ni l'appel
 
-Le découpage du document n'est pas cosmétique :
+Le découpage n'est pas cosmétique :
 
 - **Faits → formulaire.** Dates, charges, `@` de sponsors, créneaux de séance. Ça se saisit et ça
   se relit vite.
-- **Voix et persona → note vocale, jamais formulaire.** Un athlète qui écrit se corrige, lisse ses
-  tournures et supprime exactement ce qu'on cherche. Un athlète qui parle laisse ses tics, ses
-  raccourcis, ses jurons. C'est ça, la matière.
+- **Voix et persona → un facecam de 3 minutes que l'athlète tourne seul.** Jamais l'écrit : un
+  athlète qui écrit se corrige, lisse ses tournures et supprime exactement ce qu'on cherche.
+
+### Le piège de formulation, et il décide de tout
+
+**Ne jamais demander « une présentation ».** Un athlète à qui on demande de se présenter face
+caméra livre une publicité pour lui-même : posture, phrases préparées, quatre prises et il garde la
+plus propre. C'est le discours lissé de l'écrit, avec en plus le coût du tournage.
+
+On demande **cinq réponses filmées en une seule prise**. La consigne fait tout le travail :
+
+| Règle | Ce qu'elle empêche |
+|---|---|
+| **Une seule prise, tu ne recommences pas** | Le tri entre les prises, donc le lissage |
+| **Tu ne coupes pas entre les questions** | Le montage mental entre deux réponses |
+| **3 minutes, ne prépare rien** | Le script écrit à l'avance |
+| **Cette vidéo ne sera jamais publiée** | Le jeu d'acteur. S'il la croit publiable, il joue |
+
+La quatrième est la plus importante et c'est celle qu'on oublie.
+
+### Ce que le facecam apporte que l'appel n'apportait pas
+
+L'appel restait supérieur sur un point — la dynamique de conversation, où l'on relance et où la
+personne oublie qu'elle est enregistrée. Les quatre règles ci-dessus compensent l'essentiel. Et le
+facecam gagne sur quatre axes que l'appel n'avait pas :
+
+1. **C'est un test d'aptitude, pas une collecte.** Le goulot n°1 du moteur est l'athlète qui ne
+   tourne pas. Le facecam le révèle **avant la signature**, gratuitement.
+2. **Le délai de livraison prédit la régularité.** Voir §2 bis — c'est le meilleur signal de
+   qualification du dispositif.
+3. **Il remplit `materiel.*` par la preuve.** On voit son cadre, on entend sa salle, on sait s'il a
+   un micro. Plus besoin de le lui demander.
+4. **Il est asynchrone.** Zéro créneau à caler, zéro relance de calendrier. L'appel ne passe pas
+   l'échelle de 33 athlètes ; le facecam si.
+
+Et il produit un rush au lieu d'un compte rendu.
+
+## 2 bis. Le délai de livraison est le signal de qualification
+
+À noter dans la fiche, systématiquement :
+
+| Délai de livraison du facecam | Ce que ça prédit |
+|---|---|
+| **< 48 h** | Il tiendra le rituel du dimanche. Client sain |
+| **2 à 5 jours** | Il tiendra avec un rappel automatique. Normal |
+| **> 1 semaine, après relances** | **Il ne tiendra pas le rituel.** Le dire avant de produire, pas au troisième mois |
+| **Jamais livré** | Ne pas produire. Un athlète qui ne fait pas 3 minutes à l'onboarding n'en fera pas 6 par séance pendant un an |
+
+C'est gratuit, c'est précoce, et ça coûte moins cher qu'un client qu'on découvre inactif au bout de
+trois mois de production.
+
+**Ce qu'on regarde aussi dans la vidéo, au-delà des réponses** : est-il à l'aise face caméra ? La
+réponse décide du mix — un athlète mal à l'aise bascule sur le carrousel et la voix off, et on ne
+lui vend pas un palier à 16 reels.
 
 À la transcription, relever et stocker tels quels : **les tics de langage, les mots récurrents, les
 formules de transition, la façon de dire un chiffre.** Ce sont eux qui rendent une légende
@@ -42,9 +94,9 @@ reconnaissable, pas le sujet.
 
 ## 3. Les cinq questions, et ce que chacune produit
 
-L'entretien tient en **dix minutes annoncées**, donc en **cinq questions**. C'est une contrainte de
-tenue de promesse avant d'être une contrainte de temps : un athlète qui a dit oui à dix minutes et
-se retrouve à trente en garde le souvenir, et c'est le premier signal qu'un accompagnement va être
+Le facecam tient en **3 minutes annoncées**, donc en **cinq questions**. C'est une contrainte de
+tenue de promesse avant d'être une contrainte de temps : un athlète qui a dit oui à trois minutes et
+se retrouve à quinze en garde le souvenir, et c'est le premier signal qu'un accompagnement va être
 lourd.
 
 C'est la discipline du document : **aucune question qui ne produise pas de contenu.**
@@ -58,7 +110,9 @@ C'est la discipline du document : **aucune question qui ne produise pas de conte
 | 5 | La dernière personne qui lui a écrit en DM | Le persona, en une ligne utilisable |
 
 L'ordre est délibéré : on ouvre sur le concret et le physique, on passe aux opinions une fois qu'il
-est lancé, et on garde l'intime pour la fin — quand la confiance est faite.
+est lancé, et on garde l'intime pour la fin — quand il a oublié la caméra. En prise unique, cet
+ordre compte encore plus qu'au téléphone : les trente premières secondes sont toujours les plus
+raides, donc on n'y met jamais la question qui rapporte le plus.
 
 ### Ce qui a été coupé, et où on le récupère
 

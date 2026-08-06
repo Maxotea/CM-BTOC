@@ -2,7 +2,7 @@
 
 > **Ce fichier est la référence, pas le support d'envoi.** Ce qu'on envoie à l'athlète, c'est le
 > **formulaire** généré par `creer-formulaires.gs` — un PDF ne se remplit pas. Ce document sert à
-> trois choses : décrire le dispositif, préparer l'entretien oral, et servir de source au formulaire.
+> trois choses : décrire le dispositif, porter la consigne du facecam, et servir de source au formulaire.
 > Le PDF `Dossier-Athlete-OTEA.pdf` en est la version imprimable.
 
 ## Pourquoi ce document
@@ -12,7 +12,7 @@ Pour que ce qu'on publie sur ton compte sonne comme toi, et pas comme une agence
 Tout ce qui suit sert à une seule chose : écrire à ta place sans jamais te trahir. Tes mots, tes
 chiffres, tes prises de position — pas les nôtres.
 
-**Dix minutes de formulaire, dix minutes d'appel. Une fois.** Ensuite, cinq lignes par
+**Dix minutes de formulaire, trois minutes de vidéo. Une fois.** Ensuite, cinq lignes par
 semaine suffisent.
 
 ---
@@ -48,35 +48,39 @@ semaine suffisent.
 
 ---
 
-## Partie 2 — Ta voix
+## Partie 2 — Ta voix, en vidéo
 
-*(à l'oral, au téléphone — réponds à voix haute, ne rédige pas)*
+*(3 minutes, seul avec ton téléphone — pas de rendez-vous à caler)*
 
-**Quatre questions.** Parle comme tu parlerais à un pote — ne cherche pas la bonne formulation,
-on veut la tienne. Prends-les dans l'ordre, il est fait exprès.
+Tu lances l'enregistrement, tu réponds aux cinq questions à la suite, tu envoies. C'est tout.
+
+**Les quatre règles, et elles comptent plus que les réponses :**
+
+- **Une seule prise.** Tu ne recommences pas. Si tu bafouilles, si tu cherches tes mots, si tu
+  te répètes — tu continues. C'est exactement ce qu'on veut.
+- **Tu ne coupes pas** entre les questions. Tu enchaînes.
+- **3 minutes en tout.** Ne prépare rien à l'avance.
+- **Cette vidéo ne sera jamais publiée.** Elle ne sert qu'à nous, pour apprendre à écrire comme
+  toi. Personne d'autre ne la verra.
+
+**Ce n'est pas une présentation.** On ne veut pas que tu te vendes, on veut t'entendre parler
+normalement. Une prise brute vaut dix fois mieux qu'une belle prise.
+
+Téléphone vertical, posé ou tenu, cadre poitrine. Là où tu es.
+
+### Les cinq questions
 
 1. **Au sixième kilomètre, quand ça fait vraiment mal — qu'est-ce que tu te dis dans ta tête ?**
    Les mots exacts, même s'ils sont bêtes ou grossiers.
-2. **Qu'est-ce qui t'énerve dans le milieu ?** Sois franc, ça reste entre nous tant que tu ne
-   valides pas.
-3. **Sur quoi tout le monde se trompe, d'après toi ?** Un truc que tu as compris et que les autres
-   n'ont pas encore compris.
+2. **Qu'est-ce qui t'énerve dans le milieu ?** Sois franc, rien ne sort d'ici.
+3. **Sur quoi tout le monde se trompe, d'après toi ?** Un truc que tu as compris et que les
+   autres n'ont pas encore compris.
 4. **Le jour où tu as failli arrêter** — c'était quand, et pourquoi tu as continué ?
+5. **Décris la dernière personne qui t'a écrit en DM.** Qui c'est, ce qu'elle voulait.
 
 ---
 
-## Partie 3 — Ceux qui te suivent
-
-*(à l'oral, dans le même appel)*
-
-**Une seule question, et elle suffit :**
-
-**Décris la dernière personne qui t'a écrit en DM.** Qui c'est, ce qu'elle voulait, ce qu'elle
-cherchait à faire. Le plus précisément possible.
-
----
-
-## Partie 4 — Tes limites
+## Partie 3 — Tes limites
 
 *(formulaire — 5 minutes. C'est la partie qui nous empêche de faire une bêtise en ton nom.)*
 
@@ -93,7 +97,7 @@ cherchait à faire. Le plus précisément possible.
 
 ---
 
-## Partie 5 — Ton matériel
+## Partie 4 — Ton matériel
 
 *(formulaire — 2 minutes)*
 
@@ -107,7 +111,7 @@ cherchait à faire. Le plus précisément possible.
 
 ---
 
-## Partie 6 — Le rituel, une fois qu'on a démarré
+## Partie 5 — Le rituel, une fois qu'on a démarré
 
 C'est tout ce qu'on te demandera ensuite. Rien d'autre.
 

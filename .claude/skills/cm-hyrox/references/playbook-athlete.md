@@ -12,7 +12,7 @@ engagements. Sans ces trois éléments, le moteur n'a pas de colonne vertébrale
 | J+1 | Accès | Comptes connectés à Metricool, marque créée, blogId ajouté à la table du skill | Maxime |
 | J+1 | **Récupération de la saison** | Calendrier de courses inscrites et visées, résultats passés et splits, division, objectif chiffré | Maxime |
 | J+1 | **Inventaire des partenaires** | Liste écrite : marque, forme du partenariat, publications dues, échéances | Maxime + athlète |
-| J+2 | Entretien de positionnement (90 min) | Fiche athlète remplie (§2) | Maxime |
+| J+2 | **Facecam reçu** — 3 min, cinq questions, une prise | Voix, tics et persona relevés dans `voix.md` | Athlète |
 | J+3 | Ligne éditoriale | 5 piliers déclinés à son profil + 10 sujets validés + bio réécrite | Moteur |
 | J+3 | **Calendrier de saison** | Toutes les campagnes de course posées, obligations partenaires intégrées | Moteur |
 | J+4 | **Liste de plans du bloc 1** | 9 plans calés sur ses séances de la semaine, phrases d'ouverture écrites | Moteur |
@@ -27,11 +27,15 @@ engagements. Sans ces trois éléments, le moteur n'a pas de colonne vertébrale
 - Pas de calendrier de courses → pas de production. Le moteur se déduit des dates.
 - Pas d'inventaire des partenaires → pas de production. On ne construit pas un calendrier qui met
   l'athlète en défaut contractuel.
+- **Pas de facecam livré → pas de production.** C'est la première marche du dispositif, et la plus
+  basse. Qui ne la monte pas ne montera pas les suivantes.
 - Pas de rushes déposés le dimanche → la semaine suivante n'est pas produite
   (`production-media.md`).
 
-L'entretien de positionnement dure 90 minutes : il faut en sortir avec sa voix, ses opinions
-assumées, ses interdits et ses contraintes de partenariat. C'est plus long que de cadrer un commerce.
+**Le facecam remplace l'entretien**, et il fait davantage : il teste l'aptitude au tournage avant
+la signature, il montre le cadre et le son réels de l'athlète, et **son délai de livraison prédit
+la régularité** du rituel du dimanche (`persona-et-voix.md`, §2 bis). Un athlète qui ne livre pas
+ses 3 minutes à l'onboarding n'en fera pas 6 par séance pendant un an — ne pas produire pour lui.
 
 ## 2. Fiche athlète (entretien de positionnement)
 
@@ -181,10 +185,15 @@ Signaux d'alerte : dépôt de rushes en retard deux dimanches de suite, validati
 de 72 h, désinscription d'une course, « je ne sais pas si je vais faire la saison ». Traiter par un
 appel, jamais par un message.
 
+**Le tout premier signal est antérieur à tout ça : le délai de livraison du facecam d'onboarding.**
+Au-delà d'une semaine et de deux relances, on sait déjà que le rituel ne tiendra pas — et on le sait
+avant d'avoir produit un seul contenu.
+
 ## 7. Incidents fréquents
 
 | Incident | Réaction |
 |---|---|
+| **Facecam jamais livré** | Ne pas produire. Un appel pour comprendre, et s'il refuse de se filmer, le dispositif ne lui convient pas — le dire plutôt que de le contourner |
 | Rushes non déposés le dimanche | Message lundi, appel mardi. Réduire la marche à 1 plan par séance plutôt que de sauter la semaine |
 | **Contre-performance ou DNF** | Ne rien publier de préparé avant de lui parler. Le contenu J+1 se réécrit avec lui, jamais sans lui. Une contre-performance racontée produit souvent plus qu'une victoire — mais c'est son récit, pas le nôtre |
 | **Disqualification** | Aucun contenu tant qu'il n'a pas décidé ce qu'il veut en dire. Dépublier les contenus programmés qui supposent un résultat |
