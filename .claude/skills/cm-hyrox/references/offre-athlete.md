@@ -117,10 +117,40 @@ fois, puis à recopier dans chaque contrat.
 |---|---|
 | **Le taux** | Sur le contrat sponsor. L'usage en apport d'affaires se situe autour de 10 à 20 % de la première année — **à recouper, et à reporter ici une fois l'accord Pierre formalisé** |
 | **L'assiette** | Première année seulement, ou toute la durée ? Les renouvellements comptent-ils ? La première année seule est le plus simple à défendre |
-| **Le déclencheur** | Qu'est-ce qu'un sponsor « trouvé » ? La règle simple et juste : **tout partenariat signé pendant la durée du contrat CM**, introduction directe ou non — puisque c'est le contenu qui rend sponsorisable |
+| **Le déclencheur** | **Le sponsor doit avoir été obtenu ensemble.** Les partenariats que l'athlète avait déjà en arrivant restent à lui, entièrement. Règle arrêtée le 06/08 sur le cas Pierre (§ ci-dessous) |
 | **La dotation** | Quelle part, et valorisée comment ? Au prix public, sinon le calcul se rediscute chaque fois |
 | **La survie** | Le variable court-il après la fin du contrat CM ? L'usage : 12 mois sur les contrats signés pendant la mission |
 | **Le veto** | L'athlète refuse une marque sans avoir à se justifier. Non négociable |
+
+### Le cas Pierre, qui sert de jurisprudence
+
+Arbitrage rendu le 06/08/2026 sur ses trois partenaires, et c'est lui qui fixe la règle pour les
+suivants :
+
+| Partenaire | Dans l'assiette | Pourquoi |
+|---|---|---|
+| KAIRYN | **non** | Antérieur — il l'avait déjà |
+| GX SOCIETY | **non** | Antérieur |
+| **SPLIT NUTRITION** | **oui** | **Obtenu ensemble** |
+
+Le principe est donc clair et se recopie : **on est rémunéré sur ce qu'on a apporté, pas sur ce qui
+était déjà là.** C'est aussi le seul arbitrage qui ne crée pas de rancune — un athlète accepte mal
+de reverser sur un contrat qu'il avait signé seul avant de nous connaître.
+
+**Ce qu'il reste à définir, et qui se posera au client n° 2** : que veut dire « ensemble »,
+opérationnellement ? Trois lectures possibles, à trancher une fois pour toutes avant la prochaine
+signature :
+
+1. **Introduction directe** — Maxime a présenté la marque. Le plus restrictif, le plus facile à
+   prouver, le moins généreux.
+2. **Contrat signé pendant la mission, avec les supports produits** — dossier de sponsoring, chiffres
+   d'audience, contenus. Le plus proche de la réalité du travail fourni.
+3. **Toute marque entrée après le début du contrat**, quelle qu'en soit l'origine. Le plus simple à
+   appliquer, mais il fait payer l'athlète pour des contrats qu'il a décrochés seul.
+
+La lecture 2 est celle qui correspond au cas Split Nutrition et au travail réellement fourni. **La
+formuler par écrit avant de signer un deuxième athlète** — c'est le genre de point qui se règle en
+trois lignes maintenant et en dispute plus tard.
 
 ### Les deux conflits d'intérêts, à nommer avant qu'ils se voient
 

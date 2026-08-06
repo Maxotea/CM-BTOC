@@ -66,9 +66,13 @@ CM-BTOC/
 *Road to Hong Kong*. Déjà produit depuis juillet 2026 dans `cm-metricool` ; sa migration vers ce
 moteur et son passage en client payant sont ouverts.
 
-Sa saison : **Rome 24-27 sept.** (piste extérieure) · **Bordeaux 30 sept.-4 oct.** · **Paris Porte
-de Versailles 12-20 déc.** Rome et Bordeaux ne font qu'un bloc — trois jours d'écart. Paris est la
-course-vitrine.
+Sa saison : **Rome 24-27 sept.** — sa course de qualification aux Mondiaux, groupe d'âge 35-39,
+piste de course en extérieur — puis **Paris Porte de Versailles 12-20 déc.**, la course-vitrine.
+Bordeaux est abandonné.
+
+⚠️ **La qualification aux Mondiaux n'est possible qu'en division Pro** (hors 60+, Doubles Mixte et
+Championnats régionaux). À confirmer avec lui avant d'écrire quoi que ce soit sur la qualification :
+s'il court Rome en Open, il ne se qualifie pas.
 
 ## Actions bloquantes
 
@@ -83,10 +87,14 @@ course-vitrine.
    et le passer en Base sans réduire le service fixerait une référence intenable pour les suivants.
 5. **Figer le T0 de la vitrine** avant sa prochaine publication. C'est la seule chose de tout ce
    dépôt qui ne se rattrape pas.
-6. **Formaliser l'accord variable** — taux, assiette, déclencheur, dotation, survie, veto — et
-   trancher si les trois partenaires actuels de Pierre entrent dans l'assiette. Deux points à poser
-   à l'expert-comptable : apport d'affaires et avantage en nature.
-7. Monteur à trouver, capable d'absorber 15 à 30 h/mois à 30 €/h.
+6. **Décider de la captation de Rome** — c'est le seul moment de la saison qui ne se rejoue pas.
+   Y aller, faire filmer sur place avec un protocole écrit, ou acheter le pack officiel. Décision à
+   prendre maintenant, la course est dans 7 semaines.
+7. **Formaliser l'accord variable** — taux, part de dotation, survie, veto. L'assiette est tranchée
+   (Split Nutrition oui, Kairyn et GX Society non), reste à définir par écrit ce que « obtenu
+   ensemble » voudra dire pour le client n° 2. Deux points à poser à l'expert-comptable : apport
+   d'affaires et avantage en nature.
+8. Monteur à trouver, capable d'absorber 15 à 30 h/mois à 30 €/h.
 
 ## Règles de cohérence
 

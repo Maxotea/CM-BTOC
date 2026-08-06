@@ -16,7 +16,8 @@
 | Réseaux | Instagram **@pierrehuiban89** (uniquement) |
 | Typologie | Athlète HYROX sponsorisé — double vie : commercial Europe, athlète, papa |
 | Campagne de saison | **Road to Hong Kong** — Mondiaux HYROX 2027, AsiaWorld-Expo, 10-13 juin 2027 |
-| Courses 26/27 | Rome (24-27 sept.) · Bordeaux (30 sept.-4 oct., à confirmer) · Paris Porte de Versailles (12-20 déc., probable) — détail §3 bis |
+| Groupe d'âge | **35-39** |
+| Courses 26/27 | **Rome 24-27 sept. — course de qualification** · Paris Porte de Versailles 12-20 déc. (Bordeaux abandonné) — détail §3 bis |
 | Horaires de publication | **00 h 30 et 06 h 00** — atypiques mais ce sont les siens, vérifiés. Ne pas écraser par les défauts du moteur |
 | Coach | Quentin |
 
@@ -43,36 +44,48 @@ chaque trimestre** — cette règle est née de cet incident et vaut pour tous l
 expertise, pas la nôtre. Aucun chrono, aucune charge en kilos, aucune date de Mondiaux cités sans
 vérification.
 
-## 3 bis. Sa saison — et le retard à rattraper
+## 3 bis. Sa saison — Rome est la course de la saison
 
-Dates vérifiées le 6 août 2026 (`../saison-hyrox.md`). **Statut d'inscription à confirmer avec lui
-pour les trois.**
+Dates vérifiées le 6 août 2026 (`../saison-hyrox.md`).
 
-| Course | Dates | Départ de campagne (J-56) | État au 6 août |
+| Course | Dates | Départ de campagne (J-56) | Enjeu |
 |---|---|---|---|
-| **Rome** — Fiera di Roma, piste extérieure | 24 → 27 sept. 2026 | 30 juillet | ⚠️ **J-49 : une semaine de retard.** Rattrapable sur 7 semaines, mais ça commence maintenant |
-| **Bordeaux** | 30 sept. → 4 oct. 2026 | 5 août | **pile à l'heure — c'est cette semaine** |
-| **Paris** — Porte de Versailles | 12-13 + 16 → 20 déc. 2026 | 17-25 octobre | confortable |
+| **ROME** — Fiera di Roma, piste extérieure | 24 → 27 sept. 2026 | 30 juillet | **La qualification aux Mondiaux, groupe d'âge 35-39.** ⚠️ **J-49 au 6 août : une semaine de retard.** Rattrapable sur 7 semaines, mais ça commence maintenant |
+| **Paris** — Porte de Versailles | 12-13 + 16 → 20 déc. 2026 | 17-25 octobre | Course-vitrine (`../vitrine.md`) |
 
-**Rome et Bordeaux ne font qu'un seul bloc.** Trois jours séparent l'arrivée de Rome du départ de
-Bordeaux : les deux campagnes se recouvrent presque intégralement. Ne pas produire deux campagnes
-empilées — un seul récit, dont l'angle est **le doublé lui-même**, avec la récupération en 72 h
-comme contenu central entre les deux et une analyse comparative des deux jeux de splits à la fin.
-Structure détaillée dans `../saison-hyrox.md`, §6.
+**Bordeaux est abandonné** (décision du 06/08). Le bloc « deux courses rapprochées » de
+`../saison-hyrox.md` §6 ne s'applique donc plus à lui — il reste une structure valide du moteur, pas
+un plan pour Pierre.
 
-Deux angles éditoriaux offerts par ce calendrier, et qu'il ne faut pas laisser passer :
+### ⚠️ Le point à vérifier avant d'écrire une seule ligne sur la qualification
 
-- **« Deux courses en une semaine »** — sujet plus fort que chacune des deux prise isolément, et
-  parfaitement dans sa ligne (rage silencieuse, la donnée comme preuve).
+**La qualification aux World Championships n'est possible qu'en division PRO** — hors 60+, Doubles
+Mixte et Championnats régionaux (`../saison-hyrox.md`, §4). Trois questions à lui poser tout de
+suite, parce que la réponse commande toute la campagne :
+
+1. **Court-il Rome en Pro ou en Open ?** S'il est en Open, il ne se qualifie pas, et la campagne
+   « Road to Hong Kong » raconte autre chose que ce qu'on croit.
+2. **Si c'est un passage Open → Pro**, c'est un saut de charges considérable — sled push +50 kg,
+   sled pull +50 kg, farmers +8 kg par main, sandbag +10 kg, wall ball +3 kg. **C'est le meilleur
+   arc de contenu de sa saison** : sept semaines pour aller chercher des charges qu'il ne portait
+   pas, avec un enjeu daté au bout. Ne pas passer à côté.
+3. **Le Doubles Mixte est la seconde voie**, souvent ignorée. À poser sur la table s'il bute sur les
+   charges Pro en solo.
+
+Rappel des règles à ne pas déformer en légende : **un slot minimum par groupe d'âge et par
+division**, proportionnel au nombre de participants, et un **plafond de 2 athlètes non licenciés**
+par événement à qui le slot est proposé — si les deux déclinent, l'allocation se referme.
+
+### Ce que ce calendrier offre éditorialement
+
+- **Un enjeu daté et binaire.** « Le 27 septembre, soit je suis qualifié pour Hong Kong, soit je ne
+  le suis pas. » C'est le meilleur fil narratif possible, et il tombe pile dans sa ligne : la rage
+  silencieuse, la donnée comme preuve, aucune promesse.
 - **La piste extérieure de Rome.** Les 8 km s'y courent dehors, ce qui n'est pas le cas ailleurs.
-  Comparer ses splits de course entre Rome (extérieur) et Bordeaux (intérieur) à trois jours
-  d'intervalle est une donnée que presque personne ne possède. C'est exactement le type de contenu
-  que son positionnement appelle.
-
-**Course-vitrine : Paris.** Plus gros événement HYROX de France, 7 jours, à domicile — donc la
-captation la moins chère du calendrier — et le calendrier laisse le temps de figer le T0 et de faire
-tourner le mécanisme trois mois avant la démonstration. Rome est trop tôt et à l'étranger, Bordeaux
-est trop tôt. Voir `../vitrine.md`.
+  Pour un athlète dont le point fort est la course à pied, c'est un avantage à exploiter avant, et
+  une donnée à comparer après.
+- **Le compte à rebours a déjà son format** : les compteurs « J-XX » font partie de sa signature
+  éditoriale existante. Ils ont maintenant une date d'arrivée réelle.
 
 ## 3. Partenaires (à jour au 17/07/2026)
 
@@ -162,17 +175,23 @@ une part de la dotation** — et il est destiné à se dupliquer sur les nouveau
 (`../offre-athlete.md`, §4). C'est ce qui rend l'abonnement bas soutenable : à ce niveau de prix
 l'abonnement paie la production, le variable paie la marge.
 
-Deux conséquences directes sur son cas :
+**Assiette arrêtée le 06/08** :
 
-- **Ses trois partenaires actuels sont antérieurs à l'accord.** Préciser par écrit s'ils entrent
-  dans l'assiette ou non — c'est le genre de point qui s'oublie et qui se rediscute mal un an après.
-- **Le travail de tunnel B cesse d'être offert** : construire son dossier de sponsoring, livrer ses
-  chiffres à ses marques et en démarcher de nouvelles devient un investissement rémunéré, pas un
-  geste. C'est l'argument qui permet de tenir un palier bas sans rogner le service.
+| Partenaire | Dans l'assiette | Pourquoi |
+|---|---|---|
+| KAIRYN | **non** | Antérieur, il l'avait déjà |
+| GX SOCIETY | **non** | Antérieur |
+| **SPLIT NUTRITION** | **oui** | Obtenu ensemble |
 
-Les six paramètres à fixer (taux, assiette, déclencheur, dotation, survie, veto) et les deux
-conflits d'intérêts à neutraliser sont dans `../offre-athlete.md`, §4. **Les valeurs réelles de
-l'accord Pierre restent à y reporter** — c'est lui qui sert de modèle aux contrats suivants.
+Conséquence : **le travail de tunnel B cesse d'être offert.** Construire son dossier de sponsoring,
+livrer ses chiffres à ses marques et en démarcher de nouvelles devient un investissement rémunéré,
+pas un geste. C'est ce qui permet de tenir un palier d'abonnement bas sans rogner le service — et
+c'est l'argument à lui présenter quand on fixera son palier.
+
+Reste à écrire : le taux, l'assiette précise (première année ou toute la durée), la part de dotation
+et sa valorisation, la survie après fin de contrat, le veto. Les six paramètres et les deux conflits
+d'intérêts à neutraliser sont dans `../offre-athlete.md`, §4 — **son contrat sert de modèle aux
+suivants, donc il se rédige avec ce niveau de soin.**
 
 ## 7. Migration vers ce moteur — reste à faire
 

@@ -113,10 +113,36 @@ recouvrent presque intégralement. Voir §6.
 
 Trois courses Elite Series restaient à annoncer au 6 août 2026.
 
-**Qualification aux Worlds** : par le classement dans sa division et son groupe d'âge sur n'importe
-quelle course de la saison ; chaque division PRO et Mixed Doubles offre au moins un slot par groupe
-d'âge sur chaque événement. HYROX communique sur **le top 0,5 % environ** de la communauté mondiale
-— chiffre à citer avec sa source, c'est un argument fort en contenu et il est souvent déformé.
+### Qualification aux World Championships — la règle qui surprend tout le monde
+
+⚠️ **La qualification n'est possible qu'en division PRO.** Trois exceptions seulement : les athlètes
+de 60 ans et plus (qui qualifient via l'Open et courent aux charges Open aux Mondiaux), la division
+**Doubles Mixte**, et les **Championnats régionaux** (Europe, US, Asie-Pacifique) où l'Open qualifie
+aussi.
+
+Conséquence à poser d'emblée avec tout athlète qui parle de qualification : **s'il court en Open, il
+ne se qualifie pas.** Le passage en Pro n'est pas un détail de catégorie, c'est un saut de charges —
+sled push +50 kg, sled pull +50 kg, farmers +8 kg par main, sandbag +10 kg, wall ball +3 kg. C'est
+un objectif d'entraînement à part entière, et c'est un arc de contenu complet.
+
+Le reste des règles :
+
+- **Un slot minimum par groupe d'âge et par division, sur chaque événement.** Le nombre de slots est
+  proportionnel au nombre de participants.
+- **Plafond pour les non-licenciés** : le slot n'est proposé qu'à un nombre maximum d'athlètes non
+  licenciés par événement — **2 pour la plupart des événements**. Si les deux déclinent, l'allocation
+  se referme pour ce groupe d'âge.
+- **Date limite** : toutes les courses de la saison 26/27 jusqu'au week-end du **16 mai 2027**
+  portent des slots.
+- HYROX communique sur **le top 0,5 % environ** de la communauté mondiale — chiffre à citer avec sa
+  source, c'est un argument fort et il est souvent déformé.
+
+**Groupes d'âge en PRO** (Mondiaux) : 16-24, 25-29, 30-34, 35-39, … 60-64, 65-74.
+**En PRO Doubles** : moins de 30, 30-39, 40-49, 50-59, 60-79.
+
+Le Doubles Mixte est donc **la seconde voie de qualification**, et elle est souvent ignorée : un
+athlète bloqué par les charges Pro en solo peut viser Hong Kong en Doubles Mixte. À poser sur la
+table avant de conclure qu'une qualification est hors de portée.
 
 **Courses de la saison 25/26 déjà disputées**, utiles comme base de comparaison dans les contenus
 H1 : Nice (12-15 fév. 2026), Toulouse (19-22 mars 2026), Paris Grand Palais (23-26 avril 2026),

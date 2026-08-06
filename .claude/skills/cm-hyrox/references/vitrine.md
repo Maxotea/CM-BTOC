@@ -135,21 +135,40 @@ d'abord : les deux autres en découlent.
 (`saison-hyrox.md`). Pour Pierre, sa campagne de saison est **Road to Hong Kong** — les Mondiaux de
 juin 2027 sont l'aboutissement du récit, mais trop loin pour servir de cas.
 
-**La course-vitrine est Paris**, Porte de Versailles, 12-20 décembre 2026. Quatre raisons, dans
-l'ordre :
+Pour Pierre, deux courses, et **elles ne jouent pas le même rôle. Ne pas les confondre.**
 
-1. **Le plus gros événement HYROX de France** — 7 jours de compétition, la plus grosse audience de
-   la saison sur le marché français, celui où le cas devra se vendre.
-2. **À domicile** : la captation ne coûte pas de déplacement, alors que Rome est à l'étranger.
-3. **Le calendrier est juste** : campagne à poser mi-octobre, ce qui laisse trois mois pour figer le
-   T0, faire tourner le mécanisme et produire une mesure intermédiaire crédible.
-4. **Le cas s'écrit en janvier** — au moment de l'année où les athlètes reprennent, s'inscrivent et
-   cherchent qui les accompagne.
+**Rome, 24-27 septembre — la captation irremplaçable.** C'est sa course de qualification aux
+Mondiaux, groupe d'âge 35-39. Une qualification ne se produit qu'une fois : si elle tombe et que
+personne n'était là pour la filmer, **le meilleur actif de la saison n'existera jamais** — ni pour
+son compte, ni pour le cas, ni pour ses partenaires. C'est le seul moment de l'année qui ne se
+rejoue pas.
 
-Rome (24-27 sept.) et Bordeaux (30 sept.-4 oct.) sont trop tôt : le T0 n'aura pas eu le temps de
-produire de l'écart. Ils servent à autre chose, et c'est précieux : **ils rodent le protocole de
-tournage et produisent le premier jeu de chiffres**, sur un doublé qui est un angle en soi. Le cas
-de décembre s'appuiera dessus.
+Le coût est réel — Rome est à l'étranger, il faut décider maintenant. Trois options, par ordre de
+qualité :
+
+1. **Y aller.** Une demi-journée de captation sur place, et la matière alimente tout l'automne.
+2. **Faire filmer par quelqu'un sur place** — son partenaire de voyage, un athlète du même club —
+   avec un protocole écrit et envoyé avant : le triptyque de plans, les stations à couvrir en
+   priorité, le passage de ligne (`production-media.md`).
+3. **Acheter le pack média officiel de l'événement**, en vérifiant ses conditions d'usage commercial.
+   C'est le filet de sécurité, pas le plan.
+
+L'option à écarter est la quatrième : n'en avoir aucune et espérer qu'il pense à filmer.
+
+**Paris, 12-20 décembre — la course-vitrine.** C'est là que le cas se démontre :
+
+1. **Le plus gros événement HYROX de France**, 7 jours — la plus grosse audience de la saison sur le
+   marché où le cas devra se vendre.
+2. **À domicile** : la captation ne coûte aucun déplacement.
+3. **Le calendrier est juste** : campagne à poser mi-octobre, trois mois pour figer le T0, faire
+   tourner le mécanisme et produire une mesure intermédiaire crédible.
+4. **Le cas s'écrit en janvier**, au moment où les athlètes reprennent, s'inscrivent et cherchent
+   qui les accompagne.
+
+Et si la qualification tombe à Rome, Paris cesse d'être une course parmi d'autres : elle devient
+**le premier chapitre de la route vers Hong Kong**, avec une audience de décembre qui découvre un
+athlète qualifié. Le cas de janvier n'en est que meilleur — mais il repose sur des images de Rome
+que personne ne pourra refaire.
 
 ## 8. Les pièges
 
