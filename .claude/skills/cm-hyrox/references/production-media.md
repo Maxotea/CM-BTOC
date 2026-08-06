@@ -1,6 +1,6 @@
 # Production média athlète — la séance produit le contenu
 
-Équivalent de `cm-otea/references/banques-photos.md` et de `cm-b2c/references/production-media.md`,
+Équivalent de la banque photos de `cm-metricool` et de `cm-b2c/references/production-media.md`,
 mais le problème n'est pas le même et il faut le dire clairement, sinon on applique le mauvais
 remède.
 
@@ -33,6 +33,21 @@ Son     : micro-cravate. Si tu ne l'as pas, tourne muet et enregistre la voix ch
 Format imposé de chaque plan : **numéro, moment précis de la séance, cadre, durée, phrase d'ouverture
 mot pour mot, déroulé, consigne de son, une seule consigne visuelle**. La phrase d'ouverture écrite
 mot pour mot est ce qui débloque le tournage — c'est la seconde qui coûte le plus.
+
+### Les trois plans sont toujours les mêmes
+
+Ce n'est pas « trois plans au choix », c'est **un triptyque fixe** — c'est lui qui rend le montage
+tenable :
+
+| # | Plan | Rôle au montage |
+|---|---|---|
+| 1 | **Large** | Situe la scène, ouvre le reel |
+| 2 | **Serré sur l'effort** | Le cœur : le geste, la grimace, la charge |
+| 3 | **Plan de fin** | Sortie propre, sur laquelle se pose le CTA |
+
+Couplé à **un template DaVinci figé par client**, ce triptyque fait passer un reel de 1 h de montage
+à 10-15 min. **C'est là que se gagne la marge — au tournage, pas au montage** (`offre-athlete.md`,
+§3). Un rush qui ne respecte pas le triptyque coûte plus cher à monter qu'il ne rapporte.
 
 **Trois plans par séance, jamais plus.** Au-delà, la séance devient un tournage, la qualité
 d'entraînement baisse, et l'athlète arrête au bout de deux semaines. Trois plans × 5 séances = 15
@@ -112,11 +127,14 @@ Trois pièges, tous réels, tous évitables :
   toute personne identifiable mise en avant. En arrière-plan d'une arène, l'usage est admis ; en
   sujet principal, il faut l'accord.
 
-## Hébergement des rushes — URL publique obligatoire
+## Stockage et classement des rushes
 
-Même contrainte technique que partout : l'API Metricool n'accepte un média que par URL publique
-(voir `metricool-api.md`). L'athlète dépose ses fichiers bruts, **c'est Maxime qui héberge après
-montage** — ne jamais demander à un athlète de gérer un hébergement public, il ne le fera pas.
+**Pas besoin d'hébergement public.** Un fichier local s'attache à un post par l'upload Metricool
+(`media_upload → PUT → media_confirm → URL cloudfront`, voir `metricool-api.md`). L'athlète dépose
+ses fichiers bruts dans un dossier partagé, on classe, on monte, on publie — il n'a jamais à gérer
+autre chose qu'un dépôt sur Drive.
+
+Redimensionner les photos à **1440 px** de large avant l'upload.
 
 ```
 media-<athlete>/
@@ -127,8 +145,24 @@ media-<athlete>/
 ├── H5-preuve/        athlètes coachés, partenaires, produits
 ├── course-<ville>-<date>/   tout le jour J, brut
 ├── b-roll/           plans d'illustration réutilisables, sans parole
-└── photos/           portraits, dossard, podium, terrain
+├── photos/           portraits, dossard, podium, terrain
+└── sponsors/<marque>/   produit ou logo du partenaire visible
 ```
+
+**La séparation `sponsors/` n'est pas du rangement, c'est une règle de sécurité contractuelle**, et
+elle se pose toujours avant de choisir une image :
+
+- Un post qui mentionne un partenaire **doit** utiliser une photo de sa section dédiée, si elle
+  existe. Sinon on cite une marque sans jamais la montrer.
+- Un post générique ne doit **jamais** laisser traîner un logo sponsor par accident. Un partenaire
+  qui se retrouve associé à un contenu qu'il n'a pas payé, ou pire à un contenu concurrent, c'est un
+  contrat perdu.
+- Exception : le branding d'épreuve sur les photos de course (Puma, Centr, Concept2 sur les panneaux
+  et le matériel officiel). Ce n'est pas un partenariat de l'athlète, ces photos restent génériques.
+
+Tenir un catalogue par athlète, fichier par fichier, avec l'usage et le pilier — sans ça la rotation
+casse et on republie deux quasi-doublons à quinze jours d'intervalle. Modèle éprouvé : le catalogue
+de Pierre Huiban, 81 photos inventoriées une à une.
 
 Le dossier `b-roll/` est le plus rentable : il ne périme pas, il se réutilise indéfiniment, et il
 sauve toutes les semaines où l'athlète n'a pas assez tourné. **Faire filmer 10 plans de B-roll à

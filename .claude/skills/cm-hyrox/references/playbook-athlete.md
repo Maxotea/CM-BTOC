@@ -128,13 +128,13 @@ Les six premiers points sont ceux qui coûtent un athlète.
 
 Le montage est le premier poste de temps du moteur.
 
-| Tâche | Volume (palier Podium) | Profil | Coût indicatif | Coût / athlète / mois |
+| Tâche | Volume (palier Salle) | Profil | Coût indicatif | Coût / athlète / mois |
 |---|---|---|---|---|
 | Montage reels | 8 reels ≈ 4 h | Monteur freelance | 30 €/h | 120 € |
 | Modération DM & commentaires | 1 h | Assistant·e CM | 25 €/h | 25 € |
 
 **À tester avant de vendre quoi que ce soit** : faire monter 4 reels au monteur et chronométrer. Le
-temps réel par reel décide de la viabilité du palier Élite (`offre-athlete.md`).
+temps réel par reel décide de la viabilité de toute la grille (`offre-athlete.md`, §3).
 
 **Brief type de montage athlète** : format 9:16, ≤ 60 s, **sous-titres brûlés obligatoires**, hook
 visuel dans la première seconde, coupe sèche toutes les 2 à 3 s, suppression des hésitations et des

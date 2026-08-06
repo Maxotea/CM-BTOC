@@ -10,7 +10,7 @@ moitié de sa valeur.
 
 ## Pourquoi les deux méthodes existantes ne suffisent pas
 
-`cm-otea/references/roi-clients.md` raisonne en **panier × fréquence annuelle**. Ça suppose un client
+`cm-metricool` (dépôt `CM-OTEA`) raisonne en **panier × fréquence annuelle**. Ça suppose un client
 final qui revient par habitude. Un athlète ne vend pas des passages.
 
 `cm-b2c/references/roi-b2c.md` raisonne en **conversations qualifiées → ventes**. C'est juste, mais
@@ -53,22 +53,27 @@ Seuil = abonnement mensuel ÷ marge sur une vente
 
 Exemples de raisonnement — **à recalculer avec les prix réels de l'athlète, jamais recopiés** :
 
-| Ce qu'il vend | Ordre de prix constaté à relever | Abonnement Podium 590 €/mois | Seuil |
+| Ce qu'il vend | Prix à relever à l'onboarding | Abonnement Salle 89 €/mois | Abonnement Compétiteur 179 €/mois |
 |---|---|---|---|
-| Coaching en ligne mensuel | à relever à l'onboarding | 590 € | nombre d'abonnés de coaching à maintenir en plus |
-| Programme digital (plan 8 ou 12 semaines) | à relever | 590 € | nombre de ventes / mois |
-| Suivi individuel premium | à relever | 590 € | souvent 1 à 2 clients suffisent |
-| Stage ou camp week-end | à relever | 590 € | 2 à 4 places / mois lissé sur la saison |
-| Séance en présentiel | à relever | 590 € | volume élevé — rarement le bon argument |
+| Coaching en ligne mensuel | à relever | souvent **1 seul client suffit** | 1 à 2 clients |
+| Programme digital (plan 8 ou 12 semaines) | à relever | 1 à 2 ventes / mois | 2 à 4 ventes / mois |
+| Suivi individuel premium | à relever | largement couvert par 1 client | 1 client |
+| Stage ou camp week-end | à relever | 1 place tous les 2 à 3 mois | 1 place / mois |
+| Séance en présentiel | à relever | 1 à 2 séances / mois | 3 à 4 séances / mois |
+
+**À ce niveau de prix, le seuil n'est plus l'argument principal** — il est franchi presque
+mécaniquement. L'argument devient : *« un seul client de coaching dans l'année couvre l'abonnement.
+La vraie question, c'est de savoir si tu tiendrais la publication tout seul pendant douze mois. »*
+C'est la régularité qui se vend, pas le retour sur investissement.
 
 **Ne jamais inventer le prix de son coaching.** Il est sur son lien en bio, sur sa page de vente, ou
 il le donne en dix secondes. Le relever à l'onboarding avec sa source et sa date, et le reporter
 dans la section « Tarifs vérifiés » en bas de ce fichier.
 
-La phrase qui fait signer, à adapter : **« il vous faut deux clients de coaching de plus par mois
-pour rentrer dans vos frais. Vous avez eu combien de demandes sérieuses le mois dernier ? »** Le
-second membre de la question est le plus important : il fait dire au prospect lui-même que son flux
-actuel est trop faible.
+La phrase qui fait signer, à adapter : **« combien de fois tu as publié le mois dernier ? Et le mois
+d'avant ? »** Elle marche mieux que le calcul de seuil, parce qu'elle fait constater au prospect
+lui-même le seul problème que la grille athlète résout vraiment : personne ne tient la distance tout
+seul.
 
 ---
 
@@ -90,6 +95,25 @@ Un même partenaire combine souvent les trois. Les obligations de la forme « pr
 du moteur). Un athlète en défaut vis-à-vis d'un sponsor perd le sponsor, et il attribue la faute au
 prestataire qui tenait son calendrier.
 
+### Trois choses à obtenir par écrit pour chaque partenaire, avant le premier contenu
+
+Constaté sur les trois partenaires de Pierre Huiban, où elles manquent toutes les trois et bloquent
+la production de posts sponsorisés :
+
+1. **Le handle exact.** Instagram bloque le fetch direct : un `@handle` ne se devine pas. Tant qu'il
+   n'est pas confirmé, **mention par nom de marque uniquement — jamais de handle inventé.**
+2. **Les règles de tag contractuelles** : hashtag imposé, `@` en légende ou en commentaire, logo à
+   faire apparaître ou non.
+3. **Au moins une vraie photo produit.** Citer une marque sans jamais la montrer, c'est livrer une
+   demi-prestation — et c'est ce que le partenaire remarquera au bilan.
+
+Et une vérification de catégorie, à faire une fois : **ce que la marque vend réellement.** Une marque
+de récupération classée par erreur en « vêtements » envoie le produit dans le mauvais post, qu'il
+faut ensuite dépublier. Le vérifier sur son site, pas sur son nom.
+
+Enfin, la transparence n'est pas optionnelle : `#partenariat` ou mention équivalente, **claire et
+dans le contenu**, pas noyée dans les hashtags de fin (`playbook-athlete.md`, §3).
+
 ### Ce qui se mesure et se restitue chaque mois
 
 - Nombre de contenus portant chaque partenaire, par format
@@ -110,8 +134,10 @@ atteindre autrement — c'est ça qui se vend, pas le volume.
 
 ### Le dossier de sponsoring
 
-Vendu 490 € en option (`offre-athlete.md`), et produit en grande partie automatiquement à partir des
-reportings mensuels. Structure, une page recto-verso maximum :
+Produit en grande partie automatiquement à partir des reportings mensuels — c'est le livrable qui
+justifie le palier Compétiteur auprès d'un athlète sponsorisé. **Son prix en vente séparée reste à
+fixer** : il ne figure pas dans la grille arrêtée le 04/08 et ne doit pas être annoncé avant.
+Structure, une page recto-verso maximum :
 
 1. **Qui il est** : division, résultats de la saison, objectif, calendrier de courses à venir
 2. **Son audience** : volume, répartition, taux d'engagement, part de pratiquants — chiffres
@@ -158,7 +184,7 @@ Structure de la page, une seule page :
 ## Tarifs vérifiés par athlète
 
 _(aucun athlète à ce jour — reporter ici les prix réels relevés à l'onboarding, avec leur source et
-leur date de vérification, sur le modèle de `cm-otea/references/roi-clients.md`)_
+leur date de vérification, sur le modèle des fiches clients de `cm-metricool`)_
 
 Règle : le prix de l'abonnement utilisé dans le calcul est celui du contrat en cours, jamais celui de
 la grille.

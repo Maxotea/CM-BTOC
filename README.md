@@ -1,66 +1,94 @@
-# CM-BTOC — moteur `cm-hyrox`
+# CM-BTOC — moteur athlète
 
-Moteur de community management d'OTEA Production pour les **athlètes HYROX et hybrides**.
+Dépôt B2C d'OTEA Production. Il héberge le moteur de community management destiné aux
+**athlètes HYROX et hybrides**.
 
-Troisième moteur du dispositif, calqué sur la structuration de `cm-otea` :
+## Architecture
 
-| Moteur | Client type | Où il vit |
+| Dépôt | Périmètre | Skill |
 |---|---|---|
-| `cm-otea` | Commerces premium (Le Loft, Gossip, J Lawson Golf, La Galerie Immobilière, Otea) | `~/.claude/skills/cm-otea` |
-| `cm-b2c` | Personnes dont la personne est la marque : coach business, consultant, libéral, créateur | `~/.claude/skills/cm-b2c` |
-| **`cm-hyrox`** | **Athlètes de course : Open, Pro, Doubles, Elite, coach-athlète** | **ce dépôt** |
+| `CM-OTEA` | B2B — commerces | `cm-metricool` |
+| **`CM-BTOC`** | **B2C — personal branding et athlètes** | **`cm-hyrox`** (ce dossier), et `cm-b2c` à migrer depuis le compte |
 
-## Ce que ce moteur fait différemment
+**Règle : les moteurs vivent dans les dépôts, jamais sur le compte.**
 
-Il hérite de la plomberie commune (Metricool via Zapier, Higgsfield, `reel-script`, `reel-lint`) et
-de la structuration en dix étapes de `cm-otea`. Trois déplacements le distinguent :
+Trois moteurs, trois clientèles, trois grilles de prix qui ne se croisent jamais :
+
+| Moteur | Client type | Grille |
+|---|---|---|
+| `cm-metricool` | Commerces premium (Le Loft, Gossip, J Lawson Golf, La Galerie Immobilière, Otea) | 590 / 890 / 1 490 € |
+| `cm-b2c` | Coachs, consultants, libéraux, créateurs — des personnes **qui ont un chiffre d'affaires** | 290 / 590 / 990 € |
+| **`cm-hyrox`** | **Athlètes de course** | **49 / 89 / 179 €** |
+
+Un athlète ne voit jamais la grille B2C générique, une entreprise ne voit jamais la grille athlète.
+C'est le point où les activités risquent le plus de se contaminer, et la séparation en trois skills
+est ce qui l'empêche structurellement.
+
+## Ce que le moteur athlète fait différemment
 
 1. **Le goulot n'est pas « le client ne tourne pas ».** Un athlète s'entraîne 5 à 6 fois par semaine,
-   téléphone sur le banc. Il tourne déjà — il tourne *inutilisable*. Le moteur impose un protocole de
-   tournage calé sur des séances déjà programmées, pas une demande de tournage supplémentaire.
+   téléphone sur le banc. Il tourne déjà — il tourne *inutilisable*. Le moteur impose un **triptyque
+   fixe de 3 plans** (large, serré sur l'effort, plan de fin) calé sur des séances déjà programmées,
+   plus un template de montage figé par client. C'est là que se gagne la marge : au tournage, pas au
+   montage.
 2. **Le calendrier est nominatif, pas saisonnier.** Ce sont ses courses qui structurent l'année.
-   Chaque dossard déclenche une campagne J-56 → J+7 qui produit 12 à 14 contenus.
+   Chaque dossard déclenche une campagne J-56 → J+7 qui produit 12 à 14 contenus. La fenêtre de
+   vente est J+2 → J+9.
 3. **La preuve est double.** Un athlète vend du coaching *et* vend de la visibilité à des marques.
-   Le reporting a deux tunnels, et il fabrique au passage le dossier de sponsoring de l'année
+   Le reporting a deux tunnels, et il fabrique au passage le dossier de sponsoring de la saison
    suivante.
+4. **L'économie est une économie de volume.** À 49-179 €, la cible est 33 athlètes, pas 9 clients.
+   Tout le moteur en découle — à commencer par un palier d'entrée à zéro montage, zéro retour,
+   zéro contact.
 
 ## Structure
 
 ```
 CM-BTOC/
-├── SKILL.md                          moteur, étapes 0 → 9
-└── references/
-    ├── saison-hyrox.md               calendrier 26/27, format, charges, règles, campagne de course
-    ├── offre-athlete.md              paliers, options, grille de solvabilité      ⚠️ non validé
-    ├── production-media.md           protocole de tournage, captation de course, droits
-    ├── roi-athlete.md                reporting deux tunnels, dossier de sponsoring
-    ├── playbook-athlete.md           onboarding, interdits réglementaires, qualité, délégation
-    └── metricool-api.md              copie conforme, partagée avec cm-otea et cm-b2c
+└── .claude/skills/cm-hyrox/
+    ├── SKILL.md                      moteur, étapes 0 → 9
+    └── references/
+        ├── saison-hyrox.md           calendrier 26/27, format, charges, règles, campagne de course
+        ├── offre-athlete.md          échelle 49/89/179, contrainte de montage   ⚠️ non validée
+        ├── production-media.md       triptyque de tournage, captation de course, droits
+        ├── roi-athlete.md            reporting deux tunnels, dossier de sponsoring
+        ├── playbook-athlete.md       onboarding, interdits réglementaires, qualité, délégation
+        ├── vitrine.md                protocole du client vitrine : T0, verrous, écriture du cas
+        ├── metricool-api.md          plomberie — à tenir synchronisée avec cm-metricool
+        └── clients/
+            └── pierre-huiban.md      athlète n° 1, et client vitrine
 ```
+
+## Portefeuille
+
+**Pierre Huiban** (@pierrehuiban89, blogId 6572293) — athlète sponsorisé, 3 partenaires, campagne
+*Road to Hong Kong*. Déjà produit depuis juillet 2026 dans `cm-metricool` ; sa migration vers ce
+moteur et son passage en client payant sont ouverts.
+
+## Actions bloquantes
+
+1. **Test des 4 reels chronométrés** — tant qu'il n'existe pas, le palier Salle n'a pas de prix, il a
+   une hypothèse. Aucun prix ne s'annonce avant.
+2. **Droits photo à vérifier auprès de l'organisation HYROX** — bloquant pour tout le modèle de
+   captation de course.
+3. **Corriger la doctrine média de `cm-metricool`** : elle affirme encore qu'une URL publique est
+   obligatoire, alors que l'upload Metricool est éprouvé depuis le 23/07/2026. Divergence documentée
+   en tête de `references/metricool-api.md`.
+4. **Trancher le palier de Pierre** — ce qui lui est livré aujourd'hui est très au-dessus de Salle,
+   et le passer en Base sans réduire le service fixerait une référence intenable pour les suivants.
+5. **Figer le T0 de la vitrine** avant sa prochaine publication. C'est la seule chose de tout ce
+   dépôt qui ne se rattrape pas.
+6. Monteur à trouver, capable d'absorber 15 à 30 h/mois à 30 €/h.
+
+## Règles de cohérence
+
+- La doctrine Metricool est partagée avec `cm-metricool` : **toute correction s'applique aux deux
+  dépôts dans le même commit**.
+- Un compte présent dans le portefeuille d'un moteur ne doit jamais apparaître dans celui d'un autre.
+- La seule passerelle autorisée entre moteurs : les chiffres du cas vitrine sortent d'ici et se
+  publient sur **Otea Filmakers**, via `cm-metricool`.
+- **On automatise après trois clients faits à la main**, pas avant.
 
 ## Installation
 
-```bash
-ln -s "$(pwd)" ~/.claude/skills/cm-hyrox
-```
-
-Le skill est alors disponible sous le nom `cm-hyrox`.
-
-## Points ouverts avant d'ouvrir l'offre
-
-- **Aucun prix n'est validé.** `references/offre-athlete.md` porte un bandeau explicite : ne rien
-  citer à un prospect tant qu'il n'est pas levé.
-- **Le portefeuille est vide.** Les tables d'athlètes de `SKILL.md` et de `roi-athlete.md` se
-  remplissent à la signature, jamais avant.
-- **Le monteur n'est pas testé.** Le temps réel de montage d'un reel décide de la viabilité du
-  palier haut.
-- **`references/saison-hyrox.md` est daté du 6 août 2026.** Toutes ses données périment : le fichier
-  se revérifie avant toute publication de chiffres, et se met à jour si sa date a plus de deux mois.
-
-## Règle de cohérence entre moteurs
-
-`references/metricool-api.md` est strictement identique dans les trois skills. Toute correction faite
-d'un côté se recopie des deux autres — sinon les moteurs divergent sur la plomberie et le bug de
-fuseau horaire revient par la petite porte.
-
-Un compte présent dans le portefeuille d'un moteur ne doit jamais apparaître dans celui d'un autre.
+Le skill est chargé automatiquement depuis `.claude/skills/` quand le dépôt est ouvert.

@@ -132,7 +132,7 @@ exactement le profil qui convertit en coaching. Ne jamais optimiser pour la port
 
 Le cœur du moteur. **Elle se pose au calendrier le jour de l'inscription, pas le mois de la course.**
 Une course produit 12 à 14 contenus + les stories, soit près de la moitié d'un mois de palier
-Podium. Tout s'écrit à l'avance ; le jour J, on remplit des placeholders.
+contenus au palier Compétiteur. Tout s'écrit à l'avance ; le jour J, on remplit des placeholders.
 
 | Jalon | Pilier | Contenu | Format |
 |---|---|---|---|

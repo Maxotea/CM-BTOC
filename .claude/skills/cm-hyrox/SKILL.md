@@ -1,13 +1,13 @@
 ---
 name: cm-hyrox
-description: Moteur de community management d'OTEA Production pour les ATHLÈTES HYROX et hybrides — le client est un compétiteur (Open, Pro, Doubles, Elite, coach-athlète) dont la saison de course structure tout le contenu. Pilote un athlète de bout en bout : ligne éditoriale bâtie sur ses chiffres réels, campagne de course J-56 → J+7, protocole de tournage à la salle, scripts de reels, planification Metricool via Zapier, reporting à deux tunnels (coaching vendu et valeur média livrée aux partenaires), dossier de sponsoring, onboarding et grille d'offre. Utilise ce skill dès que Maxime parle d'un client athlète HYROX ou hybride, d'une course (Paris, Nice, Bordeaux, Lyon, Toulouse, Elite Series, World Championships), d'un compte de coach HYROX, d'un dossier de partenariat sportif, ou de son offre « CM athlète » / « personal branding sportif ». N'utilise JAMAIS ce skill pour les comptes commerces du portefeuille B2B (Le Loft, Gossip Beauty Center, J Lawson Golf, La Galerie Immobilière, Otea, Otea Filmakers) — ceux-là relèvent de `cm-otea`. Pour un client perso qui n'est PAS un athlète de course (coach business, consultant, libéral, artiste), utilise `cm-b2c`.
+description: Moteur de community management d'OTEA Production pour les ATHLÈTES HYROX et hybrides — le client est un compétiteur (Open, Pro, Doubles, Elite, coach-athlète) dont la saison de course structure tout le contenu. Pilote un athlète de bout en bout : ligne éditoriale bâtie sur ses chiffres réels, campagne de course J-56 → J+7, protocole de tournage à la salle, scripts de reels, planification Metricool via Zapier, reporting à deux tunnels (coaching vendu et valeur média livrée aux partenaires), dossier de sponsoring, onboarding et grille d'offre. Utilise ce skill dès que Maxime parle d'un client athlète HYROX ou hybride, de Pierre Huiban, d'une course (Paris, Nice, Bordeaux, Lyon, Toulouse, Elite Series, World Championships), d'un compte de coach HYROX, d'un dossier de partenariat sportif, ou de son offre « CM athlète » / « personal branding sportif ». N'utilise JAMAIS ce skill pour les comptes commerces du portefeuille B2B (Le Loft, Gossip Beauty Center, J Lawson Golf, La Galerie Immobilière, Otea, Otea Filmakers) — ceux-là relèvent de `cm-metricool`, dans le dépôt `CM-OTEA`. Pour un client perso qui n'est PAS un athlète de course (coach business, consultant, libéral, artiste), utilise `cm-b2c`.
 ---
 
 # Moteur CM HYROX — athlète — v1
 
-Spécialisation de `cm-b2c` sur une seule niche : **l'athlète HYROX**. Même plomberie que `cm-otea`
-(Metricool via Zapier, Higgsfield, `reel-script`, `reel-lint`), même structuration en dix étapes,
-mais un métier qui déplace trois choses par rapport au B2C générique :
+Spécialisation de `cm-b2c` sur une seule niche : **l'athlète HYROX**. Même plomberie que
+`cm-metricool` (Metricool via Zapier, Higgsfield, `reel-script`, `reel-lint`), même structuration en
+dix étapes, mais un métier qui déplace trois choses par rapport au B2C générique :
 
 - **Le goulot n'est plus « le client ne tourne pas ».** Un athlète s'entraîne 5 à 6 fois par semaine
   dans une salle pleine de miroirs, avec son téléphone sur lui. La matière existe déjà. Le vrai
@@ -20,10 +20,14 @@ mais un métier qui déplace trois choses par rapport au B2C générique :
 - **La preuve n'est plus un lead, elle est double.** Un athlète vend du coaching *et* vend de la
   visibilité à des marques. Deux tunnels, deux reportings, deux façons de rembourser l'abonnement.
 
+**Et surtout : ce n'est pas la même économie.** Un athlète a déjà dépensé son budget de l'année sur
+sa course. L'échelle de prix est **49 / 89 / 179 €**, pas celle de `cm-b2c` — c'est un modèle de
+volume, et il commande tout le reste du moteur. Voir `references/offre-athlete.md`.
+
 ## Étape 0 — Garde anti-mélange, puis identification (bloquante)
 
 **STOP si le compte demandé est l'un de ceux-ci** — ce sont des commerces, ils relèvent de
-`cm-otea` :
+`cm-metricool` (dépôt `CM-OTEA`) :
 
 > LE LOFT · Gossip Beauty Center · jlawsongolf · La Galerie Immobilière · OTEA PRODUCTION ·
 > Otea Filmakers
@@ -38,13 +42,17 @@ Ensuite, appeler `Zapier:list_enabled_zapier_actions` puis
 
 ### Portefeuille athlètes
 
-| Nom | blogId | Réseaux | Division | Prochaine course | Palier |
+| Nom | blogId | Réseaux | Typologie | Campagne de saison | Palier |
 |---|---|---|---|---|---|
-| _(aucun athlète à ce jour)_ | — | — | — | — | — |
+| **Pierre Huiban** (@pierrehuiban89) | 6572293 | Instagram | Athlète sponsorisé — 3 partenaires | **Road to Hong Kong** (Mondiaux, 10-13 juin 2027) | **à fixer** — non facturé à ce jour, et **client vitrine** |
+
+Fiche complète : `references/clients/pierre-huiban.md`. Régime vitrine : `references/vitrine.md`.
 
 Ajouter la ligne à la signature, jamais avant. Un compte présent dans cette table ne doit jamais
-apparaître dans celle de `cm-otea` ni dans celle de `cm-b2c` — c'est la seule barrière qui empêche
-les trois moteurs de se mélanger.
+apparaître dans celle de `cm-metricool` ni dans celle de `cm-b2c` — c'est la seule barrière qui
+empêche les trois moteurs de se mélanger. **Pierre figure encore dans les deux : sa migration depuis
+`cm-metricool` est en cours** (`references/clients/pierre-huiban.md`, §7), et tant qu'elle n'est pas
+tranchée, vérifier de quel côté on produit avant de toucher à son calendrier.
 
 **La colonne « prochaine course » est la plus importante du tableau.** Elle se met à jour à chaque
 session : tout le reste du moteur se déduit de la distance à cette date.
@@ -85,6 +93,12 @@ Repères de saison 26/27, format de course, charges par division, changements de
 vocabulaire : `references/saison-hyrox.md`. **Ce fichier est daté** — le relire, c'est aussi vérifier
 que sa date de dernière validation n'a pas plus de deux mois.
 
+**Règle née d'un incident réel : toute campagne datée se revérifie chaque trimestre.** Le hashtag
+`#roadtostockholm` de Pierre Huiban est resté dans sa fiche deux mois après la fin des Mondiaux 2026
+et s'est propagé dans quatre carrousels avant qu'un correctif manuel dans Metricool ne le rattrape.
+Une campagne de saison porte une date de péremption ; elle se contrôle au calendrier, pas au hasard
+d'une relecture.
+
 ## Étape 2 — Structure éditoriale
 
 Cinq piliers. Ils ne sont ni ceux du commerce ni ceux du personal branding générique : ici on
@@ -123,8 +137,10 @@ sur lesquels il accepte d'être clivant** et **trois sur lesquels il refuse**, p
 Il n'y a pas de banque photo shootée. La matière vient de ses séances et de ses courses. Ordre de
 choix pour chaque contenu :
 
-1. **Rushes du batch mensuel**, tournés pendant des séances déjà prévues, hébergés sur URL publique
-   par Maxime après réception. URL publique → le média s'attache directement au `schedule_post`.
+1. **Rushes du batch mensuel**, tournés pendant des séances déjà prévues. Une photo ou une vidéo
+   locale s'attache directement au `schedule_post` via l'upload Metricool
+   (`media_upload → PUT → media_confirm → URL cloudfront`) : **il n'y a pas besoin de l'héberger
+   publiquement ailleurs**. Méthode complète dans `references/metricool-api.md`.
 2. **Captation de course** (option facturée, voir `references/offre-athlete.md`) — la matière la plus
    rentable du moteur : un jour de course alimente deux mois de contenu.
 3. **Photos et vidéos officielles de l'événement** — attention aux droits, voir
@@ -136,8 +152,13 @@ choix pour chaque contenu :
    fabriquée** : sur un compte de sport, une image inventée passée pour un vrai moment est la faute
    qui ne se rattrape pas.
 
-Si un média n'a pas d'URL publique → post en `draft: true` + liste explicite du fichier à attacher.
-Si le cas se répète, le problème est le protocole de tournage, pas la publication.
+Le mode brouillon manuel (`draft: true`) ne subsiste que si la légende contient des placeholders, ou
+si le média n'existe pas encore. Si ce cas se répète, le problème est le protocole de tournage, pas
+la publication.
+
+**Sur un compte d'athlète, la règle est : vraies images uniquement.** Les slides de carrousel et les
+cartes de stories sont typographiques, donc conformes — c'est ce qui permet de tenir un volume élevé
+sans jamais fabriquer une image de la personne.
 
 ## Étape 4 — Écriture
 
@@ -163,14 +184,19 @@ Si le cas se répète, le problème est le protocole de tournage, pas la publica
 Identique aux deux autres moteurs — même tunnel, mêmes pièges. Manuel complet :
 `references/metricool-api.md`.
 
-- Média avec URL publique → `draft: false`, `autoPublish: true`
-- Média manquant ou placeholder dans la légende → `draft: true` + `autoPublish: false`
-- **Bug de fuseau horaire** : après toute création, `list_scheduled_posts` → `bulk_update_post_times`
-  → `bulk_set_draft` obligatoirement, dans cet ordre. Sauter la dernière étape publie des brouillons.
+- **Calendrier (3 posts et plus)** → `bulk_schedule_posts` : crée en brouillon, fuseau Europe/Paris
+  natif, **pas de bug horaire**. C'est la méthode par défaut.
+- **Post avec média, ou carrousel** → `schedule_post` (la seule action qui accepte des médias), après
+  upload du fichier local. Un carrousel = un seul appel, slides dans `media01` … `media08`, dans
+  l'ordre.
+- **Bug de fuseau horaire — `schedule_post` uniquement** : après création, `list_scheduled_posts` →
+  `bulk_update_post_times` → `bulk_set_draft` obligatoirement, dans cet ordre. Sauter la dernière
+  étape publie des brouillons.
 - Horaires par défaut athlète, heure de Paris : **reels 6 h 45 ou 12 h 15, posts feed 20 h 30**. Une
-  audience de pratiquants consulte avant la séance du matin et après celle du soir — pas aux mêmes
-  heures qu'une clientèle de commerce. À réviser athlète par athlète au bout de deux mois sur les
-  stats réelles.
+  audience de pratiquants consulte avant la séance du matin et après celle du soir. **Ce sont des
+  valeurs de départ, pas une règle** : un athlète déjà installé a ses propres créneaux vérifiés — ceux
+  de Pierre Huiban sont 00 h 30 et 06 h 00, et on ne les écrase pas. Réviser sur les stats réelles au
+  bout de deux mois.
 - **Règle du jour de course : rien ne se planifie.** Le jour J se joue en stories, en direct, depuis
   le téléphone de l'athlète ou celui de Maxime s'il est sur place. Metricool ne sert à rien ce
   jour-là. Ce qui est planifié pour J et J+1, ce sont les contenus à placeholders préparés à
@@ -224,9 +250,18 @@ Deux règles bloquantes propres à ce moteur :
 
 ## Étape 9 — Déléguer
 
-Dès 5 athlètes, le montage sort du périmètre de Maxime : c'est 16 reels par athlète et par mois au
-palier haut, et le premier poste de temps du moteur. Brief type, style d'overlay de données et
-grille de coûts : `references/playbook-athlete.md`.
+Le montage est le poste qui décide de la viabilité de toute la grille : **il se mesure avant de se
+vendre.** Le test bloquant — 4 reels montés et chronométrés — conditionne l'ouverture du palier
+Salle (`references/offre-athlete.md`, §3). Brief type, style d'overlay de données et grille de
+coûts : `references/playbook-athlete.md`.
+
+Deux garde-fous d'échelle, arrêtés le 04/08/2026 :
+
+- **On automatise après trois clients faits à la main**, pas avant. Un moteur automatisé sur des
+  hypothèses automatise les hypothèses.
+- Le mix cible est de **33 athlètes** (10 Base + 15 Salle + 8 Compétiteur). À ce volume, le montage
+  sous-traité est de 15 h/mois — c'est le chiffre qui décide du recrutement d'un monteur, pas le
+  nombre de clients.
 
 Ne se délègue jamais : la voix, l'arbitrage des opinions (H4), la relation avec les partenaires de
 l'athlète, la validation avant publication, le reporting.
@@ -237,11 +272,15 @@ l'athlète, la validation avant publication, le reporting.
 |---|---|
 | `references/saison-hyrox.md` | Caler un calendrier, monter une campagne de course, vérifier un format, une charge ou une règle |
 | `references/offre-athlete.md` | Chiffrer une proposition, définir un palier, arbitrer une demande hors forfait |
-| `references/production-media.md` | Construire une liste de plans, cadrer un batch en salle, filmer une course, héberger les rushes |
+| `references/production-media.md` | Construire une liste de plans, cadrer un batch en salle, filmer une course, gérer les droits |
 | `references/roi-athlete.md` | Produire un reporting, monter un dossier de sponsoring, justifier un prix, préparer un renouvellement |
 | `references/playbook-athlete.md` | Onboarder, contrôler la qualité, déléguer, gérer un incident |
+| `references/vitrine.md` | Piloter un client vitrine, figer un T0, écrire un cas publiable |
 | `references/metricool-api.md` | Toute manipulation technique de Metricool via Zapier |
+| `references/clients/<slug>.md` | Tout ce qui touche un athlète précis |
 
-**`metricool-api.md` est strictement partagé avec `cm-otea` et `cm-b2c`.** Il doit rester identique
-au bit près dans les trois skills : toute correction faite d'un côté se recopie des deux autres,
-sinon les moteurs divergent sur la plomberie et le bug de fuseau revient par la petite porte.
+**La doctrine Metricool est partagée avec `cm-metricool`** (dépôt `CM-OTEA`) : toute correction
+s'applique aux deux dépôts dans le même commit, sinon les moteurs divergent sur la plomberie.
+**Une divergence est ouverte à ce jour** et documentée en tête de `references/metricool-api.md` :
+`cm-metricool` affirme encore qu'une URL publique est obligatoire pour attacher un média, alors que
+la méthode d'upload est éprouvée depuis le 23/07/2026.
