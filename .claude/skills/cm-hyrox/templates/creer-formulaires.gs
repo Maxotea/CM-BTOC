@@ -97,10 +97,11 @@ const SCHEMA_DOSSIER = [
     aide: 'Il reste la partie la plus importante : ta voix.\n\n'
         + 'Quelques questions, à l\'oral — pas par écrit. Quand on écrit, on se corrige, '
         + 'on lisse, et on perd exactement ce qu\'on cherche : ta façon de parler.\n\n'
-        + 'On t\'appelle pour la faire ensemble. Réponds à la question ci-dessous et on cale ça.' },
+        + 'On t\'appelle pour la faire ensemble — sauf si on se connaît déjà assez pour que je '
+        + 'te la remplisse et que tu corriges.' },
 
-  { champ: 'dispo_appel',             titre: 'Quand es-tu joignable 10 minutes cette semaine ?', type: 'long', requis: true,
-    aide: 'Deux ou trois créneaux suffisent.' }
+  { champ: 'dispo_appel',             titre: 'Quand es-tu joignable 10 minutes cette semaine ?', type: 'long',
+    aide: 'Deux ou trois créneaux suffisent. Laisse vide si on a déjà calé ça ensemble.' }
 ];
 
 const SCHEMA_HEBDO = [
