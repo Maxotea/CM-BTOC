@@ -46,27 +46,46 @@ est ce qui l'empêche structurellement.
 
 ```
 CM-BTOC/
+├── dossier-pro.html                     questionnaire d'onboarding B2C généraliste (voir Documents)
 └── .claude/skills/cm-hyrox/
-    ├── SKILL.md                      moteur, étapes 0 → 9
-    └── references/
-        ├── dispositif.md             ce qu'on livre, ce qui est automatisé, le budget temps
-        ├── persona-et-voix.md        extraction de la voix, modèle de données, linter d'interdits
-        ├── saison-hyrox.md           calendrier 26/27, format, charges, règles, campagne de course
-        ├── offre-athlete.md          échelle 49/89/179, contrainte de montage   ⚠️ non validée
-        ├── production-media.md       triptyque de tournage, captation de course, droits
-        ├── roi-athlete.md            reporting deux tunnels, dossier de sponsoring
-        ├── playbook-athlete.md       onboarding, interdits réglementaires, qualité, délégation
-        ├── vitrine.md                protocole du client vitrine : T0, verrous, écriture du cas
-        ├── metricool-api.md          plomberie — à tenir synchronisée avec cm-metricool
-        ├── clients/
-        │   └── pierre-huiban.md      athlète n° 1, et client vitrine
-        ├── templates/
-        │   ├── creer-formulaires.gs  génère les 2 formulaires Google depuis le schéma
-        │   ├── dossier-athlete.md    la source et la référence du dispositif
-        │   └── Dossier-Athlete-OTEA.pdf   version imprimable
-        └── athletes/
-            └── pierre-huiban/        données structurées : profil.json, courses.json
+    ├── SKILL.md                         moteur, étapes 0 → 9
+    ├── references/
+    │   ├── dispositif.md                ce qu'on livre, ce qui est automatisé, le budget temps
+    │   ├── persona-et-voix.md           extraction de la voix, facecam, modèle de données, linter
+    │   ├── saison-hyrox.md              calendrier 26/27, format, charges, règles, campagne
+    │   ├── offre-athlete.md             échelle 49/89/179, contrainte de montage  ⚠️ non validée
+    │   ├── production-media.md          triptyque de tournage, captation de course, droits
+    │   ├── roi-athlete.md               reporting deux tunnels, dossier de sponsoring
+    │   ├── playbook-athlete.md          onboarding, interdits réglementaires, qualité, délégation
+    │   ├── vitrine.md                   protocole du client vitrine : T0, verrous, écriture du cas
+    │   ├── metricool-api.md             plomberie — à tenir synchronisée avec cm-metricool
+    │   └── clients/
+    │       └── pierre-huiban.md         athlète n° 1, et client vitrine
+    ├── templates/
+    │   ├── creer-formulaires.gs         génère les 2 formulaires Google depuis le schéma, et importe
+    │   ├── dossier-athlete.md           la source et la référence du dispositif
+    │   ├── Dossier-Athlete-OTEA.pdf     version imprimable
+    │   └── web/dossier-athlete.html     page autonome à héberger sur oteaproduction.com
+    └── athletes/
+        ├── _formulaires.json            identifiants des 2 formulaires, communs à tous les athlètes
+        └── pierre-huiban/               données structurées : profil.json, courses.json
 ```
+
+## Documents d'onboarding
+
+Deux déclinaisons du même questionnaire, dépersonnalisées l'une de l'autre. Elles partagent la
+structure et le principe — **on ne demande jamais la chose qu'on veut, on demande la situation qui
+la révèle** — et divergent sur le contexte métier.
+
+| Document | Cible | Où |
+|---|---|---|
+| **Dossier Athlète** | Athlètes HYROX et hybrides | `.claude/skills/cm-hyrox/templates/` — source `.md`, PDF imprimable, page web autonome, et le script qui génère le formulaire Google |
+| **Dossier Pro** | B2C large : coachs, consultants, thérapeutes, créateurs, artisans, libéraux, TPE | `dossier-pro.html`, à la racine |
+
+Le Dossier Athlète est le seul des deux à être **branché sur l'outil** : son formulaire Google est
+généré depuis le schéma de `creer-formulaires.gs`, et les réponses s'importent en `profil.json` sans
+ressaisie. Toute évolution de fond se fait d'abord côté athlète, puis se répercute sur le Dossier
+Pro — jamais l'inverse.
 
 ## Portefeuille
 

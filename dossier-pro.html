@@ -1,0 +1,480 @@
+<title>Dossier Pro — OTEA</title>
+
+<style>
+  :root {
+    --paper:      #EFEFEC;
+    --paper-2:    #E4E4DF;
+    --ink:        #16171A;
+    --ink-soft:   #55565C;
+    --ink-faint:  #8A8B90;
+    --rule:       #C9C9C2;
+    --spot:       #D8401A;
+    --spot-ink:   #FFFFFF;
+
+    --measure: 34rem;
+    --step--1: 0.8125rem;
+    --step-0:  1.0625rem;
+    --step-1:  1.375rem;
+    --step-2:  2rem;
+    --step-3:  clamp(2.75rem, 9vw, 4.25rem);
+
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --cond: "Arial Narrow", "Helvetica Neue", Impact, var(--sans);
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper:     #0D0E10;
+      --paper-2:   #16181B;
+      --ink:       #ECECE8;
+      --ink-soft:  #A3A4A8;
+      --ink-faint: #6D6E73;
+      --rule:      #2A2C30;
+      --spot:      #FF6440;
+      --spot-ink:  #0D0E10;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:     #0D0E10;
+    --paper-2:   #16181B;
+    --ink:       #ECECE8;
+    --ink-soft:  #A3A4A8;
+    --ink-faint: #6D6E73;
+    --rule:      #2A2C30;
+    --spot:      #FF6440;
+    --spot-ink:  #0D0E10;
+  }
+  :root[data-theme="light"] {
+    --paper:     #EFEFEC;
+    --paper-2:   #E4E4DF;
+    --ink:       #16171A;
+    --ink-soft:  #55565C;
+    --ink-faint: #8A8B90;
+    --rule:      #C9C9C2;
+    --spot:      #D8401A;
+    --spot-ink:  #FFFFFF;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: var(--step-0);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sheet {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: clamp(1.75rem, 5vw, 4rem) clamp(1.25rem, 5vw, 3rem) 5rem;
+  }
+
+  /* ---- en-tête : une feuille de route ---- */
+
+  .masthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--ink);
+    font-family: var(--mono);
+    font-size: var(--step--1);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .masthead b { color: var(--ink); font-weight: 600; }
+
+  h1 {
+    font-family: var(--cond);
+    font-size: var(--step-3);
+    font-weight: 700;
+    line-height: 0.92;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    text-wrap: balance;
+    margin: 1.5rem 0 0;
+  }
+  .lede {
+    max-width: var(--measure);
+    font-size: var(--step-1);
+    line-height: 1.45;
+    color: var(--ink-soft);
+    margin: 1rem 0 0;
+    text-wrap: pretty;
+  }
+  .lede strong { color: var(--ink); font-weight: 600; }
+
+  /* ---- le pacte : trois chiffres, format tableau de bord ---- */
+
+  .pact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin-top: 2.5rem;
+  }
+  .pact > div { background: var(--paper); padding: 1.25rem 1.1rem; }
+  .pact dt {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .pact dd {
+    font-family: var(--cond);
+    font-size: var(--step-2);
+    font-weight: 700;
+    line-height: 1.05;
+    text-transform: uppercase;
+    margin: 0.4rem 0 0.25rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .pact p { font-size: var(--step--1); color: var(--ink-soft); margin: 0; line-height: 1.45; }
+
+  /* ---- sections numérotées : l'ordre compte, c'est un parcours ---- */
+
+  section { margin-top: 3.5rem; }
+
+  .head {
+    display: grid;
+    grid-template-columns: 3.25rem 1fr;
+    align-items: start;
+    gap: 0 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--rule);
+  }
+  .num {
+    font-family: var(--mono);
+    font-size: var(--step--1);
+    font-weight: 600;
+    color: var(--spot);
+    letter-spacing: 0.05em;
+    padding-top: 0.35rem;
+    font-variant-numeric: tabular-nums;
+  }
+  h2 {
+    font-family: var(--cond);
+    font-size: var(--step-2);
+    font-weight: 700;
+    line-height: 1.05;
+    text-transform: uppercase;
+    letter-spacing: -0.005em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .meta {
+    grid-column: 2;
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin: 0.5rem 0 0;
+  }
+  .body { grid-column: 2; max-width: var(--measure); }
+  .body > * + * { margin-top: 0.9rem; }
+  .body p { margin: 0; text-wrap: pretty; }
+  .body strong { font-weight: 600; }
+
+  ul.items { list-style: none; margin: 1rem 0 0; padding: 0; }
+  ul.items li {
+    padding: 0.55rem 0 0.55rem 1.4rem;
+    border-top: 1px solid var(--rule);
+    position: relative;
+    color: var(--ink-soft);
+  }
+  ul.items li::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 1.15rem;
+    width: 0.55rem; height: 1px;
+    background: var(--spot);
+  }
+  ul.items li b { color: var(--ink); font-weight: 600; }
+
+  /* ---- le bloc voix : la seule chose qui ne se fait pas par écrit ---- */
+
+  .voice {
+    background: var(--paper-2);
+    border-left: 3px solid var(--spot);
+    padding: 1.4rem 1.5rem;
+    margin-top: 1.25rem;
+  }
+  .voice p { margin: 0; }
+  .voice p + p { margin-top: 0.75rem; }
+  .voice .q {
+    font-family: var(--cond);
+    font-size: var(--step-1);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.15;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+
+  /* ---- les cinq lignes du dimanche : une feuille de relevés ---- */
+
+  .splits {
+    margin-top: 1.25rem;
+    border: 1px solid var(--rule);
+    font-family: var(--mono);
+    font-size: var(--step--1);
+  }
+  .splits div {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    gap: 0.75rem;
+    padding: 0.7rem 0.9rem;
+    align-items: baseline;
+  }
+  .splits div + div { border-top: 1px solid var(--rule); }
+  .splits span { color: var(--spot); font-variant-numeric: tabular-nums; }
+  .splits b { font-weight: 500; color: var(--ink); }
+
+  /* ---- clôture ---- */
+
+  .close {
+    margin-top: 3.5rem;
+    padding-top: 1.25rem;
+    border-top: 2px solid var(--ink);
+  }
+  ol.steps { margin: 1.25rem 0 0; padding: 0; list-style: none; counter-reset: s; }
+  ol.steps li {
+    counter-increment: s;
+    display: grid;
+    grid-template-columns: 2.25rem 1fr;
+    gap: 0.75rem;
+    padding: 0.85rem 0;
+    max-width: var(--measure);
+  }
+  ol.steps li + li { border-top: 1px solid var(--rule); }
+  ol.steps li::before {
+    content: counter(s);
+    font-family: var(--mono);
+    font-size: var(--step--1);
+    color: var(--spot-ink);
+    background: var(--spot);
+    width: 1.55rem; height: 1.55rem;
+    display: grid; place-items: center;
+    font-weight: 600;
+  }
+  ol.steps b { font-weight: 600; }
+  ol.steps p { margin: 0.2rem 0 0; color: var(--ink-soft); font-size: var(--step--1); }
+
+  .cta {
+    display: inline-block;
+    margin-top: 0.85rem;
+    padding: 0.7rem 1.35rem;
+    background: var(--spot);
+    color: var(--spot-ink);
+    text-decoration: none;
+    font-family: var(--cond);
+    font-size: var(--step-1);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    line-height: 1;
+    transition: filter 0.15s ease;
+  }
+  .cta:hover { filter: brightness(1.12); }
+  .cta:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { .cta { transition: none; } }
+
+  footer {
+    margin-top: 3rem;
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  @media (max-width: 34rem) {
+    .head { grid-template-columns: 1fr; }
+    .num { padding-top: 0; }
+    .meta, .body { grid-column: 1; }
+  }
+</style>
+
+<div class="sheet">
+
+  <header>
+    <div class="masthead">
+      <span><b>OTEA Production</b> — accompagnement indépendants &amp; TPE</span>
+      <span>Édition 2026</span>
+    </div>
+
+    <h1>Dossier Pro</h1>
+
+    <p class="lede">Votre marque, c'est vous — coach, artisan, consultant, thérapeute, créateur, ou
+      à la tête d'une TPE. Ce dossier sert à ce que ce qu'on publie sur votre compte sonne comme
+      <strong>vous</strong>, et pas comme une agence. Vos mots, vos chiffres, vos prises de
+      position — pas les nôtres.</p>
+
+    <dl class="pact">
+      <div>
+        <dt>En travaillant</dt>
+        <dd>6 min</dd>
+        <p>Trois plans, toujours les mêmes, filmés sur ce que vous faisiez déjà.</p>
+      </div>
+      <div>
+        <dt>Par semaine</dt>
+        <dd>5 lignes</dd>
+        <p>Un message le dimanche soir. Trente secondes.</p>
+      </div>
+      <div>
+        <dt>Pour démarrer</dt>
+        <dd>3 min</dd>
+        <p>Une vidéo, cinq questions, une seule prise.</p>
+      </div>
+    </dl>
+  </header>
+
+  <section>
+    <div class="head">
+      <div class="num">01</div>
+      <h2>Vous, votre métier</h2>
+      <p class="meta">Formulaire — 10 min</p>
+      <div class="body">
+        <p>Les faits, et on ne vous les redemande plus&#8239;: votre activité, depuis quand, où,
+          seul ou en équipe, et les comptes déjà ouverts.</p>
+        <p>Puis <strong>vos chiffres</strong> — ce que vous vendez, vos prix réels, la prestation
+          qu'on vous demande le plus, le nombre de clients servis, un avant/après dont vous êtes
+          fier. Ce sont eux qui ouvriront vos contenus. Un chiffre à vous vaut mieux que n'importe
+          quelle accroche qu'on pourrait écrire.</p>
+        <p>Et votre cap&#8239;: votre métier en une phrase — celle que vous diriez à un voisin, pas
+          celle de votre plaquette —, le client que vous voudriez voir plus souvent, et votre
+          objectif à six mois en un seul chiffre. Des demandes, des devis, des ventes — jamais des
+          abonnés.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="head">
+      <div class="num">02</div>
+      <h2>Votre voix, en vidéo</h2>
+      <p class="meta">3 min &#8239;— seul avec votre téléphone &#8239;— pas de rendez-vous</p>
+      <div class="body">
+        <p>Vous lancez l'enregistrement, vous répondez aux cinq questions à la suite, vous envoyez.
+          C'est tout.</p>
+
+        <div class="voice">
+          <p class="q">Ce n'est pas une présentation.</p>
+          <p>On ne veut pas que vous vous vendiez &#8239;— on veut vous entendre parler normalement.
+            Une prise brute vaut dix fois mieux qu'une belle prise.</p>
+        </div>
+
+        <p><strong>Les quatre règles comptent plus que vos réponses&#8239;:</strong></p>
+        <ul class="items">
+          <li><b>Une seule prise.</b> Vous ne recommencez pas. Si vous bafouillez, vous continuez.</li>
+          <li><b>Vous ne coupez pas</b> entre les questions, vous enchaînez.</li>
+          <li><b>3 minutes en tout.</b> Ne préparez rien à l'avance.</li>
+          <li><b>Cette vidéo ne sera jamais publiée.</b> Elle sert à nous, pour apprendre à écrire
+            comme vous.</li>
+        </ul>
+
+        <p>Téléphone vertical, cadre poitrine, là où vous êtes.</p>
+
+        <div class="splits">
+          <div><span>01</span><b>Racontez votre pire journée des six derniers mois &#8239;— et ce que vous vous êtes dit dans votre tête pour tenir.</b></div>
+          <div><span>02</span><b>Qu'est-ce qui vous énerve dans votre milieu&#8239;?</b></div>
+          <div><span>03</span><b>Sur quoi vos clients se trompent-ils, avant de venir vous voir&#8239;?</b></div>
+          <div><span>04</span><b>Le jour où vous avez failli tout arrêter &#8239;— c'était quand, et pourquoi vous avez continué&#8239;?</b></div>
+          <div><span>05</span><b>Décrivez la dernière personne qui vous a payé &#8239;— qui c'était, pour quoi, et comment elle vous avait trouvé.</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="head">
+      <div class="num">03</div>
+      <h2>Vos limites</h2>
+      <p class="meta">Formulaire — 5 min</p>
+      <div class="body">
+        <p>La partie qui nous empêche de faire une bêtise en votre nom. Soyez franc&#8239;: rien ici
+          ne sort d'entre nous.</p>
+        <ul class="items">
+          <li><b>Deux sujets</b> sur lesquels vous acceptez de prendre position publiquement, quitte
+            à ce que ça fasse débat.</li>
+          <li><b>Trois sujets</b> sur lesquels on ne parle jamais en votre nom.</li>
+          <li><b>Ce qu'on ne montre jamais</b> — personnes, lieux, clients, vie privée.</li>
+          <li><b>Vos règles de métier</b> — ordre professionnel, mentions obligatoires, promesses
+            interdites (santé, droit, argent). On les respecte à la lettre.</li>
+          <li><b>Vos partenaires et fournisseurs</b>, leur @ exact, ce que vous leur devez et à
+            quelle échéance.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="head">
+      <div class="num">04</div>
+      <h2>Votre matériel</h2>
+      <p class="meta">Formulaire — 2 min</p>
+      <div class="body">
+        <p>Votre téléphone suffit. Le seul achat qu'on vous demande, c'est un
+          <strong>micro-cravate sans fil</strong>, autour de 50 € — le son est ce qui fait décrocher
+          une vidéo, jamais l'image.</p>
+        <p>Et si vous n'aimez pas parler face caméra&#8239;: vous filmez muet en travaillant, vous
+          enregistrez votre voix au calme le soir. Ça prend 90 secondes et le rendu est souvent
+          meilleur.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="head">
+      <div class="num">05</div>
+      <h2>Le rituel</h2>
+      <p class="meta">Une fois lancé — c'est tout ce qu'on vous demande</p>
+      <div class="body">
+        <p>Chaque dimanche soir, un message. Toujours le même format, et il alimente tout ce qu'on
+          publie la semaine suivante&#8239;:</p>
+
+        <div class="splits">
+          <div><span>01</span><b>Ma semaine — ce que j'ai fait, pour qui</b></div>
+          <div><span>02</span><b>Mon chiffre de la semaine — un devis, un délai, un avant/après, un nombre de clients</b></div>
+          <div><span>03</span><b>Ce qui a été dur</b></div>
+          <div><span>04</span><b>Une question qu'un client m'a posée</b></div>
+          <div><span>05</span><b>Ce qui arrive la semaine prochaine</b></div>
+        </div>
+
+        <p>Et vos trois plans quand vous y pensez&#8239;: <strong>un large dans votre décor de
+          travail, un serré sur le geste ou l'écran, un plan du résultat.</strong> Déposés dans le
+          dossier partagé.</p>
+        <p>Si vous ne déposez rien une semaine, ce n'est pas grave — votre compte continue de
+          tourner. Vous n'aurez simplement pas de vidéo de vous.</p>
+        <p>Après chaque moment fort — une livraison, un chantier terminé, un lancement, un client
+          qui vous écrit merci&#8239;: votre ressenti à chaud, même en vocal décousu de trente
+          secondes. C'est le contenu qui marche le mieux de l'année, et il ne se reconstitue pas
+          trois jours après.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="close">
+    <h2>Ce qui se passe maintenant</h2>
+    <ol class="steps">
+      <li><div><b>Vous remplissez le formulaire</b>
+        <p>Dix minutes, une seule fois. Les parties 01, 03 et 04 — les faits.</p>
+        <a class="cta" href="mailto:contact@oteaproduction.com?subject=Dossier%20Pro%20%E2%80%94%20d%C3%A9marrage">Démarrer mon dossier</a></div></li>
+      <li><div><b>Vous tournez votre vidéo de 3 minutes</b>
+        <p>Cinq questions, une prise, chez vous. Pas de rendez-vous à caler.</p></div></li>
+      <li><div><b>On vous renvoie votre ligne éditoriale</b>
+        <p>Vos piliers, votre bio réécrite, et le calendrier de votre premier mois calé sur votre
+          activité et votre saison. Vous validez, et on lance.</p></div></li>
+    </ol>
+  </div>
+
+  <footer>OTEA Production — à mettre à jour à chaque changement d'offre, de prix ou d'objectif</footer>
+
+</div>
