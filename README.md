@@ -46,7 +46,9 @@ est ce qui l'empêche structurellement.
 
 ```
 CM-BTOC/
-├── dossier-pro.html                     questionnaire d'onboarding B2C généraliste (voir Documents)
+├── dossier-pro.html                     Dossier Pro — page à envoyer     ┐
+├── questionnaire-pro.md                 Dossier Pro — spec du formulaire ├─ voir Documents
+├── questionnaire-pro.gs                 Dossier Pro — script de création ┘
 └── .claude/skills/cm-hyrox/
     ├── SKILL.md                         moteur, étapes 0 → 9
     ├── references/
@@ -74,18 +76,24 @@ CM-BTOC/
 ## Documents d'onboarding
 
 Deux déclinaisons du même questionnaire, dépersonnalisées l'une de l'autre. Elles partagent la
-structure et le principe — **on ne demande jamais la chose qu'on veut, on demande la situation qui
-la révèle** — et divergent sur le contexte métier.
+structure, le facecam de 3 minutes et le principe qui les fait marcher — **on ne demande jamais la
+chose qu'on veut, on demande la situation qui la révèle** — et divergent sur le contexte métier.
 
-| Document | Cible | Où |
+| Document | Cible | Fichiers |
 |---|---|---|
-| **Dossier Athlète** | Athlètes HYROX et hybrides | `.claude/skills/cm-hyrox/templates/` — source `.md`, PDF imprimable, page web autonome, et le script qui génère le formulaire Google |
-| **Dossier Pro** | B2C large : coachs, consultants, thérapeutes, créateurs, artisans, libéraux, TPE | `dossier-pro.html`, à la racine |
+| **Dossier Athlète** | Athlètes HYROX et hybrides | `.claude/skills/cm-hyrox/templates/` : `dossier-athlete.md` (source), le PDF imprimable, `web/dossier-athlete.html`, et `creer-formulaires.gs` |
+| **Dossier Pro** | B2C large : coachs, consultants, thérapeutes, créateurs, artisans, libéraux, TPE | racine : `dossier-pro.html` (la page), `questionnaire-pro.md` (la spec), `questionnaire-pro.gs` (le script) |
 
-Le Dossier Athlète est le seul des deux à être **branché sur l'outil** : son formulaire Google est
-généré depuis le schéma de `creer-formulaires.gs`, et les réponses s'importent en `profil.json` sans
-ressaisie. Toute évolution de fond se fait d'abord côté athlète, puis se répercute sur le Dossier
-Pro — jamais l'inverse.
+**Les deux ne sont pas au même niveau d'outillage, et c'est délibéré.** Le script du Dossier Pro
+crée un formulaire, point : les réponses restent des lignes de feuille de calcul. Celui du Dossier
+Athlète est piloté par un `SCHEMA` où chaque libellé est **lié au champ `profil.json` qu'il
+alimente** — les libellés deviennent les en-têtes de colonnes, et `genererProfil()` réimporte sans
+ressaisie. C'est ce lien qui coûte à écrire, et c'est lui qui interdit de laisser dériver un
+libellé.
+
+D'où la règle de sens unique : **le fond évolue d'abord côté athlète, puis se répercute sur le
+Dossier Pro — jamais l'inverse.** Deux questionnaires jumeaux modifiés chacun de leur côté cessent
+d'être comparables en quelques semaines, et on ne sait plus lequel fait foi.
 
 ## Portefeuille
 
