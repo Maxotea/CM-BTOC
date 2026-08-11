@@ -146,8 +146,9 @@ function creerFormulaires() {
     + 'Tes mots, tes chiffres, tes prises de position — pas les nôtres.\n\n'
     + 'Compte 10 minutes. Une seule fois : ensuite, cinq lignes par semaine suffisent.',
     SCHEMA_DOSSIER,
-    'C\'est envoyé, merci.\n\nIl reste la partie voix — on t\'appelle pour la faire à l\'oral. '
-    + 'Ensuite tu ne reçois plus qu\'un lien le dimanche, cinq lignes, trente secondes.',
+    'C\'est envoyé, merci.\n\nIl reste la vidéo : 3 minutes, cinq questions, une seule prise, '
+    + 'jamais publiée — les questions sont dans la dernière section de ce formulaire. Ensuite tu ne '
+    + 'reçois plus qu\'un lien le dimanche, cinq lignes, trente secondes.',
     false
   );
 

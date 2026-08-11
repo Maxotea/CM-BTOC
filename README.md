@@ -46,9 +46,11 @@ est ce qui l'empêche structurellement.
 
 ```
 CM-BTOC/
-├── dossier-pro.html                     Dossier Pro — page à envoyer     ┐
-├── questionnaire-pro.md                 Dossier Pro — spec du formulaire ├─ voir Documents
-├── questionnaire-pro.gs                 Dossier Pro — script de création ┘
+├── dossier-pro.html                     Dossier Pro — page à envoyer          ┐
+├── questionnaire-pro.md                 Dossier Pro — spec des 2 formulaires  ├─ voir Documents
+├── questionnaire-pro.gs                 Dossier Pro — script et import        ┘
+├── clients/
+│   └── _formulaires.json                identifiants des 2 formulaires Pro  ⚠️ non créés
 └── .claude/skills/cm-hyrox/
     ├── SKILL.md                         moteur, étapes 0 → 9
     ├── references/
@@ -84,14 +86,24 @@ chose qu'on veut, on demande la situation qui la révèle** — et divergent sur
 | **Dossier Athlète** | Athlètes HYROX et hybrides | `.claude/skills/cm-hyrox/templates/` : `dossier-athlete.md` (source), le PDF imprimable, `web/dossier-athlete.html`, et `creer-formulaires.gs` |
 | **Dossier Pro** | B2C large : coachs, consultants, thérapeutes, créateurs, artisans, libéraux, TPE | racine : `dossier-pro.html` (la page), `questionnaire-pro.md` (la spec), `questionnaire-pro.gs` (le script) |
 
-**Les deux ne sont pas au même niveau d'outillage, et c'est délibéré.** Le script du Dossier Pro
-crée un formulaire, point : les réponses restent des lignes de feuille de calcul. Celui du Dossier
-Athlète est piloté par un `SCHEMA` où chaque libellé est **lié au champ `profil.json` qu'il
-alimente** — les libellés deviennent les en-têtes de colonnes, et `genererProfil()` réimporte sans
-ressaisie. C'est ce lien qui coûte à écrire, et c'est lui qui interdit de laisser dériver un
-libellé.
+**Les deux tournent sur la même mécanique.** Un tableau `SCHEMA` où chaque entrée porte à la fois
+le libellé de la question et le champ de `profil.json` qu'elle alimente ; le formulaire en est
+déduit. Les libellés deviennent les en-têtes de colonnes de la feuille de réponses, donc s'ils
+dérivent l'import casse — ici les deux sortent de la même source, ils ne peuvent pas diverger. Et
+chaque dispositif a **deux** formulaires : le Dossier une fois, et le **Point hebdo** chaque
+dimanche. C'est le second qui fait le gain de temps réel ; le premier ne sert qu'une fois.
 
-D'où la règle de sens unique : **le fond évolue d'abord côté athlète, puis se répercute sur le
+Les deux scripts sont faits pour être **comparés ligne à ligne** : mêmes fonctions, mêmes
+garde-fous, seuls le vocabulaire et les questions changent. Trois écarts seulement, tous assumés et
+listés en bas de `questionnaire-pro.md` — le plus important étant la question d'attribution
+hebdomadaire, côté Pro, qui mesure ce que la communication rapporte vraiment.
+
+⚠️ **Les formulaires Pro ne sont pas encore créés.** Le script est prêt et le schéma figé, mais
+`creerFormulaires` n'a jamais été exécuté : `clients/_formulaires.json` ne porte que des `null`, et
+le bouton de `dossier-pro.html` pointe encore sur un `mailto:`. Tant que c'est le cas, un prospect
+qui clique envoie un e-mail — et tout est à ressaisir à la main.
+
+Reste la règle de sens unique : **le fond évolue d'abord côté athlète, puis se répercute sur le
 Dossier Pro — jamais l'inverse.** Deux questionnaires jumeaux modifiés chacun de leur côté cessent
 d'être comparables en quelques semaines, et on ne sait plus lequel fait foi.
 
