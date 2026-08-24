@@ -1,8 +1,162 @@
-# CM-OTEAFILMAKERS
-Community Management BtoC Hyrox
+# CM-BTOC — moteur athlète
 
-## Documents
+Dépôt B2C d'OTEA Production. Il héberge le moteur de community management destiné aux
+**athlètes HYROX et hybrides**.
 
-- `dossier-pro.html` — **Dossier Pro** : questionnaire d'onboarding généraliste, réplique du Dossier Athlète (Hyrox) dépersonnalisée du contexte sportif. Sert à prospecter une cible B2C large : coachs, consultants, thérapeutes, créateurs, artisans, professions libérales, micro-entreprises et TPE.
-- `questionnaire-pro.md` — spécification complète du Google Form « Dossier Pro — OTEA » (pages, questions, types, options), miroir généraliste du form « Dossier Athlète — OTEA ». Couvre les parties 01, 03 et 04 de la page.
-- `questionnaire-pro.gs` — script Google Apps Script qui crée ce Google Form automatiquement (script.google.com → coller → exécuter → les liens s'affichent dans le journal).
+## Architecture
+
+| Dépôt | Périmètre | Skill |
+|---|---|---|
+| `CM-OTEA` | B2B — commerces | `cm-metricool` |
+| **`CM-BTOC`** | **B2C — personal branding et athlètes** | **`cm-hyrox`** (ce dossier), et `cm-b2c` à migrer depuis le compte |
+
+**Règle : les moteurs vivent dans les dépôts, jamais sur le compte.**
+
+Trois moteurs, trois clientèles, trois grilles de prix qui ne se croisent jamais :
+
+| Moteur | Client type | Grille |
+|---|---|---|
+| `cm-metricool` | Commerces premium (Le Loft, Gossip, J Lawson Golf, La Galerie Immobilière, Otea) | 590 / 890 / 1 490 € |
+| `cm-b2c` | Coachs, consultants, libéraux, créateurs — des personnes **qui ont un chiffre d'affaires** | 290 / 590 / 990 € |
+| **`cm-hyrox`** | **Athlètes de course** | **49 / 89 / 179 €** |
+
+Un athlète ne voit jamais la grille B2C générique, une entreprise ne voit jamais la grille athlète.
+C'est le point où les activités risquent le plus de se contaminer, et la séparation en trois skills
+est ce qui l'empêche structurellement.
+
+## Ce que le moteur athlète fait différemment
+
+1. **Le goulot n'est pas « le client ne tourne pas ».** Un athlète s'entraîne 5 à 6 fois par semaine,
+   téléphone sur le banc. Il tourne déjà — il tourne *inutilisable*. Le moteur impose un **triptyque
+   fixe de 3 plans** (large, serré sur l'effort, plan de fin) calé sur des séances déjà programmées,
+   plus un template de montage figé par client. C'est là que se gagne la marge : au tournage, pas au
+   montage.
+2. **Le calendrier est nominatif, pas saisonnier.** Ce sont ses courses qui structurent l'année.
+   Chaque dossard déclenche une campagne J-56 → J+7 qui produit 12 à 14 contenus. La fenêtre de
+   vente est J+2 → J+9.
+3. **La preuve est double.** Un athlète vend du coaching *et* vend de la visibilité à des marques.
+   Le reporting a deux tunnels, et il fabrique au passage le dossier de sponsoring de la saison
+   suivante.
+4. **L'économie est une économie de volume, plus une ligne variable.** À 49-179 €, la cible est
+   33 athlètes, pas 9 clients — d'où un palier d'entrée à zéro montage, zéro retour, zéro contact.
+   Et à l'abonnement s'ajoute **un pourcentage sur les sponsors apportés et une part de la
+   dotation** : l'abonnement paie la production, le variable paie la marge.
+
+## Structure
+
+```
+CM-BTOC/
+├── dossier-pro.html                     Dossier Pro — page à envoyer          ┐
+├── questionnaire-pro.md                 Dossier Pro — spec des 2 formulaires  ├─ voir Documents
+├── questionnaire-pro.gs                 Dossier Pro — script et import        ┘
+├── clients/
+│   └── _formulaires.json                identifiants des 2 formulaires Pro  ⚠️ non créés
+└── .claude/skills/cm-hyrox/
+    ├── SKILL.md                         moteur, étapes 0 → 9
+    ├── references/
+    │   ├── dispositif.md                ce qu'on livre, ce qui est automatisé, le budget temps
+    │   ├── persona-et-voix.md           extraction de la voix, facecam, modèle de données, linter
+    │   ├── saison-hyrox.md              calendrier 26/27, format, charges, règles, campagne
+    │   ├── offre-athlete.md             échelle 49/89/179, contrainte de montage  ⚠️ non validée
+    │   ├── production-media.md          triptyque de tournage, captation de course, droits
+    │   ├── roi-athlete.md               reporting deux tunnels, dossier de sponsoring
+    │   ├── playbook-athlete.md          onboarding, interdits réglementaires, qualité, délégation
+    │   ├── vitrine.md                   protocole du client vitrine : T0, verrous, écriture du cas
+    │   ├── metricool-api.md             plomberie — à tenir synchronisée avec cm-metricool
+    │   └── clients/
+    │       └── pierre-huiban.md         athlète n° 1, et client vitrine
+    ├── templates/
+    │   ├── creer-formulaires.gs         génère les 2 formulaires Google depuis le schéma, et importe
+    │   ├── dossier-athlete.md           la source et la référence du dispositif
+    │   ├── Dossier-Athlete-OTEA.pdf     version imprimable
+    │   └── web/dossier-athlete.html     page autonome à héberger sur oteaproduction.com
+    └── athletes/
+        ├── _formulaires.json            identifiants des 2 formulaires, communs à tous les athlètes
+        └── pierre-huiban/               données structurées : profil.json, courses.json
+```
+
+## Documents d'onboarding
+
+Deux déclinaisons du même questionnaire, dépersonnalisées l'une de l'autre. Elles partagent la
+structure, le facecam de 3 minutes et le principe qui les fait marcher — **on ne demande jamais la
+chose qu'on veut, on demande la situation qui la révèle** — et divergent sur le contexte métier.
+
+| Document | Cible | Fichiers |
+|---|---|---|
+| **Dossier Athlète** | Athlètes HYROX et hybrides | `.claude/skills/cm-hyrox/templates/` : `dossier-athlete.md` (source), le PDF imprimable, `web/dossier-athlete.html`, et `creer-formulaires.gs` |
+| **Dossier Pro** | B2C large : coachs, consultants, thérapeutes, créateurs, artisans, libéraux, TPE | racine : `dossier-pro.html` (la page), `questionnaire-pro.md` (la spec), `questionnaire-pro.gs` (le script) |
+
+**Les deux tournent sur la même mécanique.** Un tableau `SCHEMA` où chaque entrée porte à la fois
+le libellé de la question et le champ de `profil.json` qu'elle alimente ; le formulaire en est
+déduit. Les libellés deviennent les en-têtes de colonnes de la feuille de réponses, donc s'ils
+dérivent l'import casse — ici les deux sortent de la même source, ils ne peuvent pas diverger. Et
+chaque dispositif a **deux** formulaires : le Dossier une fois, et le **Point hebdo** chaque
+dimanche. C'est le second qui fait le gain de temps réel ; le premier ne sert qu'une fois.
+
+Les deux scripts sont faits pour être **comparés ligne à ligne** : mêmes fonctions, mêmes
+garde-fous, seuls le vocabulaire et les questions changent. Trois écarts seulement, tous assumés et
+listés en bas de `questionnaire-pro.md` — le plus important étant la question d'attribution
+hebdomadaire, côté Pro, qui mesure ce que la communication rapporte vraiment.
+
+⚠️ **Les formulaires Pro ne sont pas encore créés.** Le script est prêt et le schéma figé, mais
+`creerFormulaires` n'a jamais été exécuté : `clients/_formulaires.json` ne porte que des `null`, et
+le bouton de `dossier-pro.html` pointe encore sur un `mailto:`. Tant que c'est le cas, un prospect
+qui clique envoie un e-mail — et tout est à ressaisir à la main.
+
+Reste la règle de sens unique : **le fond évolue d'abord côté athlète, puis se répercute sur le
+Dossier Pro — jamais l'inverse.** Deux questionnaires jumeaux modifiés chacun de leur côté cessent
+d'être comparables en quelques semaines, et on ne sait plus lequel fait foi.
+
+## Portefeuille
+
+**Pierre Huiban** (@pierrehuiban89, blogId 6572293) — athlète sponsorisé, 3 partenaires, campagne
+*Road to Hong Kong*. Déjà produit depuis juillet 2026 dans `cm-metricool` ; sa migration vers ce
+moteur et son passage en client payant sont ouverts.
+
+**Déjà qualifié et présent aux Mondiaux de Stockholm en juin 2026** — top 0,5 % mondial. Cette
+saison, il vise **la requalification en Doubles Pro Homme avec Antoine**, pour Hong Kong.
+
+Sa saison : **Rome 24-27 sept.** (piste de course en extérieur) puis **Paris Porte de Versailles
+12-20 déc.**, la course-vitrine. Bordeaux est abandonné.
+
+⚠️ **Une qualification en doubles est non-transférable** : les partenaires qualifiés doivent courir
+ensemble aux Mondiaux, sans substitution possible. C'est le meilleur enjeu narratif de la saison, et
+un risque de production réel — si Antoine tombe, tout le contenu qui suppose l'objectif devient faux.
+
+**Antoine est le prospect n° 1** : mêmes courses, mêmes dates, déjà dans les photos, et une captation
+à Rome qui couvrirait deux clients au lieu d'un.
+
+## Actions bloquantes
+
+1. **Test des 4 reels chronométrés** — tant qu'il n'existe pas, le palier Salle n'a pas de prix, il a
+   une hypothèse. Aucun prix ne s'annonce avant.
+2. **Droits photo à vérifier auprès de l'organisation HYROX** — bloquant pour tout le modèle de
+   captation de course.
+3. **Corriger la doctrine média de `cm-metricool`** : elle affirme encore qu'une URL publique est
+   obligatoire, alors que l'upload Metricool est éprouvé depuis le 23/07/2026. Divergence documentée
+   en tête de `references/metricool-api.md`.
+4. **Trancher le palier de Pierre** — ce qui lui est livré aujourd'hui est très au-dessus de Salle,
+   et le passer en Base sans réduire le service fixerait une référence intenable pour les suivants.
+5. **Figer le T0 de la vitrine** avant sa prochaine publication. C'est la seule chose de tout ce
+   dépôt qui ne se rattrape pas.
+6. **Décider de la captation de Rome** — c'est le seul moment de la saison qui ne se rejoue pas.
+   Y aller, faire filmer sur place avec un protocole écrit, ou acheter le pack officiel. Décision à
+   prendre maintenant, la course est dans 7 semaines.
+7. **Formaliser l'accord variable** — taux, part de dotation, survie, veto. L'assiette est tranchée
+   (Split Nutrition oui, Kairyn et GX Society non), reste à définir par écrit ce que « obtenu
+   ensemble » voudra dire pour le client n° 2. Deux points à poser à l'expert-comptable : apport
+   d'affaires et avantage en nature.
+8. Monteur à trouver, capable d'absorber 15 à 30 h/mois à 30 €/h.
+
+## Règles de cohérence
+
+- La doctrine Metricool est partagée avec `cm-metricool` : **toute correction s'applique aux deux
+  dépôts dans le même commit**.
+- Un compte présent dans le portefeuille d'un moteur ne doit jamais apparaître dans celui d'un autre.
+- La seule passerelle autorisée entre moteurs : les chiffres du cas vitrine sortent d'ici et se
+  publient sur **Otea Filmakers**, via `cm-metricool`.
+- **On automatise après trois clients faits à la main**, pas avant.
+
+## Installation
+
+Le skill est chargé automatiquement depuis `.claude/skills/` quand le dépôt est ouvert.

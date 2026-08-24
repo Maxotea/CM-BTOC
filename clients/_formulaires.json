@@ -1,0 +1,43 @@
+{
+  "_note": "Les deux formulaires du dispositif Pro, à créer par questionnaire-pro.gs. Communs à tous les clients. Le lien 'public' est celui qu'on envoie ; le lien 'edition' ne se transmet jamais à un client. Jumeau de athletes/_formulaires.json — même structure, mêmes clés.",
+  "_statut": "NON CRÉÉS. Le script est prêt et le schéma est figé, mais `creerFormulaires` n'a jamais été exécuté. Tant que les identifiants ci-dessous sont null, il n'y a pas de formulaire à envoyer et l'import ne peut rien relire.",
+  "dossier": {
+    "titre": "Dossier Pro — OTEA",
+    "public": null,
+    "edition": null,
+    "form_id": null,
+    "reponses": null,
+    "sheet_id": null,
+    "destination": "clients/<slug>/profil.json",
+    "frequence": "une fois, à l'onboarding",
+    "champs": 33
+  },
+  "hebdo": {
+    "titre": "Point hebdo — OTEA",
+    "public": null,
+    "edition": null,
+    "form_id": null,
+    "reponses": null,
+    "sheet_id": null,
+    "destination": "clients/<slug>/semaines/<ISO>.json",
+    "frequence": "chaque dimanche soir",
+    "champs": 6
+  },
+  "page_publique": {
+    "fichier": "dossier-pro.html",
+    "a_heberger_sur": "oteaproduction.com — page autonome, aucune ressource externe, aucune mention tierce",
+    "url_en_ligne": null,
+    "bouton": "Le bouton « Démarrer mon dossier » pointe encore sur un mailto:. À remplacer par le lien public du Dossier dès qu'il existe, sinon le prospect envoie un e-mail et il faut tout ressaisir."
+  },
+  "import": {
+    "genererProfil": "lit la dernière réponse au Dossier → profil.json prêt à coller",
+    "genererSemaine": "lit la dernière réponse au Hebdo → semaines/<ISO>.json",
+    "exporterFormulaires": "relit les formulaires vivants — à lancer après toute retouche manuelle",
+    "note": "Les fonctions vivent dans questionnaire-pro.gs et tournent dans le projet Apps Script. Elles n'inventent jamais un champ absent du formulaire : mantra, tics, da et blog_id sortent à null et se remplissent après l'écoute du facecam."
+  },
+  "_ecarts_avec_l_athlete": {
+    "attribution": "Le hebdo Pro a une sixième question que l'athlète n'a pas : comment chaque nouveau client a trouvé le client. C'est la contrepartie de l'engagement pris au Dossier — sans collecte hebdomadaire, cet engagement ne produit aucune donnée et le reporting ROI n'a pas d'assiette.",
+    "email": "Les deux formulaires Pro collectent l'adresse e-mail (setCollectEmail), pas ceux de l'athlète. L'import la récupère dans le champ `email`.",
+    "date_de_naissance": "Absente côté Pro : elle ne sert, côté athlète, qu'à calculer le groupe d'âge de la course."
+  }
+}
