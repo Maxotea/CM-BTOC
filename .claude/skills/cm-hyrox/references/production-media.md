@@ -160,6 +160,11 @@ elle se pose toujours avant de choisir une image :
 - Exception : le branding d'épreuve sur les photos de course (Puma, Centr, Concept2 sur les panneaux
   et le matériel officiel). Ce n'est pas un partenariat de l'athlète, ces photos restent génériques.
 
+**Classement Lightroom automatisé.** Le module `outils/lightroom-hyrox/` (Lightroom Classic)
+range les photos de course par ville (GPS ou date), par athlète et en « Doubles » quand deux
+athlètes sont sur la même photo, puis applique la retouche de référence aux photos exploitables.
+Mode d'emploi dans `outils/lightroom-hyrox/README.md`.
+
 Tenir un catalogue par athlète, fichier par fichier, avec l'usage et le pilier — sans ça la rotation
 casse et on republie deux quasi-doublons à quinze jours d'intervalle. Modèle éprouvé : le catalogue
 de Pierre Huiban, 81 photos inventoriées une à une.
