@@ -222,3 +222,55 @@ publication. À lui dire dès le premier appel.
   (Whow, X'Pert Impact).
 - Comptes repérés : instagram.com/debossart33, tiktok.com/@carrosseriereparation,
   YouTube « L'art du débosselage sans peinture, un vrai métier ».
+
+## 8. Ce qu'OTEA produit pour lui : le premier mois de community management
+
+C'est un client du moteur B2C : OTEA tient ses comptes, écrit les scripts,
+monte, planifie dans Metricool, modère les DM et rend compte en conversations
+qualifiées. Daniel ne fait qu'une chose : tourner les plans qu'on lui envoie,
+une fois par mois, dans son atelier.
+
+### Liste de plans du batch 1 (à envoyer à Daniel avant qu'il tourne)
+
+Tous au téléphone, en vertical, dans l'atelier, lumière de travail allumée.
+Chaque plan commence par la phrase d'ouverture écrite, dite face caméra, puis
+Daniel fait ce qu'il dit. Un plan = un reel.
+
+| N° | Pilier | Phrase d'ouverture à dire | Ce qu'on filme ensuite |
+|---|---|---|---|
+| 1 | Autorité | « Cette bosse, un carrossier te la facture [prix] avec de la peinture. Moi je la fais disparaître en [durée], sans toucher au vernis. » | La bosse, la tige, la bosse qui disparaît, plan final propre |
+| 2 | Réponse | « On me demande tous les jours s'il faut être carrossier pour faire ce métier. Non. Voilà ce qu'il faut vraiment. » | Daniel qui parle, puis une démonstration de lecture de la bosse |
+| 3 | Récit | « Ma première saison de grêle, je ne savais pas dans quoi je mettais les pieds. » | Daniel qui raconte, plans de coupe sur les outils et une voiture grêlée |
+| 4 | Autorité | « Tout le métier tient dans ça : la lumière. Regarde. » | Le reflet de la lampe sur la tôle, la bosse qui apparaît et disparaît |
+| 5 | Réponse | « Combien gagne un débosseleur pendant une saison de grêle ? Je te donne mes chiffres. » [chiffres réels de Daniel, à valider] | Face caméra, puis plans de travail |
+| 6 | Position | « Une formation de cinq jours sans suivi, ça fabrique des gens qui abandonnent au bout d'un mois. » [sujet clivant à valider] | Face caméra, ton calme |
+| 7 | Autorité | « Les trois erreurs que font tous les débutants, et comment je les corrige. » | Trois démonstrations courtes |
+| 8 | Preuve | « Avant. Après. Même voiture, même journée, zéro peinture. » | Les avant/après existants, montés en série rapide |
+
+Tournage : 2 à 3 heures, un samedi matin fixe. Rushes déposés sur le lien
+fourni par OTEA. Sans ces rushes, rien ne se publie.
+
+### Calendrier du mois 1 (palier Autorité : 8 reels, 8 posts, stories)
+
+Horaires B2C : reels à 7h30 ou 12h30, posts à 19h, heure de Paris. Instagram
+et TikTok pour les reels, Instagram pour les posts.
+
+| Semaine | Reels (lundi, jeudi) | Posts feed (mardi, vendredi) | Stories |
+|---|---|---|---|
+| 1 | Plan 1 (la bosse qui disparaît), plan 2 (faut-il être carrossier) | Carrousel « 5 idées fausses sur le débosselage sans peinture » ; avant/après n° 1 | 3 stories atelier par jour travaillé, sondage « tu te lancerais ? » |
+| 2 | Plan 4 (la lumière), plan 3 (ma première saison) | Carrousel « ce que coûte vraiment une formation DSP en France » (chiffres sourcés) ; avant/après n° 2 | Coulisses, question du jour reprise des DM |
+| 3 | Plan 5 (combien ça gagne), plan 7 (les trois erreurs) | Post texte « la grêle en 2026 : 65 000 dossiers, et pas assez de bras » ; avant/après n° 3 | Réponses aux DM en vidéo courte |
+| 4 | Plan 6 (sujet clivant), plan 8 (avant/après en série) | Carrousel « une semaine avec moi, puis dix semaines de suivi : comment ça se passe » ; avant/après n° 4 | Compte à rebours « liste d'attente mars », mot-clé en DM |
+
+Chaque légende se termine par un seul appel à l'action : « envoie-moi SAISON
+en DM » (semaines 1 à 3) puis « commente MARS » (semaine 4). Les DM reçus sont
+relevés deux fois par semaine : ils nourrissent le mois 2 et deviennent la
+première liste de candidats.
+
+### Ce qu'on mesure à la fin du mois 1
+
+Pas les abonnés. Le nombre de DM reçus avec le mot-clé, le nombre de
+conversations où Daniel a parlé de la formation, et les clics vers la liste
+d'attente. Objectif réaliste pour un compte qui démarre [à caler sur ses
+abonnés actuels] : une vingtaine de conversations qualifiées le premier mois,
+puis doubler chaque mois jusqu'à février.
