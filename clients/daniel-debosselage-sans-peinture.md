@@ -274,3 +274,71 @@ conversations où Daniel a parlé de la formation, et les clics vers la liste
 d'attente. Objectif réaliste pour un compte qui démarre [à caler sur ses
 abonnés actuels] : une vingtaine de conversations qualifiées le premier mois,
 puis doubler chaque mois jusqu'à février.
+
+## 9. Délégation à MEMOREM (Lou Girault et Guillaume Dominguez)
+
+Décision de Maxime le 7 octobre : une partie du compte Daniel est déléguée à
+MEMOREM, l'agence partenaire (captation AIIRF du 16 septembre facturée
+500 € HT, second vidéaste proposé sur Puteaux). Règle du moteur B2C : le
+montage et le tournage se délèguent, la voix, les opinions, la validation, le
+reporting et la relation client jamais.
+
+### Qui fait quoi
+
+| Tâche | Qui | Pourquoi |
+|---|---|---|
+| Entretien de positionnement, niche, bio, piliers | OTEA (Maxime) | C'est la voix de Daniel, elle ne sort pas de chez OTEA |
+| Scripts des reels et liste de plans mensuelle | OTEA | `reel-script` puis `reel-lint`, avant chaque tournage |
+| Journée de batch de tournage dans l'atelier (option) | MEMOREM | Ils savent capter en conditions réelles ; OTEA fournit la liste de plans et les phrases d'ouverture |
+| Montage des 8 reels par mois | MEMOREM | Volume pur, brief figé une fois pour toutes (ci-dessous) |
+| Posts feed, carrousels, légendes, hashtags | OTEA | Texte et positionnement |
+| Planification Metricool, contrôle du fuseau, brouillons | OTEA | Plomberie du moteur, et règle du brouillon vérifié |
+| Modération des DM deux fois par semaine | OTEA | Les DM sont la liste de prospects de Daniel et la matière du pilier Réponse |
+| Validation avec Daniel, 2 allers-retours max | OTEA | Relation client |
+| Reporting mensuel en conversations qualifiées | OTEA | C'est ce que Daniel achète |
+
+### Brief de montage à figer avec MEMOREM (une fois, puis identique chaque mois)
+
+Format 9:16, 60 secondes maximum, sous-titres brûlés dans un style fixé au
+premier mois et jamais changé (c'est l'identité du compte), accroche visuelle
+dans la première seconde (la bosse ou le reflet), coupe sèche toutes les 2 à
+3 secondes, suppression des hésitations et des silences, musique libre de
+droits sous la voix, export H.264 1080×1920. Le script et l'ordre des plans
+viennent d'OTEA avec les rushes. Livraison sur Frame.io, OTEA valide avant
+d'envoyer à Daniel.
+
+### L'économie, à vérifier avant de signer
+
+Hypothèses de la grille B2C (non validée) : montage à 30 € de l'heure, 40
+minutes par reel, soit 8 reels pour environ 160 € par mois ; palier Autorité
+à 590 € HT. Marge indicative : 350 à 430 € par mois pour environ 3 heures de
+Maxime, selon le tarif que MEMOREM accepte.
+
+Ce qui décide de la viabilité : le temps réel de MEMOREM par reel. À faire
+avant de vendre le palier à Daniel : **leur confier 4 reels d'essai sur les
+rushes du batch 1 et chronométrer**. Au-delà d'une heure par reel, le palier
+Autorité perd sa marge et il faut soit renégocier, soit passer à 4 reels par
+mois.
+
+Tarif à caler avec Guillaume : un prix au reel (cible 20 à 25 € HT) plutôt
+qu'à l'heure, pour que la marge d'OTEA ne dépende pas de leur vitesse. Même
+logique que le second vidéaste Puteaux : MEMOREM facture OTEA, OTEA facture
+Daniel, un seul interlocuteur pour le client.
+
+### Message à envoyer à Guillaume et Lou (à coller, mail ou WhatsApp)
+
+> Salut Guillaume, salut Lou,
+>
+> Après Puteaux, un second sujet à vous proposer. J'ai un client en personal
+> branding qui démarre en novembre : Daniel, débosseleur sans peinture, qui
+> lance ses formations en mars 2027. Il tourne lui-même sur son téléphone, un
+> batch par mois dans son atelier, et je cherche à vous confier le montage :
+> 8 reels par mois, format 9:16, sous-titres, brief figé une fois pour toutes,
+> livraison sur Frame.io. Possiblement aussi une journée de tournage dans son
+> atelier en novembre pour partir avec de l'avance.
+>
+> Pour caler ça proprement, je vous propose un test : 4 reels sur les rushes du
+> premier batch, et on fixe un prix au reel derrière. Vous me dites si ça vous
+> parle, et à quel tarif vous seriez à l'aise ?
+>
+> Maxime
