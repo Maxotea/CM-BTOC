@@ -1,0 +1,2157 @@
+{
+ "_note": "Historique officiel mika:timing relevé sur HYRESULT le 2 octobre 2026 (hyresult.com/athlete/julie-pekmezian). Bordeaux 2026 : résultats provisoires, course du jour même. Les sommes runs + stations + Roxzone peuvent différer du temps final de quelques secondes (arrondis du chronométrage).",
+ "athlete": "Julie Pekmezian",
+ "slug": "julie-pekmezian",
+ "source": "https://www.hyresult.com/athlete/julie-pekmezian",
+ "releve_le": "2026-10-02",
+ "courses": [
+  {
+   "course": "Bordeaux",
+   "event_slug": "s9-2026-bordeaux",
+   "date_debut": "2026-09-30",
+   "date_fin": "2026-10-04",
+   "saison": 9,
+   "division": "pro-women",
+   "groupe_age": "35-39",
+   "equipe": [
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 4080,
+   "temps_final": "1:08:00",
+   "classement_division": 10,
+   "classement_categorie": 1,
+   "total_runs_s": 2058,
+   "total_stations_s": 1774,
+   "roxzone_s": 253,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 164,
+     "duree_affichee": "2:44",
+     "cumul_s": 164,
+     "cumul_affiche": "0:02:44"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 275,
+     "duree_affichee": "4:35",
+     "cumul_s": 439,
+     "cumul_affiche": "0:07:19"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 257,
+     "duree_affichee": "4:17",
+     "cumul_s": 696,
+     "cumul_affiche": "0:11:36"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 187,
+     "duree_affichee": "3:07",
+     "cumul_s": 883,
+     "cumul_affiche": "0:14:43"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 272,
+     "duree_affichee": "4:32",
+     "cumul_s": 1155,
+     "cumul_affiche": "0:19:15"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 257,
+     "duree_affichee": "4:17",
+     "cumul_s": 1412,
+     "cumul_affiche": "0:23:32"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 273,
+     "duree_affichee": "4:33",
+     "cumul_s": 1685,
+     "cumul_affiche": "0:28:05"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 230,
+     "duree_affichee": "3:50",
+     "cumul_s": 1915,
+     "cumul_affiche": "0:31:55"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 286,
+     "duree_affichee": "4:46",
+     "cumul_s": 2201,
+     "cumul_affiche": "0:36:41"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 283,
+     "duree_affichee": "4:43",
+     "cumul_s": 2484,
+     "cumul_affiche": "0:41:24"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 279,
+     "duree_affichee": "4:39",
+     "cumul_s": 2763,
+     "cumul_affiche": "0:46:03"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 107,
+     "duree_affichee": "1:47",
+     "cumul_s": 2870,
+     "cumul_affiche": "0:47:50"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 288,
+     "duree_affichee": "4:48",
+     "cumul_s": 3158,
+     "cumul_affiche": "0:52:38"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 195,
+     "duree_affichee": "3:15",
+     "cumul_s": 3353,
+     "cumul_affiche": "0:55:53"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 242,
+     "duree_affichee": "4:02",
+     "cumul_s": 3595,
+     "cumul_affiche": "0:59:55"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 240,
+     "duree_affichee": "4:00",
+     "cumul_s": 3835,
+     "cumul_affiche": "1:03:55"
+    }
+   ]
+  },
+  {
+   "course": "Santa Cruz de Tenerife",
+   "event_slug": "s9-2026-santa-cruz-de-tenerife",
+   "date_debut": "2026-09-04",
+   "date_fin": "2026-09-06",
+   "saison": 9,
+   "division": "pro-women",
+   "groupe_age": "35-39",
+   "equipe": [
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 4991,
+   "temps_final": "1:23:11",
+   "classement_division": 22,
+   "classement_categorie": 6,
+   "total_runs_s": 2285,
+   "total_stations_s": 2202,
+   "roxzone_s": 508,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 260,
+     "duree_affichee": "4:20",
+     "cumul_s": 260,
+     "cumul_affiche": "0:04:20"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 284,
+     "duree_affichee": "4:44",
+     "cumul_s": 544,
+     "cumul_affiche": "0:09:04"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 248,
+     "duree_affichee": "4:08",
+     "cumul_s": 792,
+     "cumul_affiche": "0:13:12"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 249,
+     "duree_affichee": "4:09",
+     "cumul_s": 1041,
+     "cumul_affiche": "0:17:21"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 258,
+     "duree_affichee": "4:18",
+     "cumul_s": 1299,
+     "cumul_affiche": "0:21:39"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 307,
+     "duree_affichee": "5:07",
+     "cumul_s": 1606,
+     "cumul_affiche": "0:26:46"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 269,
+     "duree_affichee": "4:29",
+     "cumul_s": 1875,
+     "cumul_affiche": "0:31:15"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 296,
+     "duree_affichee": "4:56",
+     "cumul_s": 2171,
+     "cumul_affiche": "0:36:11"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 276,
+     "duree_affichee": "4:36",
+     "cumul_s": 2447,
+     "cumul_affiche": "0:40:47"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 346,
+     "duree_affichee": "5:46",
+     "cumul_s": 2793,
+     "cumul_affiche": "0:46:33"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 286,
+     "duree_affichee": "4:46",
+     "cumul_s": 3079,
+     "cumul_affiche": "0:51:19"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 186,
+     "duree_affichee": "3:06",
+     "cumul_s": 3265,
+     "cumul_affiche": "0:54:25"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 353,
+     "duree_affichee": "5:53",
+     "cumul_s": 3618,
+     "cumul_affiche": "1:00:18"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 272,
+     "duree_affichee": "4:32",
+     "cumul_s": 3890,
+     "cumul_affiche": "1:04:50"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 340,
+     "duree_affichee": "5:40",
+     "cumul_s": 4230,
+     "cumul_affiche": "1:10:30"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 262,
+     "duree_affichee": "4:22",
+     "cumul_s": 4492,
+     "cumul_affiche": "1:14:52"
+    }
+   ]
+  },
+  {
+   "course": "Lyon",
+   "event_slug": "s8-2026-lyon",
+   "date_debut": "2026-05-20",
+   "date_fin": "2026-05-24",
+   "saison": 8,
+   "division": "pro-women",
+   "groupe_age": "30-34",
+   "equipe": [
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 4207,
+   "temps_final": "1:10:07",
+   "classement_division": 11,
+   "classement_categorie": 3,
+   "total_runs_s": 1934,
+   "total_stations_s": 1938,
+   "roxzone_s": 340,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 198,
+     "duree_affichee": "3:18",
+     "cumul_s": 198,
+     "cumul_affiche": "0:03:18"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 285,
+     "duree_affichee": "4:45",
+     "cumul_s": 483,
+     "cumul_affiche": "0:08:03"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 230,
+     "duree_affichee": "3:50",
+     "cumul_s": 713,
+     "cumul_affiche": "0:11:53"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 225,
+     "duree_affichee": "3:45",
+     "cumul_s": 938,
+     "cumul_affiche": "0:15:38"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 244,
+     "duree_affichee": "4:04",
+     "cumul_s": 1182,
+     "cumul_affiche": "0:19:42"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 300,
+     "duree_affichee": "5:00",
+     "cumul_s": 1482,
+     "cumul_affiche": "0:24:42"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 249,
+     "duree_affichee": "4:09",
+     "cumul_s": 1731,
+     "cumul_affiche": "0:28:51"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 236,
+     "duree_affichee": "3:56",
+     "cumul_s": 1967,
+     "cumul_affiche": "0:32:47"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 254,
+     "duree_affichee": "4:14",
+     "cumul_s": 2221,
+     "cumul_affiche": "0:37:01"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 293,
+     "duree_affichee": "4:53",
+     "cumul_s": 2514,
+     "cumul_affiche": "0:41:54"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 249,
+     "duree_affichee": "4:09",
+     "cumul_s": 2763,
+     "cumul_affiche": "0:46:03"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 99,
+     "duree_affichee": "1:39",
+     "cumul_s": 2862,
+     "cumul_affiche": "0:47:42"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 254,
+     "duree_affichee": "4:14",
+     "cumul_s": 3116,
+     "cumul_affiche": "0:51:56"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 248,
+     "duree_affichee": "4:08",
+     "cumul_s": 3364,
+     "cumul_affiche": "0:56:04"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 260,
+     "duree_affichee": "4:20",
+     "cumul_s": 3624,
+     "cumul_affiche": "1:00:24"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 252,
+     "duree_affichee": "4:12",
+     "cumul_s": 3876,
+     "cumul_affiche": "1:04:36"
+    }
+   ]
+  },
+  {
+   "course": "Barcelona",
+   "event_slug": "s8-2026-barcelona",
+   "date_debut": "2026-05-14",
+   "date_fin": "2026-05-17",
+   "saison": 8,
+   "division": "pro-women",
+   "groupe_age": "30-34",
+   "equipe": [
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 4209,
+   "temps_final": "1:10:09",
+   "classement_division": 15,
+   "classement_categorie": 4,
+   "total_runs_s": 2051,
+   "total_stations_s": 1894,
+   "roxzone_s": 270,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 260,
+     "duree_affichee": "4:20",
+     "cumul_s": 260,
+     "cumul_affiche": "0:04:20"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 297,
+     "duree_affichee": "4:57",
+     "cumul_s": 557,
+     "cumul_affiche": "0:09:17"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 256,
+     "duree_affichee": "4:16",
+     "cumul_s": 813,
+     "cumul_affiche": "0:13:33"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 246,
+     "duree_affichee": "4:06",
+     "cumul_s": 1059,
+     "cumul_affiche": "0:17:39"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 257,
+     "duree_affichee": "4:17",
+     "cumul_s": 1316,
+     "cumul_affiche": "0:21:56"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 249,
+     "duree_affichee": "4:09",
+     "cumul_s": 1565,
+     "cumul_affiche": "0:26:05"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 261,
+     "duree_affichee": "4:21",
+     "cumul_s": 1826,
+     "cumul_affiche": "0:30:26"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 223,
+     "duree_affichee": "3:43",
+     "cumul_s": 2049,
+     "cumul_affiche": "0:34:09"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 257,
+     "duree_affichee": "4:17",
+     "cumul_s": 2306,
+     "cumul_affiche": "0:38:26"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 299,
+     "duree_affichee": "4:59",
+     "cumul_s": 2605,
+     "cumul_affiche": "0:43:25"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 250,
+     "duree_affichee": "4:10",
+     "cumul_s": 2855,
+     "cumul_affiche": "0:47:35"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 103,
+     "duree_affichee": "1:43",
+     "cumul_s": 2958,
+     "cumul_affiche": "0:49:18"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 253,
+     "duree_affichee": "4:13",
+     "cumul_s": 3211,
+     "cumul_affiche": "0:53:31"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 227,
+     "duree_affichee": "3:47",
+     "cumul_s": 3438,
+     "cumul_affiche": "0:57:18"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 262,
+     "duree_affichee": "4:22",
+     "cumul_s": 3700,
+     "cumul_affiche": "1:01:40"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 250,
+     "duree_affichee": "4:10",
+     "cumul_s": 3950,
+     "cumul_affiche": "1:05:50"
+    }
+   ]
+  },
+  {
+   "course": "Paris",
+   "event_slug": "s8-2026-paris",
+   "date_debut": "2026-04-23",
+   "date_fin": "2026-04-27",
+   "saison": 8,
+   "division": "pro-doubles-women",
+   "groupe_age": "30-34",
+   "equipe": [
+    "Aurelia Asselin",
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 3881,
+   "temps_final": "1:04:41",
+   "classement_division": 10,
+   "classement_categorie": 3,
+   "total_runs_s": 1979,
+   "total_stations_s": 1580,
+   "roxzone_s": 325,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 264,
+     "duree_affichee": "4:24",
+     "cumul_s": 264,
+     "cumul_affiche": "0:04:24"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 246,
+     "duree_affichee": "4:06",
+     "cumul_s": 510,
+     "cumul_affiche": "0:08:30"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 238,
+     "duree_affichee": "3:58",
+     "cumul_s": 748,
+     "cumul_affiche": "0:12:28"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 133,
+     "duree_affichee": "2:13",
+     "cumul_s": 881,
+     "cumul_affiche": "0:14:41"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 244,
+     "duree_affichee": "4:04",
+     "cumul_s": 1125,
+     "cumul_affiche": "0:18:45"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 187,
+     "duree_affichee": "3:07",
+     "cumul_s": 1312,
+     "cumul_affiche": "0:21:52"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 249,
+     "duree_affichee": "4:09",
+     "cumul_s": 1561,
+     "cumul_affiche": "0:26:01"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 205,
+     "duree_affichee": "3:25",
+     "cumul_s": 1766,
+     "cumul_affiche": "0:29:26"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 250,
+     "duree_affichee": "4:10",
+     "cumul_s": 2016,
+     "cumul_affiche": "0:33:36"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 270,
+     "duree_affichee": "4:30",
+     "cumul_s": 2286,
+     "cumul_affiche": "0:38:06"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 250,
+     "duree_affichee": "4:10",
+     "cumul_s": 2536,
+     "cumul_affiche": "0:42:16"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 108,
+     "duree_affichee": "1:48",
+     "cumul_s": 2644,
+     "cumul_affiche": "0:44:04"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 257,
+     "duree_affichee": "4:17",
+     "cumul_s": 2901,
+     "cumul_affiche": "0:48:21"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 226,
+     "duree_affichee": "3:46",
+     "cumul_s": 3127,
+     "cumul_affiche": "0:52:07"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 232,
+     "duree_affichee": "3:52",
+     "cumul_s": 3359,
+     "cumul_affiche": "0:55:59"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 205,
+     "duree_affichee": "3:25",
+     "cumul_s": 3564,
+     "cumul_affiche": "0:59:24"
+    }
+   ]
+  },
+  {
+   "course": "Malaga",
+   "event_slug": "s8-2026-malaga",
+   "date_debut": "2026-04-16",
+   "date_fin": "2026-04-19",
+   "saison": 8,
+   "division": "pro-women",
+   "groupe_age": "30-34",
+   "equipe": [
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 4099,
+   "temps_final": "1:08:19",
+   "classement_division": 16,
+   "classement_categorie": 4,
+   "total_runs_s": 1984,
+   "total_stations_s": 1858,
+   "roxzone_s": 260,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 236,
+     "duree_affichee": "3:56",
+     "cumul_s": 236,
+     "cumul_affiche": "0:03:56"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 278,
+     "duree_affichee": "4:38",
+     "cumul_s": 514,
+     "cumul_affiche": "0:08:34"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 243,
+     "duree_affichee": "4:03",
+     "cumul_s": 757,
+     "cumul_affiche": "0:12:37"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 179,
+     "duree_affichee": "2:59",
+     "cumul_s": 936,
+     "cumul_affiche": "0:15:36"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 244,
+     "duree_affichee": "4:04",
+     "cumul_s": 1180,
+     "cumul_affiche": "0:19:40"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 237,
+     "duree_affichee": "3:57",
+     "cumul_s": 1417,
+     "cumul_affiche": "0:23:37"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 250,
+     "duree_affichee": "4:10",
+     "cumul_s": 1667,
+     "cumul_affiche": "0:27:47"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 242,
+     "duree_affichee": "4:02",
+     "cumul_s": 1909,
+     "cumul_affiche": "0:31:49"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 252,
+     "duree_affichee": "4:12",
+     "cumul_s": 2161,
+     "cumul_affiche": "0:36:01"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 296,
+     "duree_affichee": "4:56",
+     "cumul_s": 2457,
+     "cumul_affiche": "0:40:57"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 247,
+     "duree_affichee": "4:07",
+     "cumul_s": 2704,
+     "cumul_affiche": "0:45:04"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 99,
+     "duree_affichee": "1:39",
+     "cumul_s": 2803,
+     "cumul_affiche": "0:46:43"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 260,
+     "duree_affichee": "4:20",
+     "cumul_s": 3063,
+     "cumul_affiche": "0:51:03"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 256,
+     "duree_affichee": "4:16",
+     "cumul_s": 3319,
+     "cumul_affiche": "0:55:19"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 256,
+     "duree_affichee": "4:16",
+     "cumul_s": 3575,
+     "cumul_affiche": "0:59:35"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 271,
+     "duree_affichee": "4:31",
+     "cumul_s": 3846,
+     "cumul_affiche": "1:04:06"
+    }
+   ]
+  },
+  {
+   "course": "Mechelen",
+   "event_slug": "s8-2026-mechelen",
+   "date_debut": "2026-03-26",
+   "date_fin": "2026-03-29",
+   "saison": 8,
+   "division": "pro-women",
+   "groupe_age": "30-34",
+   "equipe": [
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 4090,
+   "temps_final": "1:08:10",
+   "classement_division": 16,
+   "classement_categorie": 5,
+   "total_runs_s": 1901,
+   "total_stations_s": 1834,
+   "roxzone_s": 358,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 197,
+     "duree_affichee": "3:17",
+     "cumul_s": 197,
+     "cumul_affiche": "0:03:17"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 276,
+     "duree_affichee": "4:36",
+     "cumul_s": 473,
+     "cumul_affiche": "0:07:53"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 237,
+     "duree_affichee": "3:57",
+     "cumul_s": 710,
+     "cumul_affiche": "0:11:50"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 175,
+     "duree_affichee": "2:55",
+     "cumul_s": 885,
+     "cumul_affiche": "0:14:45"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 242,
+     "duree_affichee": "4:02",
+     "cumul_s": 1127,
+     "cumul_affiche": "0:18:47"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 240,
+     "duree_affichee": "4:00",
+     "cumul_s": 1367,
+     "cumul_affiche": "0:22:47"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 237,
+     "duree_affichee": "3:57",
+     "cumul_s": 1604,
+     "cumul_affiche": "0:26:44"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 245,
+     "duree_affichee": "4:05",
+     "cumul_s": 1849,
+     "cumul_affiche": "0:30:49"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 240,
+     "duree_affichee": "4:00",
+     "cumul_s": 2089,
+     "cumul_affiche": "0:34:49"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 291,
+     "duree_affichee": "4:51",
+     "cumul_s": 2380,
+     "cumul_affiche": "0:39:40"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 238,
+     "duree_affichee": "3:58",
+     "cumul_s": 2618,
+     "cumul_affiche": "0:43:38"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 104,
+     "duree_affichee": "1:44",
+     "cumul_s": 2722,
+     "cumul_affiche": "0:45:22"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 245,
+     "duree_affichee": "4:05",
+     "cumul_s": 2967,
+     "cumul_affiche": "0:49:27"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 260,
+     "duree_affichee": "4:20",
+     "cumul_s": 3227,
+     "cumul_affiche": "0:53:47"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 268,
+     "duree_affichee": "4:28",
+     "cumul_s": 3495,
+     "cumul_affiche": "0:58:15"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 243,
+     "duree_affichee": "4:03",
+     "cumul_s": 3738,
+     "cumul_affiche": "1:02:18"
+    }
+   ]
+  },
+  {
+   "course": "Nice",
+   "event_slug": "s8-2026-nice",
+   "date_debut": "2026-02-12",
+   "date_fin": "2026-02-15",
+   "saison": 8,
+   "division": "pro-women",
+   "groupe_age": "30-34",
+   "equipe": [
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 4195,
+   "temps_final": "1:09:55",
+   "classement_division": 17,
+   "classement_categorie": 5,
+   "total_runs_s": 2076,
+   "total_stations_s": 1841,
+   "roxzone_s": 283,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 274,
+     "duree_affichee": "4:34",
+     "cumul_s": 274,
+     "cumul_affiche": "0:04:34"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 281,
+     "duree_affichee": "4:41",
+     "cumul_s": 555,
+     "cumul_affiche": "0:09:15"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 253,
+     "duree_affichee": "4:13",
+     "cumul_s": 808,
+     "cumul_affiche": "0:13:28"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 182,
+     "duree_affichee": "3:02",
+     "cumul_s": 990,
+     "cumul_affiche": "0:16:30"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 257,
+     "duree_affichee": "4:17",
+     "cumul_s": 1247,
+     "cumul_affiche": "0:20:47"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 243,
+     "duree_affichee": "4:03",
+     "cumul_s": 1490,
+     "cumul_affiche": "0:24:50"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 256,
+     "duree_affichee": "4:16",
+     "cumul_s": 1746,
+     "cumul_affiche": "0:29:06"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 219,
+     "duree_affichee": "3:39",
+     "cumul_s": 1965,
+     "cumul_affiche": "0:32:45"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 259,
+     "duree_affichee": "4:19",
+     "cumul_s": 2224,
+     "cumul_affiche": "0:37:04"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 287,
+     "duree_affichee": "4:47",
+     "cumul_s": 2511,
+     "cumul_affiche": "0:41:51"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 258,
+     "duree_affichee": "4:18",
+     "cumul_s": 2769,
+     "cumul_affiche": "0:46:09"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 104,
+     "duree_affichee": "1:44",
+     "cumul_s": 2873,
+     "cumul_affiche": "0:47:53"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 260,
+     "duree_affichee": "4:20",
+     "cumul_s": 3133,
+     "cumul_affiche": "0:52:13"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 236,
+     "duree_affichee": "3:56",
+     "cumul_s": 3369,
+     "cumul_affiche": "0:56:09"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 263,
+     "duree_affichee": "4:23",
+     "cumul_s": 3632,
+     "cumul_affiche": "1:00:32"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 289,
+     "duree_affichee": "4:49",
+     "cumul_s": 3921,
+     "cumul_affiche": "1:05:21"
+    }
+   ]
+  },
+  {
+   "course": "Madrid",
+   "event_slug": "s8-2025-madrid",
+   "date_debut": "2025-11-27",
+   "date_fin": "2025-11-30",
+   "saison": 8,
+   "division": "pro-women",
+   "groupe_age": "30-34",
+   "equipe": [
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 4864,
+   "temps_final": "1:21:04",
+   "classement_division": 60,
+   "classement_categorie": 10,
+   "total_runs_s": 2230,
+   "total_stations_s": 2247,
+   "roxzone_s": 391,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 273,
+     "duree_affichee": "4:33",
+     "cumul_s": 273,
+     "cumul_affiche": "0:04:33"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 291,
+     "duree_affichee": "4:51",
+     "cumul_s": 564,
+     "cumul_affiche": "0:09:24"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 264,
+     "duree_affichee": "4:24",
+     "cumul_s": 828,
+     "cumul_affiche": "0:13:48"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 230,
+     "duree_affichee": "3:50",
+     "cumul_s": 1058,
+     "cumul_affiche": "0:17:38"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 277,
+     "duree_affichee": "4:37",
+     "cumul_s": 1335,
+     "cumul_affiche": "0:22:15"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 303,
+     "duree_affichee": "5:03",
+     "cumul_s": 1638,
+     "cumul_affiche": "0:27:18"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 273,
+     "duree_affichee": "4:33",
+     "cumul_s": 1911,
+     "cumul_affiche": "0:31:51"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 325,
+     "duree_affichee": "5:25",
+     "cumul_s": 2236,
+     "cumul_affiche": "0:37:16"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 279,
+     "duree_affichee": "4:39",
+     "cumul_s": 2515,
+     "cumul_affiche": "0:41:55"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 289,
+     "duree_affichee": "4:49",
+     "cumul_s": 2804,
+     "cumul_affiche": "0:46:44"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 278,
+     "duree_affichee": "4:38",
+     "cumul_s": 3082,
+     "cumul_affiche": "0:51:22"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 163,
+     "duree_affichee": "2:43",
+     "cumul_s": 3245,
+     "cumul_affiche": "0:54:05"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 276,
+     "duree_affichee": "4:36",
+     "cumul_s": 3521,
+     "cumul_affiche": "0:58:41"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 320,
+     "duree_affichee": "5:20",
+     "cumul_s": 3841,
+     "cumul_affiche": "1:04:01"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 315,
+     "duree_affichee": "5:15",
+     "cumul_s": 4156,
+     "cumul_affiche": "1:09:16"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 326,
+     "duree_affichee": "5:26",
+     "cumul_s": 4482,
+     "cumul_affiche": "1:14:42"
+    }
+   ]
+  },
+  {
+   "course": "Rome",
+   "event_slug": "s8-2025-rome",
+   "date_debut": "2025-09-26",
+   "date_fin": "2025-09-28",
+   "saison": 8,
+   "division": "women",
+   "groupe_age": "30-34",
+   "equipe": [
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 4603,
+   "temps_final": "1:16:43",
+   "classement_division": 87,
+   "classement_categorie": 28,
+   "total_runs_s": 2215,
+   "total_stations_s": 1965,
+   "roxzone_s": 428,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 342,
+     "duree_affichee": "5:42",
+     "cumul_s": 342,
+     "cumul_affiche": "0:05:42"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 281,
+     "duree_affichee": "4:41",
+     "cumul_s": 623,
+     "cumul_affiche": "0:10:23"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 246,
+     "duree_affichee": "4:06",
+     "cumul_s": 869,
+     "cumul_affiche": "0:14:29"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 138,
+     "duree_affichee": "2:18",
+     "cumul_s": 1007,
+     "cumul_affiche": "0:16:47"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 258,
+     "duree_affichee": "4:18",
+     "cumul_s": 1265,
+     "cumul_affiche": "0:21:05"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 282,
+     "duree_affichee": "4:42",
+     "cumul_s": 1547,
+     "cumul_affiche": "0:25:47"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 265,
+     "duree_affichee": "4:25",
+     "cumul_s": 1812,
+     "cumul_affiche": "0:30:12"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 304,
+     "duree_affichee": "5:04",
+     "cumul_s": 2116,
+     "cumul_affiche": "0:35:16"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 269,
+     "duree_affichee": "4:29",
+     "cumul_s": 2385,
+     "cumul_affiche": "0:39:45"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 314,
+     "duree_affichee": "5:14",
+     "cumul_s": 2699,
+     "cumul_affiche": "0:44:59"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 262,
+     "duree_affichee": "4:22",
+     "cumul_s": 2961,
+     "cumul_affiche": "0:49:21"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 98,
+     "duree_affichee": "1:38",
+     "cumul_s": 3059,
+     "cumul_affiche": "0:50:59"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 269,
+     "duree_affichee": "4:29",
+     "cumul_s": 3328,
+     "cumul_affiche": "0:55:28"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 263,
+     "duree_affichee": "4:23",
+     "cumul_s": 3591,
+     "cumul_affiche": "0:59:51"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 307,
+     "duree_affichee": "5:07",
+     "cumul_s": 3898,
+     "cumul_affiche": "1:04:58"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 285,
+     "duree_affichee": "4:45",
+     "cumul_s": 4183,
+     "cumul_affiche": "1:09:43"
+    }
+   ]
+  },
+  {
+   "course": "Paris",
+   "event_slug": "s7-2025-paris",
+   "date_debut": "2025-04-18",
+   "date_fin": "2025-04-20",
+   "saison": 7,
+   "division": "doubles-mixed",
+   "groupe_age": "16-29",
+   "equipe": [
+    "Julie Pekmezian",
+    "Tristan Moutier"
+   ],
+   "temps_final_s": 4258,
+   "temps_final": "1:10:58",
+   "classement_division": 239,
+   "classement_categorie": 84,
+   "total_runs_s": 2279,
+   "total_stations_s": 1561,
+   "roxzone_s": 422,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 336,
+     "duree_affichee": "5:36",
+     "cumul_s": 336,
+     "cumul_affiche": "0:05:36"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 246,
+     "duree_affichee": "4:06",
+     "cumul_s": 582,
+     "cumul_affiche": "0:09:42"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 273,
+     "duree_affichee": "4:33",
+     "cumul_s": 855,
+     "cumul_affiche": "0:14:15"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 91,
+     "duree_affichee": "1:31",
+     "cumul_s": 946,
+     "cumul_affiche": "0:15:46"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 285,
+     "duree_affichee": "4:45",
+     "cumul_s": 1231,
+     "cumul_affiche": "0:20:31"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 214,
+     "duree_affichee": "3:34",
+     "cumul_s": 1445,
+     "cumul_affiche": "0:24:05"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 282,
+     "duree_affichee": "4:42",
+     "cumul_s": 1727,
+     "cumul_affiche": "0:28:47"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 196,
+     "duree_affichee": "3:16",
+     "cumul_s": 1923,
+     "cumul_affiche": "0:32:03"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 291,
+     "duree_affichee": "4:51",
+     "cumul_s": 2214,
+     "cumul_affiche": "0:36:54"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 266,
+     "duree_affichee": "4:26",
+     "cumul_s": 2480,
+     "cumul_affiche": "0:41:20"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 289,
+     "duree_affichee": "4:49",
+     "cumul_s": 2769,
+     "cumul_affiche": "0:46:09"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 108,
+     "duree_affichee": "1:48",
+     "cumul_s": 2877,
+     "cumul_affiche": "0:47:57"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 283,
+     "duree_affichee": "4:43",
+     "cumul_s": 3160,
+     "cumul_affiche": "0:52:40"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 224,
+     "duree_affichee": "3:44",
+     "cumul_s": 3384,
+     "cumul_affiche": "0:56:24"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 244,
+     "duree_affichee": "4:04",
+     "cumul_s": 3628,
+     "cumul_affiche": "1:00:28"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 216,
+     "duree_affichee": "3:36",
+     "cumul_s": 3844,
+     "cumul_affiche": "1:04:04"
+    }
+   ]
+  },
+  {
+   "course": "Glasgow",
+   "event_slug": "s7-2025-glasgow",
+   "date_debut": "2025-03-12",
+   "date_fin": "2025-03-16",
+   "saison": 7,
+   "division": "doubles-mixed",
+   "groupe_age": "30-39",
+   "equipe": [
+    "Julie Pekmezian",
+    "Ryan Stevenson"
+   ],
+   "temps_final_s": 4938,
+   "temps_final": "1:22:18",
+   "classement_division": 961,
+   "classement_categorie": 426,
+   "total_runs_s": 2871,
+   "total_stations_s": 1712,
+   "roxzone_s": 360,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 270,
+     "duree_affichee": "4:30",
+     "cumul_s": 270,
+     "cumul_affiche": "0:04:30"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 242,
+     "duree_affichee": "4:02",
+     "cumul_s": 512,
+     "cumul_affiche": "0:08:32"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 354,
+     "duree_affichee": "5:54",
+     "cumul_s": 866,
+     "cumul_affiche": "0:14:26"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 131,
+     "duree_affichee": "2:11",
+     "cumul_s": 997,
+     "cumul_affiche": "0:16:37"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 362,
+     "duree_affichee": "6:02",
+     "cumul_s": 1359,
+     "cumul_affiche": "0:22:39"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 255,
+     "duree_affichee": "4:15",
+     "cumul_s": 1614,
+     "cumul_affiche": "0:26:54"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 362,
+     "duree_affichee": "6:02",
+     "cumul_s": 1976,
+     "cumul_affiche": "0:32:56"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 198,
+     "duree_affichee": "3:18",
+     "cumul_s": 2174,
+     "cumul_affiche": "0:36:14"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 378,
+     "duree_affichee": "6:18",
+     "cumul_s": 2552,
+     "cumul_affiche": "0:42:32"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 268,
+     "duree_affichee": "4:28",
+     "cumul_s": 2820,
+     "cumul_affiche": "0:47:00"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 376,
+     "duree_affichee": "6:16",
+     "cumul_s": 3196,
+     "cumul_affiche": "0:53:16"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 118,
+     "duree_affichee": "1:58",
+     "cumul_s": 3314,
+     "cumul_affiche": "0:55:14"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 373,
+     "duree_affichee": "6:13",
+     "cumul_s": 3687,
+     "cumul_affiche": "1:01:27"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 261,
+     "duree_affichee": "4:21",
+     "cumul_s": 3948,
+     "cumul_affiche": "1:05:48"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 399,
+     "duree_affichee": "6:39",
+     "cumul_s": 4347,
+     "cumul_affiche": "1:12:27"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 239,
+     "duree_affichee": "3:59",
+     "cumul_s": 4586,
+     "cumul_affiche": "1:16:26"
+    }
+   ]
+  },
+  {
+   "course": "Paris",
+   "event_slug": "s7-2024-paris",
+   "date_debut": "2024-11-09",
+   "date_fin": "2024-11-10",
+   "saison": 7,
+   "division": "women",
+   "groupe_age": "30-34",
+   "equipe": [
+    "Julie Pekmezian"
+   ],
+   "temps_final_s": 5405,
+   "temps_final": "1:30:05",
+   "classement_division": 266,
+   "classement_categorie": 78,
+   "total_runs_s": 2566,
+   "total_stations_s": 2349,
+   "roxzone_s": 497,
+   "segments": [
+    {
+     "ordre": 1,
+     "type": "run",
+     "nom": "Run 1",
+     "duree_s": 275,
+     "duree_affichee": "4:35",
+     "cumul_s": 275,
+     "cumul_affiche": "0:04:35"
+    },
+    {
+     "ordre": 2,
+     "type": "station",
+     "nom": "SkiErg 1000 m",
+     "duree_s": 281,
+     "duree_affichee": "4:41",
+     "cumul_s": 556,
+     "cumul_affiche": "0:09:16"
+    },
+    {
+     "ordre": 3,
+     "type": "run",
+     "nom": "Run 2",
+     "duree_s": 305,
+     "duree_affichee": "5:05",
+     "cumul_s": 861,
+     "cumul_affiche": "0:14:21"
+    },
+    {
+     "ordre": 4,
+     "type": "station",
+     "nom": "Sled Push 50 m",
+     "duree_s": 142,
+     "duree_affichee": "2:22",
+     "cumul_s": 1003,
+     "cumul_affiche": "0:16:43"
+    },
+    {
+     "ordre": 5,
+     "type": "run",
+     "nom": "Run 3",
+     "duree_s": 335,
+     "duree_affichee": "5:35",
+     "cumul_s": 1338,
+     "cumul_affiche": "0:22:18"
+    },
+    {
+     "ordre": 6,
+     "type": "station",
+     "nom": "Sled Pull 50 m",
+     "duree_s": 373,
+     "duree_affichee": "6:13",
+     "cumul_s": 1711,
+     "cumul_affiche": "0:28:31"
+    },
+    {
+     "ordre": 7,
+     "type": "run",
+     "nom": "Run 4",
+     "duree_s": 318,
+     "duree_affichee": "5:18",
+     "cumul_s": 2029,
+     "cumul_affiche": "0:33:49"
+    },
+    {
+     "ordre": 8,
+     "type": "station",
+     "nom": "Burpee Broad Jumps 80 m",
+     "duree_s": 471,
+     "duree_affichee": "7:51",
+     "cumul_s": 2500,
+     "cumul_affiche": "0:41:40"
+    },
+    {
+     "ordre": 9,
+     "type": "run",
+     "nom": "Run 5",
+     "duree_s": 333,
+     "duree_affichee": "5:33",
+     "cumul_s": 2833,
+     "cumul_affiche": "0:47:13"
+    },
+    {
+     "ordre": 10,
+     "type": "station",
+     "nom": "Rowing 1000 m",
+     "duree_s": 305,
+     "duree_affichee": "5:05",
+     "cumul_s": 3138,
+     "cumul_affiche": "0:52:18"
+    },
+    {
+     "ordre": 11,
+     "type": "run",
+     "nom": "Run 6",
+     "duree_s": 317,
+     "duree_affichee": "5:17",
+     "cumul_s": 3455,
+     "cumul_affiche": "0:57:35"
+    },
+    {
+     "ordre": 12,
+     "type": "station",
+     "nom": "Farmers Carry 200 m",
+     "duree_s": 114,
+     "duree_affichee": "1:54",
+     "cumul_s": 3569,
+     "cumul_affiche": "0:59:29"
+    },
+    {
+     "ordre": 13,
+     "type": "run",
+     "nom": "Run 7",
+     "duree_s": 319,
+     "duree_affichee": "5:19",
+     "cumul_s": 3888,
+     "cumul_affiche": "1:04:48"
+    },
+    {
+     "ordre": 14,
+     "type": "station",
+     "nom": "Sandbag Lunges 100 m",
+     "duree_s": 329,
+     "duree_affichee": "5:29",
+     "cumul_s": 4217,
+     "cumul_affiche": "1:10:17"
+    },
+    {
+     "ordre": 15,
+     "type": "run",
+     "nom": "Run 8",
+     "duree_s": 367,
+     "duree_affichee": "6:07",
+     "cumul_s": 4584,
+     "cumul_affiche": "1:16:24"
+    },
+    {
+     "ordre": 16,
+     "type": "station",
+     "nom": "Wall Balls 100 reps",
+     "duree_s": 334,
+     "duree_affichee": "5:34",
+     "cumul_s": 4918,
+     "cumul_affiche": "1:21:58"
+    }
+   ]
+  }
+ ]
+}

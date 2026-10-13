@@ -1,0 +1,56 @@
+{
+  "_note": "Créé le 02/10/2026 à partir des résultats officiels (HYRESULT) et de ce que Maxime a dit. Tout champ à null est à obtenir via templates/dossier-athlete.md. Ne rien inventer : un champ vide est exploitable, un champ faux ne l'est pas.",
+
+  "slug": "julie-pekmezian",
+  "nom": "Julie Pekmezian",
+  "blog_id": null,
+  "instagram": null,
+  "reseaux": [],
+  "naissance": null,
+
+  "division": "pro-femme",
+  "partenaire": null,
+  "groupe_age_solo": "35-39",
+  "groupe_age_doubles": null,
+
+  "objectif_saison": "Mondiaux de Hong Kong, 10-13 juin 2027, en Pro Femme (qualification annoncée par Maxime le 02/10/2026, à confirmer sur le site HYROX)",
+  "palmares": [
+    "1re de sa catégorie 35-39 en Pro Femme à HYROX Bordeaux, 4 octobre 2026 (1:08:00, 10e Pro Femme toutes catégories, résultat provisoire)",
+    "13 courses HYROX sur 3 saisons, 3 podiums de catégorie (source HYRESULT)",
+    "Record personnel solo Pro : 1:08:00 à Bordeaux (septembre-octobre 2026)",
+    "Doubles Pro Femme avec Aurelia Asselin : 1:04:41 à Paris, avril 2026, 3e de catégorie"
+  ],
+
+  "entrainement": { "coach": null, "club": null, "salles": [], "creneaux": [] },
+  "historique": "voir resultats.json",
+  "chiffres": { "splits": "voir resultats.json (Bordeaux 2026)", "pb": "1:08:00 (Pro Femme, Bordeaux 2026)" },
+
+  "horaires": { "story": null, "post": null, "carrousel": null },
+
+  "da": null,
+  "mantra": null,
+  "tics": [],
+  "voix": null,
+
+  "persona": null,
+  "niveau_cible": null,
+  "questions_recurrentes": [],
+
+  "positions_ok": [],
+  "interdits": [
+    "chrono, classement ou qualification non vérifiés",
+    "prix ou partenariat inventé"
+  ],
+  "contraintes": [],
+
+  "sponsors": [],
+  "prospects_sponsoring": ["Lucis (contact Victor, division sport et athlètes)"],
+
+  "materiel": { "micro_cravate": null, "mode_son": null, "lieux": [] },
+
+  "media": { "banque": null, "photos_inventoriees": 0, "trous": [], "ia_autorisee": false },
+
+  "palier": null,
+  "vitrine": false,
+  "t0_fige": false
+}

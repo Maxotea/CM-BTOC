@@ -1,0 +1,302 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Daniel · Accompagnement réseaux sociaux · OTEA Production</title>
+<style>
+@font-face{font-family:'Archivo';font-style:normal;font-weight:100 900;src:url('assets/fonts/Archivo-400-normal.woff2') format('woff2');}
+@font-face{font-family:'Archivo Black';font-style:normal;font-weight:400;src:url('assets/fonts/ArchivoBlack-400-normal.woff2') format('woff2');}
+@font-face{font-family:'Instrument Serif';font-style:italic;font-weight:400;src:url('assets/fonts/InstrumentSerif-400-italic.woff2') format('woff2');}
+@font-face{font-family:'Instrument Serif';font-style:normal;font-weight:400;src:url('assets/fonts/InstrumentSerif-400-normal.woff2') format('woff2');}
+@page{size:A4;margin:0}
+:root{--ink:#121212;--paper:#f6f2ec;--orange:#e8531e;--orange-soft:#fbe3d8;--muted:#6b6560;--line:#ddd5cb;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--paper)}
+body{font-family:'Archivo',Helvetica,Arial,sans-serif;color:var(--ink);font-size:10pt;line-height:1.45;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;padding:20mm 18mm 16mm}
+.page:last-child{page-break-after:auto}
+.serif{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-weight:400}
+.kicker{font-size:7.5pt;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--orange)}
+.num{font-family:'Archivo Black',sans-serif}
+.foot{position:absolute;left:18mm;right:18mm;bottom:10mm;display:flex;justify-content:space-between;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.foot b{color:var(--ink)}
+
+/* COUVERTURE */
+.cover{background:var(--ink);color:var(--white);padding:18mm}
+.cover .top{display:flex;justify-content:space-between;align-items:center;font-size:7.5pt;letter-spacing:.28em;text-transform:uppercase;color:#a49d95}
+.cover .logo{font-family:'Archivo Black';font-size:11pt;letter-spacing:.12em;color:var(--white)}
+.cover .logo span{color:var(--orange)}
+.cover svg.hail{position:absolute;right:-30mm;top:28mm;width:190mm;height:190mm}
+.cover h1{position:absolute;left:18mm;bottom:80mm;font-family:'Archivo Black';font-size:58pt;line-height:.92;letter-spacing:-.02em;text-transform:uppercase}
+.cover h1 .o{color:var(--orange)}
+.cover .sub{position:absolute;left:18mm;bottom:42mm;width:120mm;font-size:21pt;line-height:1.15;color:#e9e3dc}
+.cover .meta{position:absolute;left:18mm;right:18mm;bottom:16mm;display:flex;gap:10mm;border-top:1px solid #333;padding-top:5mm;font-size:8pt;color:#a49d95}
+.cover .meta div b{display:block;color:var(--white);font-weight:700;font-size:9pt;margin-top:1mm}
+
+/* PAGE 2 */
+h2{font-family:'Archivo Black';font-size:30pt;line-height:1;letter-spacing:-.015em;text-transform:uppercase;margin:4mm 0 3mm}
+h2 .serif{text-transform:none;font-size:34pt;letter-spacing:0;color:var(--orange)}
+.intro{font-size:11.5pt;color:#3a3633;width:150mm;margin-bottom:9mm}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:2px solid var(--ink);border-bottom:1px solid var(--line)}
+.stat{padding:6mm 5mm 6mm 0}
+.stat+.stat{padding-left:5mm;border-left:1px solid var(--line)}
+.stat .big{font-family:'Archivo Black';font-size:30pt;line-height:1;color:var(--orange)}
+.stat .big small{font-size:12pt;color:var(--ink)}
+.stat p{font-size:8.6pt;color:#3a3633;margin-top:3mm}
+.gap{margin:9mm 0 0;display:grid;grid-template-columns:52mm 1fr;gap:8mm;align-items:start}
+.gap .q{font-size:22pt;line-height:1.1}
+.gap .q b{font-family:'Archivo Black';font-style:normal;font-size:12pt;display:block;letter-spacing:.02em;text-transform:uppercase;margin-top:3mm;color:var(--ink)}
+.gap ul{list-style:none}
+.gap li{padding:3mm 0 3mm 9mm;border-bottom:1px solid var(--line);position:relative;font-size:9.6pt}
+.gap li:before{content:'';position:absolute;left:0;top:4.6mm;width:4mm;height:4mm;border-radius:50%;background:var(--orange)}
+.gap li b{font-weight:700}
+
+.timeline{margin-top:10mm}
+.timeline .kicker{margin-bottom:4mm}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);position:relative}
+.steps:before{content:'';position:absolute;left:0;right:0;top:4.2mm;height:2px;background:var(--ink)}
+.step{position:relative;padding-right:4mm}
+.step .dot{width:8.5mm;height:8.5mm;border-radius:50%;background:var(--paper);border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:'Archivo Black';font-size:8pt;position:relative;z-index:1}
+.step.hot .dot{background:var(--orange);border-color:var(--orange);color:var(--white)}
+.step .when{font-family:'Archivo Black';text-transform:uppercase;font-size:9.5pt;margin:4mm 0 1.5mm}
+.step p{font-size:8.6pt;color:#3a3633}
+
+/* PAGE 3 : FORMULES */
+.lead3{font-size:10.5pt;color:#3a3633;width:160mm;margin-bottom:8mm}
+.tiers{display:grid;grid-template-columns:1fr 1.12fr 1fr;gap:4mm;align-items:stretch}
+.tier{background:var(--white);border:1px solid var(--line);border-radius:4mm;padding:5.5mm 5mm 4.5mm;display:flex;flex-direction:column}
+.tier .lvl{font-size:7pt;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.tier .nm{font-family:'Archivo Black';font-size:17pt;text-transform:uppercase;margin:2mm 0 3mm;letter-spacing:-.01em}
+.tier .pr{display:flex;align-items:baseline;gap:1.5mm;padding-bottom:4mm;border-bottom:1px solid var(--line);margin-bottom:4mm}
+.tier .pr .num{font-size:24pt;line-height:1;color:inherit;white-space:nowrap}
+.tier .pr span{font-size:7.5pt;color:var(--muted);line-height:1.2}
+.tier .vol{display:grid;grid-template-columns:1fr 1fr;gap:2mm;margin-bottom:4mm}
+.tier .vol div{background:var(--paper);border-radius:2mm;padding:2.5mm 2.5mm 2mm}
+.tier .vol .num{font-size:15pt;line-height:1;display:block}
+.tier .vol small{font-size:7pt;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.tier ul{list-style:none;font-size:8.6pt}
+.tier li{padding:1.15mm 0 1.15mm 5mm;position:relative}
+.tier li:before{content:'';position:absolute;left:0;top:2.6mm;width:2.2mm;height:2.2mm;background:var(--orange);border-radius:50%}
+.tier li.plus{font-weight:700}
+.tier .fit{margin-top:auto;padding-top:4mm;font-size:8pt;color:var(--muted);font-style:italic}
+.tier.reco{background:var(--ink);color:var(--white);border-color:var(--ink);transform:translateY(-4mm);box-shadow:0 6mm 14mm rgba(0,0,0,.18)}
+.tier.reco .lvl{color:var(--orange)}
+.tier.reco .pr{border-color:#333}
+.tier.reco .pr span,.tier.reco .vol small,.tier.reco .fit{color:#a49d95}
+.tier.reco .vol div{background:#1f1f1f}
+.tier.reco .pr .num{color:var(--orange)}
+.badge{align-self:flex-start;white-space:nowrap;background:var(--orange);color:var(--white);font-size:6.8pt;font-weight:700;letter-spacing:.2em;text-transform:uppercase;padding:1.6mm 3mm;border-radius:10mm;margin-bottom:3mm}
+.options{margin-top:5mm}
+.options .row{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm;margin-top:3.5mm}
+.options .row.four{grid-template-columns:repeat(4,1fr);gap:3.5mm}
+.options .row.four .opt .t{font-size:8.6pt}
+.options .row.four .opt .t .num{font-size:10.5pt}
+.opt{border-top:2px solid var(--ink);padding-top:3mm}
+.opt .t{display:flex;justify-content:space-between;align-items:baseline;font-weight:700;font-size:9.4pt;white-space:nowrap;gap:2mm}
+.opt .t .num{color:var(--orange);font-size:12pt}
+.opt p{font-size:8.2pt;color:#3a3633;margin-top:1.5mm}
+.note{margin-top:3mm;font-size:7.6pt;color:var(--muted)}
+
+/* PAGE 4 */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:6mm;margin-top:6mm}
+.col{border-radius:4mm;padding:5.5mm 6mm}
+.col.you{background:var(--orange);color:var(--white)}
+.col.us{background:var(--white);border:1px solid var(--line)}
+.col h3{font-family:'Archivo Black';text-transform:uppercase;font-size:13pt;margin-bottom:1mm}
+.col .serif{font-size:15pt;display:block;margin-bottom:4mm}
+.col.you .serif{color:#fff3ec}
+.col.us .serif{color:var(--orange)}
+.col ol{list-style:none;counter-reset:c}
+.col li{counter-increment:c;padding:1.7mm 0 1.7mm 9mm;position:relative;font-size:9pt;border-top:1px solid rgba(0,0,0,.08)}
+.col.you li{border-color:rgba(255,255,255,.25)}
+.col li:before{content:counter(c,decimal-leading-zero);position:absolute;left:0;top:1.9mm;font-family:'Archivo Black';font-size:8pt}
+.col.us li:before{color:var(--orange)}
+.rule{margin-top:7mm;display:grid;grid-template-columns:auto 1fr;gap:6mm;align-items:center;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);padding:6mm 0}
+.rule .num{font-size:40pt;line-height:.9;color:var(--orange)}
+.rule p{font-size:10.5pt}
+.rule p b{font-family:'Archivo Black';text-transform:uppercase;font-size:10pt;letter-spacing:.02em;display:block;margin-bottom:1mm}
+.roi{margin-top:6mm;display:grid;grid-template-columns:1fr 46mm;gap:6mm;align-items:center;border-top:2px solid var(--ink);padding-top:5mm}
+.roi .big{font-size:16pt;line-height:1.2;margin-top:2mm}
+.roi .big b{font-family:'Archivo Black';font-style:normal;color:var(--orange);font-size:14pt}
+.roi-n{background:var(--orange);color:#fff;border-radius:4mm;padding:4mm 5mm}
+.roi-n .num{font-size:40pt;line-height:.9;display:block}
+.roi-n small{font-size:8pt;line-height:1.3;display:block;margin-top:2mm}
+.rule2{margin-top:4mm;font-size:9pt;color:#3a3633;border-top:1px solid var(--line);padding-top:3mm}
+.cta{position:absolute;left:0;right:0;bottom:0;height:84mm;background:var(--ink);color:var(--white);padding:11mm 18mm}
+.cta .kicker{color:var(--orange)}
+.cta h3{font-family:'Archivo Black';font-size:26pt;line-height:1;text-transform:uppercase;margin:3mm 0 3mm;letter-spacing:-.01em}
+.cta h3 .serif{text-transform:none;color:var(--orange);font-size:30pt}
+.cta p{font-size:10.5pt;color:#d6cfc7;width:135mm}
+.cta .contact{position:absolute;left:18mm;right:18mm;bottom:14mm;display:flex;gap:12mm;border-top:1px solid #333;padding-top:5mm;font-size:8pt;color:#a49d95}
+.cta .contact b{display:block;font-size:11pt;color:var(--white);margin-top:1mm}
+</style></head><body>
+
+<!-- 1. COUVERTURE -->
+<section class="page cover">
+  <div class="top"><div class="logo">OTEA<span>.</span> PRODUCTION</div><div>Proposition · Octobre 2026</div></div>
+  <svg class="hail" viewBox="0 0 200 200" aria-hidden="true">
+    <defs>
+      <radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#e8531e" stop-opacity=".95"/><stop offset=".55" stop-color="#e8531e" stop-opacity=".25"/><stop offset="1" stop-color="#e8531e" stop-opacity="0"/></radialGradient>
+      <pattern id="p" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="1.05" fill="#3a3734"/></pattern>
+    </defs>
+    <rect width="200" height="200" fill="url(#p)"/>
+    <circle cx="96" cy="88" r="46" fill="url(#g)"/>
+    <circle cx="96" cy="88" r="20" fill="none" stroke="#fff" stroke-width=".5" opacity=".8"/>
+    <circle cx="96" cy="88" r="32" fill="none" stroke="#fff" stroke-width=".35" opacity=".45"/>
+    <circle cx="96" cy="88" r="44" fill="none" stroke="#fff" stroke-width=".25" opacity=".25"/>
+    <circle cx="96" cy="88" r="2.4" fill="#fff"/>
+  </svg>
+  <h1>Remplir<br>mars <span class="o">2027.</span></h1>
+  <p class="sub"><span class="serif">Accompagnement réseaux sociaux pour lancer tes formations au débosselage sans peinture.</span></p>
+  <div class="meta">
+    <div>Pour<b>Daniel</b></div>
+    <div>Objectif<b>Sessions de mars pleines</b></div>
+    <div>Démarrage<b>Novembre 2026</b></div>
+    <div>Par<b>Maxime Dietrich</b></div>
+  </div>
+</section>
+
+<!-- 2. POURQUOI MAINTENANT + PLAN -->
+<section class="page">
+  <div class="kicker">01 · Le contexte</div>
+  <h2>Le marché est là.<br><span class="serif">Ta place aussi.</span></h2>
+  <p class="intro">La grêle est devenue une saison régulière, les réparateurs manquent de bras qualifiés, et les gens qui veulent se reconvertir cherchent un formateur en qui avoir confiance. Les réseaux sont l'endroit où ils le choisissent.</p>
+
+  <div class="stats">
+    <div class="stat"><div class="big">65 000</div><p>dossiers grêle chez un seul assureur (Covéa) sur 2026, contre 59 000 en 2025.</p></div>
+    <div class="stat"><div class="big">5 <small>jours</small></div><p>c'est ce que vendent presque toutes les formations : cinq jours en atelier et un certificat, puis plus rien.</p></div>
+    <div class="stat"><div class="big">10 <small>semaines</small></div><p>de suivi à distance après ta semaine en atelier. C'est ce que personne d'autre ne propose.</p></div>
+  </div>
+
+  <div class="gap">
+    <p class="q serif">Ce qui manque chez les autres, c'est ton avantage.<b>Ton terrain de jeu</b></p>
+    <ul>
+      <li><b>Montrer le formateur.</b> Les centres vendent un programme et un logo. Toi, on t'aura vu travailler pendant des mois avant même que tu ouvres les inscriptions.</li>
+      <li><b>Parler de l'après.</b> La vraie peur du reconverti, c'est « et une fois seul, je fais comment ? ». Ton suivi de dix semaines y répond.</li>
+      <li><b>Parler franchement de la saison.</b> Combien de voitures par jour, comment se prépare une saison de grêle : ce qu'on n'entend nulle part ailleurs.</li>
+    </ul>
+  </div>
+
+  <div class="timeline">
+    <div class="kicker">02 · Le plan jusqu'à mars</div>
+    <div class="steps">
+      <div class="step"><div class="dot">1</div><div class="when">Novembre</div><p>Les bases : ton positionnement, tes profils réécrits, ta ligne éditoriale. Premier tournage dans ton atelier.</p></div>
+      <div class="step"><div class="dot">2</div><div class="when">Nov. à déc.</div><p>On publie chaque semaine et on installe ta crédibilité. Fin décembre, on annonce les places de mars.</p></div>
+      <div class="step hot"><div class="dot">3</div><div class="when">Janv. à fév.</div><p>On remplit : liste d'attente, webinaire gratuit, appels avec les candidats, ouverture des inscriptions.</p></div>
+      <div class="step"><div class="dot">4</div><div class="when">Mars</div><p>Ta première session devient le contenu qui remplit la suivante.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span><b>OTEA Production</b> · Proposition Daniel</span><span>02</span></div>
+</section>
+
+<!-- 3. LES FORMULES -->
+<section class="page">
+  <div class="kicker">03 · Les formules</div>
+  <h2>Choisis<br><span class="serif">ton rythme.</span></h2>
+  <p class="lead3">Dans les trois formules, tu reçois avant chaque tournage la liste des plans à filmer, avec la première phrase de chaque vidéo. Tu tournes une fois par mois sur ton téléphone. Nous faisons le reste.</p>
+
+  <div class="tiers">
+    <div class="tier">
+      <div class="lvl">Pour démarrer</div>
+      <div class="nm">Essentiel</div>
+      <div class="pr"><span class="num">790 €</span><span>HT<br>par mois</span></div>
+      <div class="vol"><div><span class="num">4</span><small>vidéos</small></div><div><span class="num">4</span><small>posts</small></div></div>
+      <ul>
+        <li>Scripts et liste de plans avant chaque tournage</li>
+        <li>Montage, sous-titres et publication</li>
+        <li>1 série de stories par semaine</li>
+        <li>Bilan mensuel</li>
+        <li>Engagement 3 mois</li>
+      </ul>
+      <p class="fit">Pour exister sur les réseaux et installer le rendez-vous.</p>
+    </div>
+
+    <div class="tier reco">
+      <div class="badge">Recommandée</div>
+      <div class="lvl">Pour remplir mars</div>
+      <div class="nm">Autorité</div>
+      <div class="pr"><span class="num">1 390 €</span><span>HT<br>par mois</span></div>
+      <div class="vol"><div><span class="num">8</span><small>vidéos</small></div><div><span class="num">8</span><small>posts</small></div></div>
+      <ul>
+        <li>Scripts et liste de plans avant chaque tournage</li>
+        <li>Montage, sous-titres et publication</li>
+        <li>2 séries de stories par semaine</li>
+        <li class="plus">Réponses à tes messages et commentaires, 2 fois par semaine</li>
+        <li class="plus">Bilan mensuel en visio : conversations et candidats</li>
+        <li class="plus">Mise en place offerte</li>
+        <li>Engagement 6 mois</li>
+      </ul>
+      <p class="fit">Assez de vidéos pour qu'on te remarque, et quelqu'un qui transforme les messages en candidats.</p>
+    </div>
+
+    <div class="tier">
+      <div class="lvl">Pour accélérer</div>
+      <div class="nm">Signature</div>
+      <div class="pr"><span class="num">2 290 €</span><span>HT<br>par mois</span></div>
+      <div class="vol"><div><span class="num">12</span><small>vidéos</small></div><div><span class="num">8</span><small>posts</small></div></div>
+      <ul>
+        <li>Tout ce qui est dans Autorité</li>
+        <li class="plus">Une demi-journée de tournage par mois avec nous, dans ton atelier</li>
+        <li>Réponses aux messages 3 fois par semaine</li>
+        <li class="plus">Séquence de lancement des inscriptions incluse</li>
+        <li>Mise en place offerte</li>
+        <li>Engagement 6 mois</li>
+      </ul>
+      <p class="fit">Tu ne tournes plus seul : on vient filmer, et on occupe le terrain avant les autres.</p>
+    </div>
+  </div>
+
+  <div class="options">
+    <div class="kicker">À la carte</div>
+    <div class="row four">
+      <div class="opt"><div class="t">Mise en place <span class="num">490 €</span></div><p>Positionnement, profils, ligne éditoriale. Offerte avec Autorité et Signature.</p></div>
+      <div class="opt"><div class="t">Journée tournage <span class="num">990 €</span></div><p>6 heures dans ton atelier, 20 à 30 vidéos d'un coup.</p></div>
+      <div class="opt"><div class="t">Lancement <span class="num">990 €</span></div><p>10 jours pour ouvrir les inscriptions : 8 vidéos, 4 posts, stories.</p></div>
+      <div class="opt"><div class="t">Vidéo en plus <span class="num">120 €</span></div><p>Scriptée et montée à partir de tes images.</p></div>
+    </div>
+  </div>
+  <p class="note">Prix hors taxes, payables chaque mois. Tournages hors Île-de-France : déplacement en plus, chiffré à l'avance.</p>
+  <div class="foot"><span><b>OTEA Production</b> · Proposition Daniel</span><span>03</span></div>
+</section>
+
+<!-- 4. MÉTHODE + SUITE -->
+<section class="page">
+  <div class="kicker">04 · Comment on travaille</div>
+  <h2>Toi, l'atelier.<br><span class="serif">Nous, tout le reste.</span></h2>
+
+  <div class="split">
+    <div class="col you">
+      <h3>Ta part</h3><span class="serif">environ 3 heures par mois</span>
+      <ol>
+        <li>Un entretien de 90 minutes au départ, pour poser ta voix et ton message.</li>
+        <li>Un tournage par mois, à jour fixe, dans ton atelier, avec ton téléphone.</li>
+        <li>Tu suis la liste de plans : chaque vidéo commence par une phrase déjà écrite.</li>
+        <li>Tu valides nos propositions avant publication.</li>
+      </ol>
+    </div>
+    <div class="col us">
+      <h3>Notre part</h3><span class="serif">le travail invisible</span>
+      <ol>
+        <li>Ton positionnement, tes profils et ta ligne éditoriale.</li>
+        <li>Les scripts et la liste de plans, avant chaque tournage.</li>
+        <li>Le montage, les sous-titres, les légendes et la publication.</li>
+        <li>Les réponses aux messages et le suivi des candidats.</li>
+        <li>Un bilan clair : combien de conversations, combien d'inscrits.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="roi">
+    <div><div class="kicker">Le calcul qui compte</div><p class="serif big">Si ta formation est vendue autour de 2 000 €, il suffit de <span style="color:var(--orange)">4 inscrits</span> pour couvrir six mois d'Autorité.</p></div>
+    <div class="roi-n"><span class="num">4</span><small>inscrits sur les 10 places<br>d'une seule session</small></div>
+  </div>
+  <p class="rule2"><b>Une seule règle :</b> sans images, rien ne peut être publié. Ton tournage mensuel fait tourner tout le reste, et on te prépare le terrain pour qu'il soit simple et rapide.</p>
+
+  <div class="cta">
+    <div class="kicker">05 · La suite</div>
+    <h3>On en parle<br><span class="serif">30 minutes ?</span></h3>
+    <p>Un appel pour choisir ta formule. Ensuite, l'entretien de positionnement et ton premier tournage en novembre, pour publier dès la fin du mois.</p>
+    <div class="contact">
+      <div>Maxime Dietrich<b>07 79 97 19 61</b></div>
+      <div>Mail<b>contact@oteaproduction.com</b></div>
+      <div>Studio<b>OTEA Production, Paris</b></div>
+    </div>
+  </div>
+</section>
+</body></html>

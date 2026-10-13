@@ -1,0 +1,38 @@
+[
+  {
+    "nom": "Santa Cruz de Tenerife",
+    "lieu": "Santa Cruz de Tenerife",
+    "debut": "2026-09-04",
+    "fin": "2026-09-06",
+    "division": "pro-femme",
+    "objectif": "course de reprise",
+    "campagne_debut": null,
+    "vitrine": false,
+    "captation": null,
+    "note": "Courue. 1:23:11, 22e Pro Femme, 6e en 35-39. Source HYRESULT."
+  },
+  {
+    "nom": "Bordeaux",
+    "lieu": "Parc des Expositions de Bordeaux",
+    "debut": "2026-09-30",
+    "fin": "2026-10-04",
+    "division": "pro-femme",
+    "objectif": "qualification-mondiaux",
+    "campagne_debut": null,
+    "vitrine": false,
+    "captation": null,
+    "note": "Courue le 2 octobre. 1:08:00, 1re en 35-39, 10e Pro Femme. Résultat provisoire (moins de 48 h). Qualification Hong Kong annoncée par Maxime, à confirmer."
+  },
+  {
+    "nom": "Mondiaux Hong Kong",
+    "lieu": "AsiaWorld-Expo",
+    "debut": "2027-06-10",
+    "fin": "2027-06-13",
+    "division": "pro-femme",
+    "objectif": "aboutissement",
+    "campagne_debut": null,
+    "vitrine": false,
+    "captation": null,
+    "note": "Conditionnée à la confirmation de la qualification. Même événement que Pierre et Antoine."
+  }
+]
