@@ -18,6 +18,8 @@
 | Campagne de saison | **Road to Hong Kong** — Mondiaux HYROX 2027, AsiaWorld-Expo, 10-13 juin 2027 |
 | Palmarès | **Qualifié et présent aux Mondiaux de Stockholm, 18-21 juin 2026** — top 0,5 % mondial |
 | Objectif 26/27 | **Requalification en DOUBLES PRO HOMME, avec Antoine** |
+| Coéquipier | **Antoine Bouhanna**, Instagram @antoine_bhna. Déjà aux Mondiaux de Stockholm avec Pierre |
+| Rome 2026 | **Requalifiés pour Hong Kong** : 1ers de leur catégorie d'âge en Doubles Pro Homme, en 53:46 [chrono donné de mémoire par Maxime le 13/10, à revérifier sur les résultats HYROX ; record national à reconfirmer avec Pierre] |
 | Groupe d'âge | 35-39 en solo. **En doubles, c'est la moyenne des deux âges** — dépend de celui d'Antoine, à établir |
 | Courses 26/27 | **Rome 24-27 sept.** · Paris Porte de Versailles 12-20 déc. (Bordeaux abandonné) — détail §3 bis |
 | Horaires de publication | **00 h 30 et 06 h 00** — atypiques mais ce sont les siens, vérifiés. Ne pas écraser par les défauts du moteur |

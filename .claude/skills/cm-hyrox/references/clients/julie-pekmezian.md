@@ -13,7 +13,7 @@
 | Division | **Pro Femme**, groupe d'âge **35-39** (30-34 jusqu'en mai 2026) |
 | Réseaux | [à demander] |
 | Coach, salle | [à demander] |
-| Objectif 26/27 | **Mondiaux de Hong Kong, 10-13 juin 2027**. Qualification annoncée par Maxime le 02/10, à confirmer sur le site HYROX |
+| Objectif 26/27 | **Mondiaux de Hong Kong, 10-13 juin 2027**. Place acceptée (confirmé par Maxime le 13/10), obtenue par sa victoire de catégorie 35-39 en Pro à Bordeaux |
 | Sponsors | aucun connu. **Prospect : Lucis** (Victor, division sport et athlètes), visio à caler la semaine du 5 octobre |
 | Trajectoire | 13 courses en 3 saisons, 3 podiums de catégorie. De 1:30:05 (Paris, nov. 2024, Open) à 1:08:00 (Bordeaux, oct. 2026, Pro) : **22 minutes gagnées en deux ans** |
 
@@ -75,7 +75,7 @@ pour ouvrir la saison 9. En doubles Pro avec Aurelia Asselin : 1:04:41 à Paris 
 
 ## 4. Ce qu'il reste à établir avant d'écrire quoi que ce soit
 
-1. La confirmation officielle de la qualification pour Hong Kong et son critère.
+1. ~~La confirmation officielle de la qualification pour Hong Kong et son critère.~~ Fait le 13/10 : place acceptée, critère = 1re de catégorie d'âge en Pro.
 2. Son compte Instagram et ses horaires de publication.
 3. Son coach, sa salle, ses créneaux.
 4. Son calendrier de courses jusqu'à juin 2027.
